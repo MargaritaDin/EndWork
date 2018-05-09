@@ -49,16 +49,20 @@
             this.postavkiBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.postavkiDataGridView = new System.Windows.Forms.DataGridView();
+            this.postachBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.postachTableAdapter = new WindowsFormsApp2.Servisniy_CentrDataSetTableAdapters.PostachTableAdapter();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.poslugaTableAdapter1 = new WindowsFormsApp2.Servisniy_CentrDataSetTableAdapters.PoslugaTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.servisniy_CentrDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.postavkiBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.postavkiBindingNavigator)).BeginInit();
             this.postavkiBindingNavigator.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.postavkiDataGridView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.postachBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // servisniy_CentrDataSet
@@ -243,6 +247,15 @@
             this.postavkiDataGridView.Size = new System.Drawing.Size(543, 338);
             this.postavkiDataGridView.TabIndex = 1;
             // 
+            // postachBindingSource
+            // 
+            this.postachBindingSource.DataMember = "Postach";
+            this.postachBindingSource.DataSource = this.servisniy_CentrDataSet;
+            // 
+            // postachTableAdapter
+            // 
+            this.postachTableAdapter.ClearBeforeFill = true;
+            // 
             // dataGridViewTextBoxColumn1
             // 
             this.dataGridViewTextBoxColumn1.DataPropertyName = "ID_Postavki";
@@ -265,14 +278,24 @@
             // dataGridViewTextBoxColumn4
             // 
             this.dataGridViewTextBoxColumn4.DataPropertyName = "Postach";
+            this.dataGridViewTextBoxColumn4.DataSource = this.postachBindingSource;
+            this.dataGridViewTextBoxColumn4.DisplayMember = "FIO";
+            this.dataGridViewTextBoxColumn4.DisplayStyle = System.Windows.Forms.DataGridViewComboBoxDisplayStyle.Nothing;
             this.dataGridViewTextBoxColumn4.HeaderText = "Postach";
             this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
+            this.dataGridViewTextBoxColumn4.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewTextBoxColumn4.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.dataGridViewTextBoxColumn4.ValueMember = "ID_Postach";
             // 
             // dataGridViewTextBoxColumn5
             // 
             this.dataGridViewTextBoxColumn5.DataPropertyName = "Zapchastunu";
             this.dataGridViewTextBoxColumn5.HeaderText = "Zapchastunu";
             this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            // 
+            // poslugaTableAdapter1
+            // 
+            this.poslugaTableAdapter1.ClearBeforeFill = true;
             // 
             // Form3
             // 
@@ -290,6 +313,7 @@
             this.postavkiBindingNavigator.ResumeLayout(false);
             this.postavkiBindingNavigator.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.postavkiDataGridView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.postachBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -315,11 +339,14 @@
         private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator2;
         private System.Windows.Forms.ToolStripButton postavkiBindingNavigatorSaveItem;
         private System.Windows.Forms.DataGridView postavkiDataGridView;
+        private System.Windows.Forms.ToolStripButton toolStripButton1;
+        private System.Windows.Forms.BindingSource postachBindingSource;
+        private Servisniy_CentrDataSetTableAdapters.PostachTableAdapter postachTableAdapter;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
+        private System.Windows.Forms.DataGridViewComboBoxColumn dataGridViewTextBoxColumn4;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
-        private System.Windows.Forms.ToolStripButton toolStripButton1;
+        private Servisniy_CentrDataSetTableAdapters.PoslugaTableAdapter poslugaTableAdapter1;
     }
 }

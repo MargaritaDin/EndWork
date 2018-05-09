@@ -27,6 +27,8 @@ namespace WindowsFormsApp2
 
         private void Form3_Load(object sender, EventArgs e)
         {
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "servisniy_CentrDataSet.Postach". При необходимости она может быть перемещена или удалена.
+            this.postachTableAdapter.Fill(this.servisniy_CentrDataSet.Postach);
             // TODO: данная строка кода позволяет загрузить данные в таблицу "servisniy_CentrDataSet.Postavki". При необходимости она может быть перемещена или удалена.
             this.postavkiTableAdapter.Fill(this.servisniy_CentrDataSet.Postavki);
 
