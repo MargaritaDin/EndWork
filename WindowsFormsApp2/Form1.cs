@@ -28,7 +28,8 @@ namespace WindowsFormsApp2
         private void постачальникиПоставкиToolStripMenuItem_Click(object sender, EventArgs e)
         {
            tabControl1.Visible = true;
-            tabControl2.Visible = false;
+           tabControl2.Visible = false;
+           tabControl3.Visible = false;
 
         }
 
@@ -43,7 +44,11 @@ namespace WindowsFormsApp2
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "servisniy_CentrDataSet.Prodaj_Tehn". При необходимости она может быть перемещена или удалена.
+            this.prodaj_TehnTableAdapter.Fill(this.servisniy_CentrDataSet.Prodaj_Tehn);
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "servisniy_CentrDataSet.Prodaj_Zap". При необходимости она может быть перемещена или удалена.
+            this.prodaj_ZapTableAdapter.Fill(this.servisniy_CentrDataSet.Prodaj_Zap);
+
             // TODO: данная строка кода позволяет загрузить данные в таблицу "servisniy_CentrDataSet.Type_Zap". При необходимости она может быть перемещена или удалена.
             this.type_ZapTableAdapter.Fill(this.servisniy_CentrDataSet.Type_Zap);
             // TODO: данная строка кода позволяет загрузить данные в таблицу "servisniy_CentrDataSet.Zapchastunu". При необходимости она может быть перемещена или удалена.
@@ -83,8 +88,10 @@ namespace WindowsFormsApp2
 
         private void запчастиниToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            tabControl1.Visible = false;
             tabControl2.Visible = true; 
+            tabControl1.Visible = false;
+            tabControl3.Visible = false;
+           
         }
 
         private void tabPage2_Click(object sender, EventArgs e)
@@ -97,5 +104,26 @@ namespace WindowsFormsApp2
             Close(); 
         }
 
+        private void toolStripButton30_Click(object sender, EventArgs e)
+        {
+            this.prodaj_ZapTableAdapter.Update(this.servisniy_CentrDataSet);
+        }
+
+        private void toolStripButton37_Click(object sender, EventArgs e)
+        {
+            this.prodaj_TehnTableAdapter.Update(this.servisniy_CentrDataSet);
+        }
+
+        private void toolStripButton23_Click(object sender, EventArgs e)
+        {
+            this.type_ZapTableAdapter.Update(this.servisniy_CentrDataSet);
+        }
+
+        private void продажToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            tabControl3.Visible = true;
+            tabControl1.Visible = false;
+            tabControl2.Visible = false;
+        }
     }
 }
