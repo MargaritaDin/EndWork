@@ -74,7 +74,7 @@
             this.категоріїToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.постачальникиПоставкиToolStripMenuItem});
             this.категоріїToolStripMenuItem.Name = "категоріїToolStripMenuItem";
-            this.категоріїToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
+            this.категоріїToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.категоріїToolStripMenuItem.Text = "Категорії";
             // 
             // постачальникиПоставкиToolStripMenuItem
@@ -82,6 +82,7 @@
             this.постачальникиПоставкиToolStripMenuItem.Name = "постачальникиПоставкиToolStripMenuItem";
             this.постачальникиПоставкиToolStripMenuItem.Size = new System.Drawing.Size(216, 22);
             this.постачальникиПоставкиToolStripMenuItem.Text = "Постачальники, поставки";
+            this.постачальникиПоставкиToolStripMenuItem.Click += new System.EventHandler(this.постачальникиПоставкиToolStripMenuItem_Click);
             // 
             // tabControl1
             // 
@@ -92,6 +93,7 @@
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(776, 357);
             this.tabControl1.TabIndex = 1;
+            this.tabControl1.Visible = false;
             // 
             // tabPage1
             // 

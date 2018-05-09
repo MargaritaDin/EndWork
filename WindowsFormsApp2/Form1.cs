@@ -28,5 +28,10 @@ namespace WindowsFormsApp2
             Form ifrm = new Form3();
             ifrm.Show();
         }
+
+        private void постачальникиПоставкиToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            tabControl1.Visible = true;
+        }
     }
 }
