@@ -44,6 +44,16 @@ namespace WindowsFormsApp2
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "servisniy_CentrDataSet.Stan". При необходимости она может быть перемещена или удалена.
+            this.stanTableAdapter.Fill(this.servisniy_CentrDataSet.Stan);
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "servisniy_CentrDataSet.Tip". При необходимости она может быть перемещена или удалена.
+            this.tipTableAdapter.Fill(this.servisniy_CentrDataSet.Tip);
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "servisniy_CentrDataSet.Tehnika". При необходимости она может быть перемещена или удалена.
+            this.tehnikaTableAdapter.Fill(this.servisniy_CentrDataSet.Tehnika);
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "servisniy_CentrDataSet.Posluga". При необходимости она может быть перемещена или удалена.
+            this.poslugaTableAdapter.Fill(this.servisniy_CentrDataSet.Posluga);
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "servisniy_CentrDataSet.Zdiysn_Poslugi". При необходимости она может быть перемещена или удалена.
+            this.zdiysn_PoslugiTableAdapter.Fill(this.servisniy_CentrDataSet.Zdiysn_Poslugi);
             // TODO: данная строка кода позволяет загрузить данные в таблицу "servisniy_CentrDataSet.Prodaj_Tehn". При необходимости она может быть перемещена или удалена.
             this.prodaj_TehnTableAdapter.Fill(this.servisniy_CentrDataSet.Prodaj_Tehn);
             // TODO: данная строка кода позволяет загрузить данные в таблицу "servisniy_CentrDataSet.Prodaj_Zap". При необходимости она может быть перемещена или удалена.
@@ -124,6 +134,33 @@ namespace WindowsFormsApp2
             tabControl3.Visible = true;
             tabControl1.Visible = false;
             tabControl2.Visible = false;
+        }
+
+        private void toolStripButton44_Click(object sender, EventArgs e)
+        {
+            this.zdiysn_PoslugiTableAdapter.Update(this.servisniy_CentrDataSet);
+        }
+
+        private void toolStripButton51_Click(object sender, EventArgs e)
+        {
+            this.poslugaTableAdapter.Update(this.servisniy_CentrDataSet);
+        }
+
+        private void послугиToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            tabControl4.Visible = true;
+            tabControl1.Visible = false;
+            tabControl2.Visible = false;
+            tabControl3.Visible = false;
+        }
+
+        private void технікаToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            tabControl5.Visible = true;
+            tabControl1.Visible = false;
+            tabControl2.Visible = false;
+            tabControl4.Visible = false;
+            tabControl4.Visible = false;
         }
     }
 }

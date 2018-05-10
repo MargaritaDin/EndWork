@@ -37,8 +37,8 @@
             this.категоріїToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.постачальникиПоставкиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.запчастиниToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.продажToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.технікаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.продажToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.послугиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.оформленняПослугиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.списокПрацівниківToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -60,10 +60,24 @@
             this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
+            this.postachDataGridView = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.postavkiDataGridView = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.dataGridViewTextBoxColumn11 = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.typeZapBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.postavkiBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.bindingNavigator2 = new System.Windows.Forms.BindingNavigator(this.components);
             this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
-            this.postavkiBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
             this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
@@ -76,7 +90,6 @@
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton8 = new System.Windows.Forms.ToolStripButton();
             this.postachBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.typeZapBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.zapchastunuBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.tableAdapterManager = new WindowsFormsApp2.Servisniy_CentrDataSetTableAdapters.TableAdapterManager();
             this.zapchastunuTableAdapter = new WindowsFormsApp2.Servisniy_CentrDataSetTableAdapters.ZapchastunuTableAdapter();
@@ -84,40 +97,29 @@
             this.type_ZapTableAdapter = new WindowsFormsApp2.Servisniy_CentrDataSetTableAdapters.Type_ZapTableAdapter();
             this.akt_peredachi_v_remontBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.postachTableAdapter = new WindowsFormsApp2.Servisniy_CentrDataSetTableAdapters.PostachTableAdapter();
-            this.postachDataGridView = new System.Windows.Forms.DataGridView();
             this.postavkiTableAdapter = new WindowsFormsApp2.Servisniy_CentrDataSetTableAdapters.PostavkiTableAdapter();
-            this.postavkiDataGridView = new System.Windows.Forms.DataGridView();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.zapchastunuDataGridView = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewCheckBoxColumn1 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.dataGridViewTextBoxColumn15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn16 = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.bindingNavigator3 = new System.Windows.Forms.BindingNavigator(this.components);
+            this.bindingNavigatorAddNewItem1 = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorCountItem1 = new System.Windows.Forms.ToolStripLabel();
+            this.bindingNavigatorDeleteItem1 = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMoveFirstItem1 = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMovePreviousItem1 = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.bindingNavigatorPositionItem1 = new System.Windows.Forms.ToolStripTextBox();
-            this.bindingNavigatorCountItem1 = new System.Windows.Forms.ToolStripLabel();
             this.bindingNavigatorSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.bindingNavigatorMoveNextItem1 = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMoveLastItem1 = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator5 = new System.Windows.Forms.ToolStripSeparator();
-            this.bindingNavigatorAddNewItem1 = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorDeleteItem1 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton9 = new System.Windows.Forms.ToolStripButton();
-            this.zapchastunuDataGridView = new System.Windows.Forms.DataGridView();
             this.tabControl2 = new System.Windows.Forms.TabControl();
-            this.type_ZapDataGridView = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn18 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn17 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.toolStripButton12 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton13 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripTextBox2 = new System.Windows.Forms.ToolStripTextBox();
-            this.toolStripLabel2 = new System.Windows.Forms.ToolStripLabel();
-            this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripButton14 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton15 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripButton10 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton11 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton16 = new System.Windows.Forms.ToolStripButton();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.bindingNavigator4 = new System.Windows.Forms.BindingNavigator(this.components);
             this.toolStripButton17 = new System.Windows.Forms.ToolStripButton();
@@ -132,33 +134,28 @@
             this.toolStripButton22 = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator9 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton23 = new System.Windows.Forms.ToolStripButton();
+            this.type_ZapDataGridView = new System.Windows.Forms.DataGridView();
             this.iDTypeZapDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nazvanieDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewCheckBoxColumn1 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.dataGridViewTextBoxColumn15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn16 = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.dataGridViewTextBoxColumn11 = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn18 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn17 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.toolStripButton12 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton13 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripTextBox2 = new System.Windows.Forms.ToolStripTextBox();
+            this.toolStripLabel2 = new System.Windows.Forms.ToolStripLabel();
+            this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButton14 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton15 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButton10 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton11 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton16 = new System.Windows.Forms.ToolStripButton();
             this.tabControl3 = new System.Windows.Forms.TabControl();
             this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.prodaj_ZapBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.prodaj_ZapTableAdapter = new WindowsFormsApp2.Servisniy_CentrDataSetTableAdapters.Prodaj_ZapTableAdapter();
-            this.prodaj_ZapDataGridView = new System.Windows.Forms.DataGridView();
             this.bindingNavigator5 = new System.Windows.Forms.BindingNavigator(this.components);
             this.toolStripButton24 = new System.Windows.Forms.ToolStripButton();
+            this.prodaj_ZapBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.toolStripLabel4 = new System.Windows.Forms.ToolStripLabel();
             this.toolStripButton25 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton26 = new System.Windows.Forms.ToolStripButton();
@@ -170,18 +167,15 @@
             this.toolStripButton29 = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator12 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton30 = new System.Windows.Forms.ToolStripButton();
+            this.prodaj_ZapDataGridView = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn19 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn20 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn21 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn22 = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.prodaj_TehnBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.prodaj_TehnTableAdapter = new WindowsFormsApp2.Servisniy_CentrDataSetTableAdapters.Prodaj_TehnTableAdapter();
-            this.prodaj_TehnDataGridView = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn23 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn24 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn25 = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.tabPage6 = new System.Windows.Forms.TabPage();
             this.bindingNavigator6 = new System.Windows.Forms.BindingNavigator(this.components);
             this.toolStripButton31 = new System.Windows.Forms.ToolStripButton();
+            this.prodaj_TehnBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.toolStripLabel5 = new System.Windows.Forms.ToolStripLabel();
             this.toolStripButton32 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton33 = new System.Windows.Forms.ToolStripButton();
@@ -193,6 +187,80 @@
             this.toolStripButton36 = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator15 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton37 = new System.Windows.Forms.ToolStripButton();
+            this.prodaj_TehnDataGridView = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn23 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn24 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn25 = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.prodaj_ZapTableAdapter = new WindowsFormsApp2.Servisniy_CentrDataSetTableAdapters.Prodaj_ZapTableAdapter();
+            this.prodaj_TehnTableAdapter = new WindowsFormsApp2.Servisniy_CentrDataSetTableAdapters.Prodaj_TehnTableAdapter();
+            this.tabControl4 = new System.Windows.Forms.TabControl();
+            this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.tabPage8 = new System.Windows.Forms.TabPage();
+            this.zdiysn_PoslugiBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.zdiysn_PoslugiTableAdapter = new WindowsFormsApp2.Servisniy_CentrDataSetTableAdapters.Zdiysn_PoslugiTableAdapter();
+            this.zdiysn_PoslugiDataGridView = new System.Windows.Forms.DataGridView();
+            this.bindingNavigator7 = new System.Windows.Forms.BindingNavigator(this.components);
+            this.toolStripButton38 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripLabel6 = new System.Windows.Forms.ToolStripLabel();
+            this.toolStripButton39 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton40 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton41 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator16 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripTextBox6 = new System.Windows.Forms.ToolStripTextBox();
+            this.toolStripSeparator17 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButton42 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton43 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator18 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButton44 = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigator8 = new System.Windows.Forms.BindingNavigator(this.components);
+            this.toolStripButton45 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripLabel7 = new System.Windows.Forms.ToolStripLabel();
+            this.toolStripButton46 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton47 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton48 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator19 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripTextBox7 = new System.Windows.Forms.ToolStripTextBox();
+            this.toolStripSeparator20 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButton49 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton50 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator21 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButton51 = new System.Windows.Forms.ToolStripButton();
+            this.poslugaBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.poslugaTableAdapter = new WindowsFormsApp2.Servisniy_CentrDataSetTableAdapters.PoslugaTableAdapter();
+            this.poslugaDataGridView = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn32 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn33 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn34 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn31 = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.dataGridViewTextBoxColumn30 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn29 = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.dataGridViewTextBoxColumn28 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn27 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn26 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tabControl5 = new System.Windows.Forms.TabControl();
+            this.tabPage9 = new System.Windows.Forms.TabPage();
+            this.tabPage10 = new System.Windows.Forms.TabPage();
+            this.tabPage11 = new System.Windows.Forms.TabPage();
+            this.tehnikaBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.tehnikaTableAdapter = new WindowsFormsApp2.Servisniy_CentrDataSetTableAdapters.TehnikaTableAdapter();
+            this.tehnikaDataGridView = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn35 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn36 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn37 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn38 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn39 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn40 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn41 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tipBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.tipTableAdapter = new WindowsFormsApp2.Servisniy_CentrDataSetTableAdapters.TipTableAdapter();
+            this.tipDataGridView = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn42 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn43 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.stanBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.stanTableAdapter = new WindowsFormsApp2.Servisniy_CentrDataSetTableAdapters.StanTableAdapter();
+            this.stanDataGridView = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn44 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn45 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.menuStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -200,37 +268,58 @@
             this.bindingNavigator1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.postachBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.servisniy_CentrDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.postachDataGridView)).BeginInit();
             this.tabPage2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.postavkiDataGridView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.typeZapBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.postavkiBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator2)).BeginInit();
             this.bindingNavigator2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.postavkiBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.postachBindingSource1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.typeZapBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.zapchastunuBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.servisniy_CentrDataSet1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.akt_peredachi_v_remontBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.postachDataGridView)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.postavkiDataGridView)).BeginInit();
             this.tabPage3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.zapchastunuDataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator3)).BeginInit();
             this.bindingNavigator3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.zapchastunuDataGridView)).BeginInit();
             this.tabControl2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.type_ZapDataGridView)).BeginInit();
             this.tabPage4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator4)).BeginInit();
             this.bindingNavigator4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.type_ZapDataGridView)).BeginInit();
             this.tabControl3.SuspendLayout();
             this.tabPage5.SuspendLayout();
-            this.tabPage6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.prodaj_ZapBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.prodaj_ZapDataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator5)).BeginInit();
             this.bindingNavigator5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.prodaj_TehnBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.prodaj_TehnDataGridView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.prodaj_ZapBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.prodaj_ZapDataGridView)).BeginInit();
+            this.tabPage6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator6)).BeginInit();
             this.bindingNavigator6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.prodaj_TehnBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.prodaj_TehnDataGridView)).BeginInit();
+            this.tabControl4.SuspendLayout();
+            this.tabPage7.SuspendLayout();
+            this.tabPage8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.zdiysn_PoslugiBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.zdiysn_PoslugiDataGridView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator7)).BeginInit();
+            this.bindingNavigator7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator8)).BeginInit();
+            this.bindingNavigator8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.poslugaBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.poslugaDataGridView)).BeginInit();
+            this.tabControl5.SuspendLayout();
+            this.tabPage9.SuspendLayout();
+            this.tabPage10.SuspendLayout();
+            this.tabPage11.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.tehnikaBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tehnikaDataGridView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tipBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tipDataGridView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stanBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stanDataGridView)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -256,7 +345,7 @@
             // выходToolStripMenuItem
             // 
             this.выходToolStripMenuItem.Name = "выходToolStripMenuItem";
-            this.выходToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.выходToolStripMenuItem.Size = new System.Drawing.Size(110, 22);
             this.выходToolStripMenuItem.Text = "выход ";
             this.выходToolStripMenuItem.Click += new System.EventHandler(this.выходToolStripMenuItem_Click);
             // 
@@ -296,6 +385,13 @@
             this.запчастиниToolStripMenuItem.Text = "Запчастини";
             this.запчастиниToolStripMenuItem.Click += new System.EventHandler(this.запчастиниToolStripMenuItem_Click);
             // 
+            // технікаToolStripMenuItem
+            // 
+            this.технікаToolStripMenuItem.Name = "технікаToolStripMenuItem";
+            this.технікаToolStripMenuItem.Size = new System.Drawing.Size(216, 22);
+            this.технікаToolStripMenuItem.Text = "Техніка";
+            this.технікаToolStripMenuItem.Click += new System.EventHandler(this.технікаToolStripMenuItem_Click);
+            // 
             // продажToolStripMenuItem
             // 
             this.продажToolStripMenuItem.Name = "продажToolStripMenuItem";
@@ -303,17 +399,12 @@
             this.продажToolStripMenuItem.Text = "Продаж";
             this.продажToolStripMenuItem.Click += new System.EventHandler(this.продажToolStripMenuItem_Click);
             // 
-            // технікаToolStripMenuItem
-            // 
-            this.технікаToolStripMenuItem.Name = "технікаToolStripMenuItem";
-            this.технікаToolStripMenuItem.Size = new System.Drawing.Size(216, 22);
-            this.технікаToolStripMenuItem.Text = "Техніка";
-            // 
             // послугиToolStripMenuItem
             // 
             this.послугиToolStripMenuItem.Name = "послугиToolStripMenuItem";
             this.послугиToolStripMenuItem.Size = new System.Drawing.Size(216, 22);
             this.послугиToolStripMenuItem.Text = "Послуги";
+            this.послугиToolStripMenuItem.Click += new System.EventHandler(this.послугиToolStripMenuItem_Click);
             // 
             // оформленняПослугиToolStripMenuItem
             // 
@@ -493,6 +584,63 @@
             this.toolStripButton1.Text = "Оновити";
             this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
             // 
+            // postachDataGridView
+            // 
+            this.postachDataGridView.AutoGenerateColumns = false;
+            this.postachDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.postachDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn1,
+            this.dataGridViewTextBoxColumn2,
+            this.dataGridViewTextBoxColumn3,
+            this.dataGridViewTextBoxColumn4,
+            this.dataGridViewTextBoxColumn5,
+            this.dataGridViewTextBoxColumn6});
+            this.postachDataGridView.DataSource = this.postachBindingSource;
+            this.postachDataGridView.Location = new System.Drawing.Point(4, 31);
+            this.postachDataGridView.Name = "postachDataGridView";
+            this.postachDataGridView.Size = new System.Drawing.Size(896, 394);
+            this.postachDataGridView.TabIndex = 2;
+            // 
+            // dataGridViewTextBoxColumn1
+            // 
+            this.dataGridViewTextBoxColumn1.DataPropertyName = "ID_Postach";
+            this.dataGridViewTextBoxColumn1.HeaderText = "ID_Postach";
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.dataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn2
+            // 
+            this.dataGridViewTextBoxColumn2.DataPropertyName = "Nazvanie_Firmu";
+            this.dataGridViewTextBoxColumn2.HeaderText = "Nazvanie_Firmu";
+            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            this.dataGridViewTextBoxColumn2.Width = 200;
+            // 
+            // dataGridViewTextBoxColumn3
+            // 
+            this.dataGridViewTextBoxColumn3.DataPropertyName = "FIO";
+            this.dataGridViewTextBoxColumn3.HeaderText = "FIO";
+            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            this.dataGridViewTextBoxColumn3.Width = 200;
+            // 
+            // dataGridViewTextBoxColumn4
+            // 
+            this.dataGridViewTextBoxColumn4.DataPropertyName = "Mobilniy";
+            this.dataGridViewTextBoxColumn4.HeaderText = "Mobilniy";
+            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
+            this.dataGridViewTextBoxColumn4.Width = 150;
+            // 
+            // dataGridViewTextBoxColumn5
+            // 
+            this.dataGridViewTextBoxColumn5.DataPropertyName = "E_mail";
+            this.dataGridViewTextBoxColumn5.HeaderText = "E_mail";
+            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            // 
+            // dataGridViewTextBoxColumn6
+            // 
+            this.dataGridViewTextBoxColumn6.DataPropertyName = "Adress";
+            this.dataGridViewTextBoxColumn6.HeaderText = "Adress";
+            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
+            // 
             // tabPage2
             // 
             this.tabPage2.AutoScroll = true;
@@ -506,6 +654,77 @@
             this.tabPage2.Text = "Поставки";
             this.tabPage2.UseVisualStyleBackColor = true;
             this.tabPage2.Click += new System.EventHandler(this.tabPage2_Click);
+            // 
+            // postavkiDataGridView
+            // 
+            this.postavkiDataGridView.AutoGenerateColumns = false;
+            this.postavkiDataGridView.BackgroundColor = System.Drawing.SystemColors.ActiveBorder;
+            this.postavkiDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.postavkiDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn7,
+            this.dataGridViewTextBoxColumn8,
+            this.dataGridViewTextBoxColumn9,
+            this.dataGridViewTextBoxColumn10,
+            this.dataGridViewTextBoxColumn11});
+            this.postavkiDataGridView.DataSource = this.postavkiBindingSource;
+            this.postavkiDataGridView.Location = new System.Drawing.Point(2, 31);
+            this.postavkiDataGridView.Name = "postavkiDataGridView";
+            this.postavkiDataGridView.Size = new System.Drawing.Size(826, 355);
+            this.postavkiDataGridView.TabIndex = 3;
+            // 
+            // dataGridViewTextBoxColumn7
+            // 
+            this.dataGridViewTextBoxColumn7.DataPropertyName = "ID_Postavki";
+            this.dataGridViewTextBoxColumn7.HeaderText = "ID_Postavki";
+            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
+            this.dataGridViewTextBoxColumn7.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn8
+            // 
+            this.dataGridViewTextBoxColumn8.DataPropertyName = "Data";
+            this.dataGridViewTextBoxColumn8.HeaderText = "Data";
+            this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
+            // 
+            // dataGridViewTextBoxColumn9
+            // 
+            this.dataGridViewTextBoxColumn9.DataPropertyName = "Price";
+            this.dataGridViewTextBoxColumn9.HeaderText = "Price";
+            this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
+            // 
+            // dataGridViewTextBoxColumn10
+            // 
+            this.dataGridViewTextBoxColumn10.DataPropertyName = "Postach";
+            this.dataGridViewTextBoxColumn10.DataSource = this.postachBindingSource;
+            this.dataGridViewTextBoxColumn10.DisplayMember = "FIO";
+            this.dataGridViewTextBoxColumn10.DisplayStyle = System.Windows.Forms.DataGridViewComboBoxDisplayStyle.ComboBox;
+            this.dataGridViewTextBoxColumn10.HeaderText = "Postach";
+            this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
+            this.dataGridViewTextBoxColumn10.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewTextBoxColumn10.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.dataGridViewTextBoxColumn10.ValueMember = "ID_Postach";
+            this.dataGridViewTextBoxColumn10.Width = 200;
+            // 
+            // dataGridViewTextBoxColumn11
+            // 
+            this.dataGridViewTextBoxColumn11.DataPropertyName = "Zapchastunu";
+            this.dataGridViewTextBoxColumn11.DataSource = this.typeZapBindingSource;
+            this.dataGridViewTextBoxColumn11.DisplayMember = "Nazvanie";
+            this.dataGridViewTextBoxColumn11.DisplayStyle = System.Windows.Forms.DataGridViewComboBoxDisplayStyle.ComboBox;
+            this.dataGridViewTextBoxColumn11.HeaderText = "Zapchastunu";
+            this.dataGridViewTextBoxColumn11.Name = "dataGridViewTextBoxColumn11";
+            this.dataGridViewTextBoxColumn11.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.dataGridViewTextBoxColumn11.ValueMember = "ID_Type_Zap";
+            this.dataGridViewTextBoxColumn11.Width = 170;
+            // 
+            // typeZapBindingSource
+            // 
+            this.typeZapBindingSource.DataMember = "Type_Zap";
+            this.typeZapBindingSource.DataSource = this.servisniy_CentrDataSet;
+            // 
+            // postavkiBindingSource
+            // 
+            this.postavkiBindingSource.DataMember = "Postavki";
+            this.postavkiBindingSource.DataSource = this.servisniy_CentrDataSet;
             // 
             // bindingNavigator2
             // 
@@ -545,11 +764,6 @@
             this.toolStripButton2.RightToLeftAutoMirrorImage = true;
             this.toolStripButton2.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton2.Text = "Добавить";
-            // 
-            // postavkiBindingSource
-            // 
-            this.postavkiBindingSource.DataMember = "Postavki";
-            this.postavkiBindingSource.DataSource = this.servisniy_CentrDataSet;
             // 
             // toolStripLabel1
             // 
@@ -641,11 +855,6 @@
             this.postachBindingSource1.DataMember = "Postach";
             this.postachBindingSource1.DataSource = this.servisniy_CentrDataSet;
             // 
-            // typeZapBindingSource
-            // 
-            this.typeZapBindingSource.DataMember = "Type_Zap";
-            this.typeZapBindingSource.DataSource = this.servisniy_CentrDataSet;
-            // 
             // zapchastunuBindingSource
             // 
             this.zapchastunuBindingSource.DataMember = "Zapchastunu";
@@ -691,43 +900,9 @@
             // 
             this.postachTableAdapter.ClearBeforeFill = true;
             // 
-            // postachDataGridView
-            // 
-            this.postachDataGridView.AutoGenerateColumns = false;
-            this.postachDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.postachDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn1,
-            this.dataGridViewTextBoxColumn2,
-            this.dataGridViewTextBoxColumn3,
-            this.dataGridViewTextBoxColumn4,
-            this.dataGridViewTextBoxColumn5,
-            this.dataGridViewTextBoxColumn6});
-            this.postachDataGridView.DataSource = this.postachBindingSource;
-            this.postachDataGridView.Location = new System.Drawing.Point(4, 31);
-            this.postachDataGridView.Name = "postachDataGridView";
-            this.postachDataGridView.Size = new System.Drawing.Size(896, 394);
-            this.postachDataGridView.TabIndex = 2;
-            // 
             // postavkiTableAdapter
             // 
             this.postavkiTableAdapter.ClearBeforeFill = true;
-            // 
-            // postavkiDataGridView
-            // 
-            this.postavkiDataGridView.AutoGenerateColumns = false;
-            this.postavkiDataGridView.BackgroundColor = System.Drawing.SystemColors.ActiveBorder;
-            this.postavkiDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.postavkiDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn7,
-            this.dataGridViewTextBoxColumn8,
-            this.dataGridViewTextBoxColumn9,
-            this.dataGridViewTextBoxColumn10,
-            this.dataGridViewTextBoxColumn11});
-            this.postavkiDataGridView.DataSource = this.postavkiBindingSource;
-            this.postavkiDataGridView.Location = new System.Drawing.Point(2, 31);
-            this.postavkiDataGridView.Name = "postavkiDataGridView";
-            this.postavkiDataGridView.Size = new System.Drawing.Size(826, 355);
-            this.postavkiDataGridView.TabIndex = 3;
             // 
             // tabPage3
             // 
@@ -740,6 +915,68 @@
             this.tabPage3.Size = new System.Drawing.Size(1056, 574);
             this.tabPage3.TabIndex = 0;
             this.tabPage3.Text = "Запчастини";
+            // 
+            // zapchastunuDataGridView
+            // 
+            this.zapchastunuDataGridView.AutoGenerateColumns = false;
+            this.zapchastunuDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.zapchastunuDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn12,
+            this.dataGridViewTextBoxColumn13,
+            this.dataGridViewTextBoxColumn14,
+            this.dataGridViewCheckBoxColumn1,
+            this.dataGridViewTextBoxColumn15,
+            this.dataGridViewTextBoxColumn16});
+            this.zapchastunuDataGridView.DataSource = this.zapchastunuBindingSource;
+            this.zapchastunuDataGridView.Location = new System.Drawing.Point(7, 31);
+            this.zapchastunuDataGridView.Name = "zapchastunuDataGridView";
+            this.zapchastunuDataGridView.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
+            this.zapchastunuDataGridView.Size = new System.Drawing.Size(747, 220);
+            this.zapchastunuDataGridView.TabIndex = 0;
+            // 
+            // dataGridViewTextBoxColumn12
+            // 
+            this.dataGridViewTextBoxColumn12.DataPropertyName = "ID_Zapchast";
+            this.dataGridViewTextBoxColumn12.HeaderText = "ID_Zapchast";
+            this.dataGridViewTextBoxColumn12.Name = "dataGridViewTextBoxColumn12";
+            this.dataGridViewTextBoxColumn12.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn13
+            // 
+            this.dataGridViewTextBoxColumn13.DataPropertyName = "Model";
+            this.dataGridViewTextBoxColumn13.HeaderText = "Model";
+            this.dataGridViewTextBoxColumn13.Name = "dataGridViewTextBoxColumn13";
+            this.dataGridViewTextBoxColumn13.Width = 150;
+            // 
+            // dataGridViewTextBoxColumn14
+            // 
+            this.dataGridViewTextBoxColumn14.DataPropertyName = "Price";
+            this.dataGridViewTextBoxColumn14.HeaderText = "Price";
+            this.dataGridViewTextBoxColumn14.Name = "dataGridViewTextBoxColumn14";
+            // 
+            // dataGridViewCheckBoxColumn1
+            // 
+            this.dataGridViewCheckBoxColumn1.DataPropertyName = "Na_Prodaj";
+            this.dataGridViewCheckBoxColumn1.HeaderText = "Na_Prodaj";
+            this.dataGridViewCheckBoxColumn1.Name = "dataGridViewCheckBoxColumn1";
+            // 
+            // dataGridViewTextBoxColumn15
+            // 
+            this.dataGridViewTextBoxColumn15.DataPropertyName = "Kilkist";
+            this.dataGridViewTextBoxColumn15.HeaderText = "Kilkist";
+            this.dataGridViewTextBoxColumn15.Name = "dataGridViewTextBoxColumn15";
+            // 
+            // dataGridViewTextBoxColumn16
+            // 
+            this.dataGridViewTextBoxColumn16.DataPropertyName = "Type_Zap";
+            this.dataGridViewTextBoxColumn16.DataSource = this.typeZapBindingSource;
+            this.dataGridViewTextBoxColumn16.DisplayMember = "Nazvanie";
+            this.dataGridViewTextBoxColumn16.HeaderText = "Type_Zap";
+            this.dataGridViewTextBoxColumn16.Name = "dataGridViewTextBoxColumn16";
+            this.dataGridViewTextBoxColumn16.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewTextBoxColumn16.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.dataGridViewTextBoxColumn16.ValueMember = "ID_Type_Zap";
+            this.dataGridViewTextBoxColumn16.Width = 150;
             // 
             // bindingNavigator3
             // 
@@ -770,6 +1007,31 @@
             this.bindingNavigator3.Size = new System.Drawing.Size(1050, 25);
             this.bindingNavigator3.TabIndex = 1;
             this.bindingNavigator3.Text = "bindingNavigator3";
+            // 
+            // bindingNavigatorAddNewItem1
+            // 
+            this.bindingNavigatorAddNewItem1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorAddNewItem1.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem1.Image")));
+            this.bindingNavigatorAddNewItem1.Name = "bindingNavigatorAddNewItem1";
+            this.bindingNavigatorAddNewItem1.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorAddNewItem1.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorAddNewItem1.Text = "Добавить";
+            // 
+            // bindingNavigatorCountItem1
+            // 
+            this.bindingNavigatorCountItem1.Name = "bindingNavigatorCountItem1";
+            this.bindingNavigatorCountItem1.Size = new System.Drawing.Size(43, 22);
+            this.bindingNavigatorCountItem1.Text = "для {0}";
+            this.bindingNavigatorCountItem1.ToolTipText = "Общее число элементов";
+            // 
+            // bindingNavigatorDeleteItem1
+            // 
+            this.bindingNavigatorDeleteItem1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorDeleteItem1.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem1.Image")));
+            this.bindingNavigatorDeleteItem1.Name = "bindingNavigatorDeleteItem1";
+            this.bindingNavigatorDeleteItem1.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorDeleteItem1.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorDeleteItem1.Text = "Удалить";
             // 
             // bindingNavigatorMoveFirstItem1
             // 
@@ -803,13 +1065,6 @@
             this.bindingNavigatorPositionItem1.Text = "0";
             this.bindingNavigatorPositionItem1.ToolTipText = "Текущее положение";
             // 
-            // bindingNavigatorCountItem1
-            // 
-            this.bindingNavigatorCountItem1.Name = "bindingNavigatorCountItem1";
-            this.bindingNavigatorCountItem1.Size = new System.Drawing.Size(43, 22);
-            this.bindingNavigatorCountItem1.Text = "для {0}";
-            this.bindingNavigatorCountItem1.ToolTipText = "Общее число элементов";
-            // 
             // bindingNavigatorSeparator4
             // 
             this.bindingNavigatorSeparator4.Name = "bindingNavigatorSeparator4";
@@ -838,24 +1093,6 @@
             this.bindingNavigatorSeparator5.Name = "bindingNavigatorSeparator5";
             this.bindingNavigatorSeparator5.Size = new System.Drawing.Size(6, 25);
             // 
-            // bindingNavigatorAddNewItem1
-            // 
-            this.bindingNavigatorAddNewItem1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorAddNewItem1.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem1.Image")));
-            this.bindingNavigatorAddNewItem1.Name = "bindingNavigatorAddNewItem1";
-            this.bindingNavigatorAddNewItem1.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorAddNewItem1.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigatorAddNewItem1.Text = "Добавить";
-            // 
-            // bindingNavigatorDeleteItem1
-            // 
-            this.bindingNavigatorDeleteItem1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorDeleteItem1.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem1.Image")));
-            this.bindingNavigatorDeleteItem1.Name = "bindingNavigatorDeleteItem1";
-            this.bindingNavigatorDeleteItem1.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorDeleteItem1.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigatorDeleteItem1.Text = "Удалить";
-            // 
             // toolStripButton9
             // 
             this.toolStripButton9.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton9.Image")));
@@ -864,24 +1101,6 @@
             this.toolStripButton9.Size = new System.Drawing.Size(75, 22);
             this.toolStripButton9.Text = "Оновити";
             this.toolStripButton9.Click += new System.EventHandler(this.toolStripButton9_Click);
-            // 
-            // zapchastunuDataGridView
-            // 
-            this.zapchastunuDataGridView.AutoGenerateColumns = false;
-            this.zapchastunuDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.zapchastunuDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn12,
-            this.dataGridViewTextBoxColumn13,
-            this.dataGridViewTextBoxColumn14,
-            this.dataGridViewCheckBoxColumn1,
-            this.dataGridViewTextBoxColumn15,
-            this.dataGridViewTextBoxColumn16});
-            this.zapchastunuDataGridView.DataSource = this.zapchastunuBindingSource;
-            this.zapchastunuDataGridView.Location = new System.Drawing.Point(7, 31);
-            this.zapchastunuDataGridView.Name = "zapchastunuDataGridView";
-            this.zapchastunuDataGridView.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
-            this.zapchastunuDataGridView.Size = new System.Drawing.Size(747, 220);
-            this.zapchastunuDataGridView.TabIndex = 0;
             // 
             // tabControl2
             // 
@@ -896,6 +1115,142 @@
             this.tabControl2.TabIndex = 2;
             this.tabControl2.Visible = false;
             // 
+            // tabPage4
+            // 
+            this.tabPage4.Controls.Add(this.bindingNavigator4);
+            this.tabPage4.Controls.Add(this.type_ZapDataGridView);
+            this.tabPage4.Location = new System.Drawing.Point(4, 22);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage4.Size = new System.Drawing.Size(1056, 574);
+            this.tabPage4.TabIndex = 1;
+            this.tabPage4.Text = "Тип запчастин";
+            this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // bindingNavigator4
+            // 
+            this.bindingNavigator4.AddNewItem = this.toolStripButton17;
+            this.bindingNavigator4.BindingSource = this.typeZapBindingSource;
+            this.bindingNavigator4.CountItem = this.toolStripLabel3;
+            this.bindingNavigator4.DeleteItem = this.toolStripButton18;
+            this.bindingNavigator4.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripButton19,
+            this.toolStripButton20,
+            this.toolStripSeparator7,
+            this.toolStripTextBox3,
+            this.toolStripLabel3,
+            this.toolStripSeparator8,
+            this.toolStripButton21,
+            this.toolStripButton22,
+            this.toolStripSeparator9,
+            this.toolStripButton17,
+            this.toolStripButton18,
+            this.toolStripButton23});
+            this.bindingNavigator4.Location = new System.Drawing.Point(3, 3);
+            this.bindingNavigator4.MoveFirstItem = this.toolStripButton19;
+            this.bindingNavigator4.MoveLastItem = this.toolStripButton22;
+            this.bindingNavigator4.MoveNextItem = this.toolStripButton21;
+            this.bindingNavigator4.MovePreviousItem = this.toolStripButton20;
+            this.bindingNavigator4.Name = "bindingNavigator4";
+            this.bindingNavigator4.PositionItem = this.toolStripTextBox3;
+            this.bindingNavigator4.Size = new System.Drawing.Size(1050, 25);
+            this.bindingNavigator4.TabIndex = 2;
+            this.bindingNavigator4.Text = "bindingNavigator4";
+            // 
+            // toolStripButton17
+            // 
+            this.toolStripButton17.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton17.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton17.Image")));
+            this.toolStripButton17.Name = "toolStripButton17";
+            this.toolStripButton17.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton17.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton17.Text = "Добавить";
+            // 
+            // toolStripLabel3
+            // 
+            this.toolStripLabel3.Name = "toolStripLabel3";
+            this.toolStripLabel3.Size = new System.Drawing.Size(43, 22);
+            this.toolStripLabel3.Text = "для {0}";
+            this.toolStripLabel3.ToolTipText = "Общее число элементов";
+            // 
+            // toolStripButton18
+            // 
+            this.toolStripButton18.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton18.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton18.Image")));
+            this.toolStripButton18.Name = "toolStripButton18";
+            this.toolStripButton18.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton18.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton18.Text = "Удалить";
+            // 
+            // toolStripButton19
+            // 
+            this.toolStripButton19.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton19.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton19.Image")));
+            this.toolStripButton19.Name = "toolStripButton19";
+            this.toolStripButton19.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton19.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton19.Text = "Переместить в начало";
+            // 
+            // toolStripButton20
+            // 
+            this.toolStripButton20.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton20.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton20.Image")));
+            this.toolStripButton20.Name = "toolStripButton20";
+            this.toolStripButton20.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton20.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton20.Text = "Переместить назад";
+            // 
+            // toolStripSeparator7
+            // 
+            this.toolStripSeparator7.Name = "toolStripSeparator7";
+            this.toolStripSeparator7.Size = new System.Drawing.Size(6, 25);
+            // 
+            // toolStripTextBox3
+            // 
+            this.toolStripTextBox3.AccessibleName = "Положение";
+            this.toolStripTextBox3.AutoSize = false;
+            this.toolStripTextBox3.Name = "toolStripTextBox3";
+            this.toolStripTextBox3.Size = new System.Drawing.Size(50, 23);
+            this.toolStripTextBox3.Text = "0";
+            this.toolStripTextBox3.ToolTipText = "Текущее положение";
+            // 
+            // toolStripSeparator8
+            // 
+            this.toolStripSeparator8.Name = "toolStripSeparator8";
+            this.toolStripSeparator8.Size = new System.Drawing.Size(6, 25);
+            // 
+            // toolStripButton21
+            // 
+            this.toolStripButton21.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton21.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton21.Image")));
+            this.toolStripButton21.Name = "toolStripButton21";
+            this.toolStripButton21.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton21.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton21.Text = "Переместить вперед";
+            // 
+            // toolStripButton22
+            // 
+            this.toolStripButton22.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton22.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton22.Image")));
+            this.toolStripButton22.Name = "toolStripButton22";
+            this.toolStripButton22.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton22.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton22.Text = "Переместить в конец";
+            // 
+            // toolStripSeparator9
+            // 
+            this.toolStripSeparator9.Name = "toolStripSeparator9";
+            this.toolStripSeparator9.Size = new System.Drawing.Size(6, 25);
+            // 
+            // toolStripButton23
+            // 
+            this.toolStripButton23.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton23.Image")));
+            this.toolStripButton23.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton23.Name = "toolStripButton23";
+            this.toolStripButton23.Size = new System.Drawing.Size(75, 22);
+            this.toolStripButton23.Text = "Оновити";
+            this.toolStripButton23.Click += new System.EventHandler(this.toolStripButton23_Click);
+            // 
             // type_ZapDataGridView
             // 
             this.type_ZapDataGridView.AutoGenerateColumns = false;
@@ -908,6 +1263,20 @@
             this.type_ZapDataGridView.Name = "type_ZapDataGridView";
             this.type_ZapDataGridView.Size = new System.Drawing.Size(961, 346);
             this.type_ZapDataGridView.TabIndex = 0;
+            // 
+            // iDTypeZapDataGridViewTextBoxColumn
+            // 
+            this.iDTypeZapDataGridViewTextBoxColumn.DataPropertyName = "ID_Type_Zap";
+            this.iDTypeZapDataGridViewTextBoxColumn.HeaderText = "ID_Type_Zap";
+            this.iDTypeZapDataGridViewTextBoxColumn.Name = "iDTypeZapDataGridViewTextBoxColumn";
+            this.iDTypeZapDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // nazvanieDataGridViewTextBoxColumn
+            // 
+            this.nazvanieDataGridViewTextBoxColumn.DataPropertyName = "Nazvanie";
+            this.nazvanieDataGridViewTextBoxColumn.HeaderText = "Nazvanie";
+            this.nazvanieDataGridViewTextBoxColumn.Name = "nazvanieDataGridViewTextBoxColumn";
+            this.nazvanieDataGridViewTextBoxColumn.Width = 150;
             // 
             // dataGridViewTextBoxColumn18
             // 
@@ -1015,284 +1384,6 @@
             this.toolStripButton16.Size = new System.Drawing.Size(75, 22);
             this.toolStripButton16.Text = "Оновити";
             // 
-            // tabPage4
-            // 
-            this.tabPage4.Controls.Add(this.bindingNavigator4);
-            this.tabPage4.Controls.Add(this.type_ZapDataGridView);
-            this.tabPage4.Location = new System.Drawing.Point(4, 22);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(960, 574);
-            this.tabPage4.TabIndex = 1;
-            this.tabPage4.Text = "Тип запчастин";
-            this.tabPage4.UseVisualStyleBackColor = true;
-            // 
-            // bindingNavigator4
-            // 
-            this.bindingNavigator4.AddNewItem = this.toolStripButton17;
-            this.bindingNavigator4.BindingSource = this.typeZapBindingSource;
-            this.bindingNavigator4.CountItem = this.toolStripLabel3;
-            this.bindingNavigator4.DeleteItem = this.toolStripButton18;
-            this.bindingNavigator4.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripButton19,
-            this.toolStripButton20,
-            this.toolStripSeparator7,
-            this.toolStripTextBox3,
-            this.toolStripLabel3,
-            this.toolStripSeparator8,
-            this.toolStripButton21,
-            this.toolStripButton22,
-            this.toolStripSeparator9,
-            this.toolStripButton17,
-            this.toolStripButton18,
-            this.toolStripButton23});
-            this.bindingNavigator4.Location = new System.Drawing.Point(3, 3);
-            this.bindingNavigator4.MoveFirstItem = this.toolStripButton19;
-            this.bindingNavigator4.MoveLastItem = this.toolStripButton22;
-            this.bindingNavigator4.MoveNextItem = this.toolStripButton21;
-            this.bindingNavigator4.MovePreviousItem = this.toolStripButton20;
-            this.bindingNavigator4.Name = "bindingNavigator4";
-            this.bindingNavigator4.PositionItem = this.toolStripTextBox3;
-            this.bindingNavigator4.Size = new System.Drawing.Size(954, 25);
-            this.bindingNavigator4.TabIndex = 2;
-            this.bindingNavigator4.Text = "bindingNavigator4";
-            // 
-            // toolStripButton17
-            // 
-            this.toolStripButton17.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton17.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton17.Image")));
-            this.toolStripButton17.Name = "toolStripButton17";
-            this.toolStripButton17.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton17.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton17.Text = "Добавить";
-            // 
-            // toolStripLabel3
-            // 
-            this.toolStripLabel3.Name = "toolStripLabel3";
-            this.toolStripLabel3.Size = new System.Drawing.Size(43, 22);
-            this.toolStripLabel3.Text = "для {0}";
-            this.toolStripLabel3.ToolTipText = "Общее число элементов";
-            // 
-            // toolStripButton18
-            // 
-            this.toolStripButton18.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton18.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton18.Image")));
-            this.toolStripButton18.Name = "toolStripButton18";
-            this.toolStripButton18.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton18.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton18.Text = "Удалить";
-            // 
-            // toolStripButton19
-            // 
-            this.toolStripButton19.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton19.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton19.Image")));
-            this.toolStripButton19.Name = "toolStripButton19";
-            this.toolStripButton19.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton19.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton19.Text = "Переместить в начало";
-            // 
-            // toolStripButton20
-            // 
-            this.toolStripButton20.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton20.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton20.Image")));
-            this.toolStripButton20.Name = "toolStripButton20";
-            this.toolStripButton20.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton20.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton20.Text = "Переместить назад";
-            // 
-            // toolStripSeparator7
-            // 
-            this.toolStripSeparator7.Name = "toolStripSeparator7";
-            this.toolStripSeparator7.Size = new System.Drawing.Size(6, 25);
-            // 
-            // toolStripTextBox3
-            // 
-            this.toolStripTextBox3.AccessibleName = "Положение";
-            this.toolStripTextBox3.AutoSize = false;
-            this.toolStripTextBox3.Name = "toolStripTextBox3";
-            this.toolStripTextBox3.Size = new System.Drawing.Size(50, 23);
-            this.toolStripTextBox3.Text = "0";
-            this.toolStripTextBox3.ToolTipText = "Текущее положение";
-            // 
-            // toolStripSeparator8
-            // 
-            this.toolStripSeparator8.Name = "toolStripSeparator8";
-            this.toolStripSeparator8.Size = new System.Drawing.Size(6, 25);
-            // 
-            // toolStripButton21
-            // 
-            this.toolStripButton21.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton21.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton21.Image")));
-            this.toolStripButton21.Name = "toolStripButton21";
-            this.toolStripButton21.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton21.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton21.Text = "Переместить вперед";
-            // 
-            // toolStripButton22
-            // 
-            this.toolStripButton22.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton22.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton22.Image")));
-            this.toolStripButton22.Name = "toolStripButton22";
-            this.toolStripButton22.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton22.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton22.Text = "Переместить в конец";
-            // 
-            // toolStripSeparator9
-            // 
-            this.toolStripSeparator9.Name = "toolStripSeparator9";
-            this.toolStripSeparator9.Size = new System.Drawing.Size(6, 25);
-            // 
-            // toolStripButton23
-            // 
-            this.toolStripButton23.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton23.Image")));
-            this.toolStripButton23.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton23.Name = "toolStripButton23";
-            this.toolStripButton23.Size = new System.Drawing.Size(75, 22);
-            this.toolStripButton23.Text = "Оновити";
-            this.toolStripButton23.Click += new System.EventHandler(this.toolStripButton23_Click);
-            // 
-            // iDTypeZapDataGridViewTextBoxColumn
-            // 
-            this.iDTypeZapDataGridViewTextBoxColumn.DataPropertyName = "ID_Type_Zap";
-            this.iDTypeZapDataGridViewTextBoxColumn.HeaderText = "ID_Type_Zap";
-            this.iDTypeZapDataGridViewTextBoxColumn.Name = "iDTypeZapDataGridViewTextBoxColumn";
-            this.iDTypeZapDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // nazvanieDataGridViewTextBoxColumn
-            // 
-            this.nazvanieDataGridViewTextBoxColumn.DataPropertyName = "Nazvanie";
-            this.nazvanieDataGridViewTextBoxColumn.HeaderText = "Nazvanie";
-            this.nazvanieDataGridViewTextBoxColumn.Name = "nazvanieDataGridViewTextBoxColumn";
-            this.nazvanieDataGridViewTextBoxColumn.Width = 150;
-            // 
-            // dataGridViewTextBoxColumn12
-            // 
-            this.dataGridViewTextBoxColumn12.DataPropertyName = "ID_Zapchast";
-            this.dataGridViewTextBoxColumn12.HeaderText = "ID_Zapchast";
-            this.dataGridViewTextBoxColumn12.Name = "dataGridViewTextBoxColumn12";
-            this.dataGridViewTextBoxColumn12.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn13
-            // 
-            this.dataGridViewTextBoxColumn13.DataPropertyName = "Model";
-            this.dataGridViewTextBoxColumn13.HeaderText = "Model";
-            this.dataGridViewTextBoxColumn13.Name = "dataGridViewTextBoxColumn13";
-            this.dataGridViewTextBoxColumn13.Width = 150;
-            // 
-            // dataGridViewTextBoxColumn14
-            // 
-            this.dataGridViewTextBoxColumn14.DataPropertyName = "Price";
-            this.dataGridViewTextBoxColumn14.HeaderText = "Price";
-            this.dataGridViewTextBoxColumn14.Name = "dataGridViewTextBoxColumn14";
-            // 
-            // dataGridViewCheckBoxColumn1
-            // 
-            this.dataGridViewCheckBoxColumn1.DataPropertyName = "Na_Prodaj";
-            this.dataGridViewCheckBoxColumn1.HeaderText = "Na_Prodaj";
-            this.dataGridViewCheckBoxColumn1.Name = "dataGridViewCheckBoxColumn1";
-            // 
-            // dataGridViewTextBoxColumn15
-            // 
-            this.dataGridViewTextBoxColumn15.DataPropertyName = "Kilkist";
-            this.dataGridViewTextBoxColumn15.HeaderText = "Kilkist";
-            this.dataGridViewTextBoxColumn15.Name = "dataGridViewTextBoxColumn15";
-            // 
-            // dataGridViewTextBoxColumn16
-            // 
-            this.dataGridViewTextBoxColumn16.DataPropertyName = "Type_Zap";
-            this.dataGridViewTextBoxColumn16.DataSource = this.typeZapBindingSource;
-            this.dataGridViewTextBoxColumn16.DisplayMember = "Nazvanie";
-            this.dataGridViewTextBoxColumn16.HeaderText = "Type_Zap";
-            this.dataGridViewTextBoxColumn16.Name = "dataGridViewTextBoxColumn16";
-            this.dataGridViewTextBoxColumn16.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewTextBoxColumn16.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.dataGridViewTextBoxColumn16.ValueMember = "ID_Type_Zap";
-            this.dataGridViewTextBoxColumn16.Width = 150;
-            // 
-            // dataGridViewTextBoxColumn7
-            // 
-            this.dataGridViewTextBoxColumn7.DataPropertyName = "ID_Postavki";
-            this.dataGridViewTextBoxColumn7.HeaderText = "ID_Postavki";
-            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
-            this.dataGridViewTextBoxColumn7.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn8
-            // 
-            this.dataGridViewTextBoxColumn8.DataPropertyName = "Data";
-            this.dataGridViewTextBoxColumn8.HeaderText = "Data";
-            this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
-            // 
-            // dataGridViewTextBoxColumn9
-            // 
-            this.dataGridViewTextBoxColumn9.DataPropertyName = "Price";
-            this.dataGridViewTextBoxColumn9.HeaderText = "Price";
-            this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
-            // 
-            // dataGridViewTextBoxColumn10
-            // 
-            this.dataGridViewTextBoxColumn10.DataPropertyName = "Postach";
-            this.dataGridViewTextBoxColumn10.DataSource = this.postachBindingSource;
-            this.dataGridViewTextBoxColumn10.DisplayMember = "FIO";
-            this.dataGridViewTextBoxColumn10.DisplayStyle = System.Windows.Forms.DataGridViewComboBoxDisplayStyle.ComboBox;
-            this.dataGridViewTextBoxColumn10.HeaderText = "Postach";
-            this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
-            this.dataGridViewTextBoxColumn10.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewTextBoxColumn10.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.dataGridViewTextBoxColumn10.ValueMember = "ID_Postach";
-            this.dataGridViewTextBoxColumn10.Width = 200;
-            // 
-            // dataGridViewTextBoxColumn11
-            // 
-            this.dataGridViewTextBoxColumn11.DataPropertyName = "Zapchastunu";
-            this.dataGridViewTextBoxColumn11.DataSource = this.typeZapBindingSource;
-            this.dataGridViewTextBoxColumn11.DisplayMember = "Nazvanie";
-            this.dataGridViewTextBoxColumn11.DisplayStyle = System.Windows.Forms.DataGridViewComboBoxDisplayStyle.ComboBox;
-            this.dataGridViewTextBoxColumn11.HeaderText = "Zapchastunu";
-            this.dataGridViewTextBoxColumn11.Name = "dataGridViewTextBoxColumn11";
-            this.dataGridViewTextBoxColumn11.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.dataGridViewTextBoxColumn11.ValueMember = "ID_Type_Zap";
-            this.dataGridViewTextBoxColumn11.Width = 170;
-            // 
-            // dataGridViewTextBoxColumn1
-            // 
-            this.dataGridViewTextBoxColumn1.DataPropertyName = "ID_Postach";
-            this.dataGridViewTextBoxColumn1.HeaderText = "ID_Postach";
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            this.dataGridViewTextBoxColumn1.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn2
-            // 
-            this.dataGridViewTextBoxColumn2.DataPropertyName = "Nazvanie_Firmu";
-            this.dataGridViewTextBoxColumn2.HeaderText = "Nazvanie_Firmu";
-            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
-            this.dataGridViewTextBoxColumn2.Width = 200;
-            // 
-            // dataGridViewTextBoxColumn3
-            // 
-            this.dataGridViewTextBoxColumn3.DataPropertyName = "FIO";
-            this.dataGridViewTextBoxColumn3.HeaderText = "FIO";
-            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
-            this.dataGridViewTextBoxColumn3.Width = 200;
-            // 
-            // dataGridViewTextBoxColumn4
-            // 
-            this.dataGridViewTextBoxColumn4.DataPropertyName = "Mobilniy";
-            this.dataGridViewTextBoxColumn4.HeaderText = "Mobilniy";
-            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
-            this.dataGridViewTextBoxColumn4.Width = 150;
-            // 
-            // dataGridViewTextBoxColumn5
-            // 
-            this.dataGridViewTextBoxColumn5.DataPropertyName = "E_mail";
-            this.dataGridViewTextBoxColumn5.HeaderText = "E_mail";
-            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
-            // 
-            // dataGridViewTextBoxColumn6
-            // 
-            this.dataGridViewTextBoxColumn6.DataPropertyName = "Adress";
-            this.dataGridViewTextBoxColumn6.HeaderText = "Adress";
-            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
-            // 
             // tabControl3
             // 
             this.tabControl3.Controls.Add(this.tabPage5);
@@ -1315,42 +1406,6 @@
             this.tabPage5.TabIndex = 0;
             this.tabPage5.Text = "Продаж запчастин";
             this.tabPage5.UseVisualStyleBackColor = true;
-            // 
-            // tabPage6
-            // 
-            this.tabPage6.Controls.Add(this.bindingNavigator6);
-            this.tabPage6.Controls.Add(this.prodaj_TehnDataGridView);
-            this.tabPage6.Location = new System.Drawing.Point(4, 22);
-            this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(1054, 574);
-            this.tabPage6.TabIndex = 1;
-            this.tabPage6.Text = "Продаж техніки";
-            this.tabPage6.UseVisualStyleBackColor = true;
-            // 
-            // prodaj_ZapBindingSource
-            // 
-            this.prodaj_ZapBindingSource.DataMember = "Prodaj_Zap";
-            this.prodaj_ZapBindingSource.DataSource = this.servisniy_CentrDataSet;
-            // 
-            // prodaj_ZapTableAdapter
-            // 
-            this.prodaj_ZapTableAdapter.ClearBeforeFill = true;
-            // 
-            // prodaj_ZapDataGridView
-            // 
-            this.prodaj_ZapDataGridView.AutoGenerateColumns = false;
-            this.prodaj_ZapDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.prodaj_ZapDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn19,
-            this.dataGridViewTextBoxColumn20,
-            this.dataGridViewTextBoxColumn21,
-            this.dataGridViewTextBoxColumn22});
-            this.prodaj_ZapDataGridView.DataSource = this.prodaj_ZapBindingSource;
-            this.prodaj_ZapDataGridView.Location = new System.Drawing.Point(4, 31);
-            this.prodaj_ZapDataGridView.Name = "prodaj_ZapDataGridView";
-            this.prodaj_ZapDataGridView.Size = new System.Drawing.Size(497, 183);
-            this.prodaj_ZapDataGridView.TabIndex = 0;
             // 
             // bindingNavigator5
             // 
@@ -1390,6 +1445,11 @@
             this.toolStripButton24.RightToLeftAutoMirrorImage = true;
             this.toolStripButton24.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton24.Text = "Добавить";
+            // 
+            // prodaj_ZapBindingSource
+            // 
+            this.prodaj_ZapBindingSource.DataMember = "Prodaj_Zap";
+            this.prodaj_ZapBindingSource.DataSource = this.servisniy_CentrDataSet;
             // 
             // toolStripLabel4
             // 
@@ -1476,6 +1536,21 @@
             this.toolStripButton30.Text = "Оновити";
             this.toolStripButton30.Click += new System.EventHandler(this.toolStripButton30_Click);
             // 
+            // prodaj_ZapDataGridView
+            // 
+            this.prodaj_ZapDataGridView.AutoGenerateColumns = false;
+            this.prodaj_ZapDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.prodaj_ZapDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn19,
+            this.dataGridViewTextBoxColumn20,
+            this.dataGridViewTextBoxColumn21,
+            this.dataGridViewTextBoxColumn22});
+            this.prodaj_ZapDataGridView.DataSource = this.prodaj_ZapBindingSource;
+            this.prodaj_ZapDataGridView.Location = new System.Drawing.Point(4, 31);
+            this.prodaj_ZapDataGridView.Name = "prodaj_ZapDataGridView";
+            this.prodaj_ZapDataGridView.Size = new System.Drawing.Size(497, 183);
+            this.prodaj_ZapDataGridView.TabIndex = 0;
+            // 
             // dataGridViewTextBoxColumn19
             // 
             this.dataGridViewTextBoxColumn19.DataPropertyName = "ID_ProdajZap";
@@ -1508,51 +1583,17 @@
             this.dataGridViewTextBoxColumn22.ValueMember = "ID_Type_Zap";
             this.dataGridViewTextBoxColumn22.Width = 150;
             // 
-            // prodaj_TehnBindingSource
+            // tabPage6
             // 
-            this.prodaj_TehnBindingSource.DataMember = "Prodaj_Tehn";
-            this.prodaj_TehnBindingSource.DataSource = this.servisniy_CentrDataSet;
-            // 
-            // prodaj_TehnTableAdapter
-            // 
-            this.prodaj_TehnTableAdapter.ClearBeforeFill = true;
-            // 
-            // prodaj_TehnDataGridView
-            // 
-            this.prodaj_TehnDataGridView.AutoGenerateColumns = false;
-            this.prodaj_TehnDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.prodaj_TehnDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn23,
-            this.dataGridViewTextBoxColumn24,
-            this.dataGridViewTextBoxColumn25});
-            this.prodaj_TehnDataGridView.DataSource = this.prodaj_TehnBindingSource;
-            this.prodaj_TehnDataGridView.Location = new System.Drawing.Point(1, 31);
-            this.prodaj_TehnDataGridView.Name = "prodaj_TehnDataGridView";
-            this.prodaj_TehnDataGridView.Size = new System.Drawing.Size(394, 236);
-            this.prodaj_TehnDataGridView.TabIndex = 0;
-            // 
-            // dataGridViewTextBoxColumn23
-            // 
-            this.dataGridViewTextBoxColumn23.DataPropertyName = "ID_ProdajTeh";
-            this.dataGridViewTextBoxColumn23.HeaderText = "ID_ProdajTeh";
-            this.dataGridViewTextBoxColumn23.Name = "dataGridViewTextBoxColumn23";
-            this.dataGridViewTextBoxColumn23.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn24
-            // 
-            this.dataGridViewTextBoxColumn24.DataPropertyName = "Price";
-            this.dataGridViewTextBoxColumn24.HeaderText = "Price";
-            this.dataGridViewTextBoxColumn24.Name = "dataGridViewTextBoxColumn24";
-            // 
-            // dataGridViewTextBoxColumn25
-            // 
-            this.dataGridViewTextBoxColumn25.DataPropertyName = "Tehnika";
-            this.dataGridViewTextBoxColumn25.DisplayStyle = System.Windows.Forms.DataGridViewComboBoxDisplayStyle.ComboBox;
-            this.dataGridViewTextBoxColumn25.HeaderText = "Tehnika";
-            this.dataGridViewTextBoxColumn25.Name = "dataGridViewTextBoxColumn25";
-            this.dataGridViewTextBoxColumn25.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewTextBoxColumn25.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.dataGridViewTextBoxColumn25.Width = 150;
+            this.tabPage6.Controls.Add(this.bindingNavigator6);
+            this.tabPage6.Controls.Add(this.prodaj_TehnDataGridView);
+            this.tabPage6.Location = new System.Drawing.Point(4, 22);
+            this.tabPage6.Name = "tabPage6";
+            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage6.Size = new System.Drawing.Size(1054, 574);
+            this.tabPage6.TabIndex = 1;
+            this.tabPage6.Text = "Продаж техніки";
+            this.tabPage6.UseVisualStyleBackColor = true;
             // 
             // bindingNavigator6
             // 
@@ -1592,6 +1633,11 @@
             this.toolStripButton31.RightToLeftAutoMirrorImage = true;
             this.toolStripButton31.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton31.Text = "Добавить";
+            // 
+            // prodaj_TehnBindingSource
+            // 
+            this.prodaj_TehnBindingSource.DataMember = "Prodaj_Tehn";
+            this.prodaj_TehnBindingSource.DataSource = this.servisniy_CentrDataSet;
             // 
             // toolStripLabel5
             // 
@@ -1678,15 +1724,650 @@
             this.toolStripButton37.Text = "Оновити";
             this.toolStripButton37.Click += new System.EventHandler(this.toolStripButton37_Click);
             // 
+            // prodaj_TehnDataGridView
+            // 
+            this.prodaj_TehnDataGridView.AutoGenerateColumns = false;
+            this.prodaj_TehnDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.prodaj_TehnDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn23,
+            this.dataGridViewTextBoxColumn24,
+            this.dataGridViewTextBoxColumn25});
+            this.prodaj_TehnDataGridView.DataSource = this.prodaj_TehnBindingSource;
+            this.prodaj_TehnDataGridView.Location = new System.Drawing.Point(1, 31);
+            this.prodaj_TehnDataGridView.Name = "prodaj_TehnDataGridView";
+            this.prodaj_TehnDataGridView.Size = new System.Drawing.Size(394, 236);
+            this.prodaj_TehnDataGridView.TabIndex = 0;
+            // 
+            // dataGridViewTextBoxColumn23
+            // 
+            this.dataGridViewTextBoxColumn23.DataPropertyName = "ID_ProdajTeh";
+            this.dataGridViewTextBoxColumn23.HeaderText = "ID_ProdajTeh";
+            this.dataGridViewTextBoxColumn23.Name = "dataGridViewTextBoxColumn23";
+            this.dataGridViewTextBoxColumn23.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn24
+            // 
+            this.dataGridViewTextBoxColumn24.DataPropertyName = "Price";
+            this.dataGridViewTextBoxColumn24.HeaderText = "Price";
+            this.dataGridViewTextBoxColumn24.Name = "dataGridViewTextBoxColumn24";
+            // 
+            // dataGridViewTextBoxColumn25
+            // 
+            this.dataGridViewTextBoxColumn25.DataPropertyName = "Tehnika";
+            this.dataGridViewTextBoxColumn25.DisplayStyle = System.Windows.Forms.DataGridViewComboBoxDisplayStyle.ComboBox;
+            this.dataGridViewTextBoxColumn25.HeaderText = "Tehnika";
+            this.dataGridViewTextBoxColumn25.Name = "dataGridViewTextBoxColumn25";
+            this.dataGridViewTextBoxColumn25.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewTextBoxColumn25.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.dataGridViewTextBoxColumn25.Width = 150;
+            // 
+            // prodaj_ZapTableAdapter
+            // 
+            this.prodaj_ZapTableAdapter.ClearBeforeFill = true;
+            // 
+            // prodaj_TehnTableAdapter
+            // 
+            this.prodaj_TehnTableAdapter.ClearBeforeFill = true;
+            // 
+            // tabControl4
+            // 
+            this.tabControl4.Controls.Add(this.tabPage7);
+            this.tabControl4.Controls.Add(this.tabPage8);
+            this.tabControl4.Location = new System.Drawing.Point(2, 27);
+            this.tabControl4.Name = "tabControl4";
+            this.tabControl4.SelectedIndex = 0;
+            this.tabControl4.Size = new System.Drawing.Size(1062, 503);
+            this.tabControl4.TabIndex = 4;
+            this.tabControl4.Visible = false;
+            // 
+            // tabPage7
+            // 
+            this.tabPage7.Controls.Add(this.bindingNavigator7);
+            this.tabPage7.Controls.Add(this.zdiysn_PoslugiDataGridView);
+            this.tabPage7.Location = new System.Drawing.Point(4, 22);
+            this.tabPage7.Name = "tabPage7";
+            this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage7.Size = new System.Drawing.Size(1054, 477);
+            this.tabPage7.TabIndex = 0;
+            this.tabPage7.Text = "Надані послуги";
+            this.tabPage7.UseVisualStyleBackColor = true;
+            // 
+            // tabPage8
+            // 
+            this.tabPage8.Controls.Add(this.poslugaDataGridView);
+            this.tabPage8.Controls.Add(this.bindingNavigator8);
+            this.tabPage8.Location = new System.Drawing.Point(4, 22);
+            this.tabPage8.Name = "tabPage8";
+            this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage8.Size = new System.Drawing.Size(1054, 477);
+            this.tabPage8.TabIndex = 1;
+            this.tabPage8.Text = "Послуги";
+            this.tabPage8.UseVisualStyleBackColor = true;
+            // 
+            // zdiysn_PoslugiBindingSource
+            // 
+            this.zdiysn_PoslugiBindingSource.DataMember = "Zdiysn_Poslugi";
+            this.zdiysn_PoslugiBindingSource.DataSource = this.servisniy_CentrDataSet;
+            // 
+            // zdiysn_PoslugiTableAdapter
+            // 
+            this.zdiysn_PoslugiTableAdapter.ClearBeforeFill = true;
+            // 
+            // zdiysn_PoslugiDataGridView
+            // 
+            this.zdiysn_PoslugiDataGridView.AutoGenerateColumns = false;
+            this.zdiysn_PoslugiDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.zdiysn_PoslugiDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn26,
+            this.dataGridViewTextBoxColumn27,
+            this.dataGridViewTextBoxColumn28,
+            this.dataGridViewTextBoxColumn29,
+            this.dataGridViewTextBoxColumn30,
+            this.dataGridViewTextBoxColumn31});
+            this.zdiysn_PoslugiDataGridView.DataSource = this.zdiysn_PoslugiBindingSource;
+            this.zdiysn_PoslugiDataGridView.Location = new System.Drawing.Point(3, 30);
+            this.zdiysn_PoslugiDataGridView.Name = "zdiysn_PoslugiDataGridView";
+            this.zdiysn_PoslugiDataGridView.Size = new System.Drawing.Size(932, 220);
+            this.zdiysn_PoslugiDataGridView.TabIndex = 0;
+            // 
+            // bindingNavigator7
+            // 
+            this.bindingNavigator7.AddNewItem = this.toolStripButton38;
+            this.bindingNavigator7.BindingSource = this.zdiysn_PoslugiBindingSource;
+            this.bindingNavigator7.CountItem = this.toolStripLabel6;
+            this.bindingNavigator7.DeleteItem = this.toolStripButton39;
+            this.bindingNavigator7.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripButton40,
+            this.toolStripButton41,
+            this.toolStripSeparator16,
+            this.toolStripTextBox6,
+            this.toolStripLabel6,
+            this.toolStripSeparator17,
+            this.toolStripButton42,
+            this.toolStripButton43,
+            this.toolStripSeparator18,
+            this.toolStripButton38,
+            this.toolStripButton39,
+            this.toolStripButton44});
+            this.bindingNavigator7.Location = new System.Drawing.Point(3, 3);
+            this.bindingNavigator7.MoveFirstItem = this.toolStripButton40;
+            this.bindingNavigator7.MoveLastItem = this.toolStripButton43;
+            this.bindingNavigator7.MoveNextItem = this.toolStripButton42;
+            this.bindingNavigator7.MovePreviousItem = this.toolStripButton41;
+            this.bindingNavigator7.Name = "bindingNavigator7";
+            this.bindingNavigator7.PositionItem = this.toolStripTextBox6;
+            this.bindingNavigator7.Size = new System.Drawing.Size(1048, 25);
+            this.bindingNavigator7.TabIndex = 4;
+            this.bindingNavigator7.Text = "bindingNavigator7";
+            // 
+            // toolStripButton38
+            // 
+            this.toolStripButton38.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton38.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton38.Image")));
+            this.toolStripButton38.Name = "toolStripButton38";
+            this.toolStripButton38.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton38.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton38.Text = "Добавить";
+            // 
+            // toolStripLabel6
+            // 
+            this.toolStripLabel6.Name = "toolStripLabel6";
+            this.toolStripLabel6.Size = new System.Drawing.Size(43, 22);
+            this.toolStripLabel6.Text = "для {0}";
+            this.toolStripLabel6.ToolTipText = "Общее число элементов";
+            // 
+            // toolStripButton39
+            // 
+            this.toolStripButton39.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton39.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton39.Image")));
+            this.toolStripButton39.Name = "toolStripButton39";
+            this.toolStripButton39.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton39.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton39.Text = "Удалить";
+            // 
+            // toolStripButton40
+            // 
+            this.toolStripButton40.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton40.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton40.Image")));
+            this.toolStripButton40.Name = "toolStripButton40";
+            this.toolStripButton40.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton40.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton40.Text = "Переместить в начало";
+            // 
+            // toolStripButton41
+            // 
+            this.toolStripButton41.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton41.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton41.Image")));
+            this.toolStripButton41.Name = "toolStripButton41";
+            this.toolStripButton41.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton41.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton41.Text = "Переместить назад";
+            // 
+            // toolStripSeparator16
+            // 
+            this.toolStripSeparator16.Name = "toolStripSeparator16";
+            this.toolStripSeparator16.Size = new System.Drawing.Size(6, 25);
+            // 
+            // toolStripTextBox6
+            // 
+            this.toolStripTextBox6.AccessibleName = "Положение";
+            this.toolStripTextBox6.AutoSize = false;
+            this.toolStripTextBox6.Name = "toolStripTextBox6";
+            this.toolStripTextBox6.Size = new System.Drawing.Size(50, 23);
+            this.toolStripTextBox6.Text = "0";
+            this.toolStripTextBox6.ToolTipText = "Текущее положение";
+            // 
+            // toolStripSeparator17
+            // 
+            this.toolStripSeparator17.Name = "toolStripSeparator17";
+            this.toolStripSeparator17.Size = new System.Drawing.Size(6, 25);
+            // 
+            // toolStripButton42
+            // 
+            this.toolStripButton42.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton42.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton42.Image")));
+            this.toolStripButton42.Name = "toolStripButton42";
+            this.toolStripButton42.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton42.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton42.Text = "Переместить вперед";
+            // 
+            // toolStripButton43
+            // 
+            this.toolStripButton43.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton43.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton43.Image")));
+            this.toolStripButton43.Name = "toolStripButton43";
+            this.toolStripButton43.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton43.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton43.Text = "Переместить в конец";
+            // 
+            // toolStripSeparator18
+            // 
+            this.toolStripSeparator18.Name = "toolStripSeparator18";
+            this.toolStripSeparator18.Size = new System.Drawing.Size(6, 25);
+            // 
+            // toolStripButton44
+            // 
+            this.toolStripButton44.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton44.Image")));
+            this.toolStripButton44.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton44.Name = "toolStripButton44";
+            this.toolStripButton44.Size = new System.Drawing.Size(75, 22);
+            this.toolStripButton44.Text = "Оновити";
+            this.toolStripButton44.Click += new System.EventHandler(this.toolStripButton44_Click);
+            // 
+            // bindingNavigator8
+            // 
+            this.bindingNavigator8.AddNewItem = this.toolStripButton45;
+            this.bindingNavigator8.BindingSource = this.poslugaBindingSource;
+            this.bindingNavigator8.CountItem = this.toolStripLabel7;
+            this.bindingNavigator8.DeleteItem = this.toolStripButton46;
+            this.bindingNavigator8.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripButton47,
+            this.toolStripButton48,
+            this.toolStripSeparator19,
+            this.toolStripTextBox7,
+            this.toolStripLabel7,
+            this.toolStripSeparator20,
+            this.toolStripButton49,
+            this.toolStripButton50,
+            this.toolStripSeparator21,
+            this.toolStripButton45,
+            this.toolStripButton46,
+            this.toolStripButton51});
+            this.bindingNavigator8.Location = new System.Drawing.Point(3, 3);
+            this.bindingNavigator8.MoveFirstItem = this.toolStripButton47;
+            this.bindingNavigator8.MoveLastItem = this.toolStripButton50;
+            this.bindingNavigator8.MoveNextItem = this.toolStripButton49;
+            this.bindingNavigator8.MovePreviousItem = this.toolStripButton48;
+            this.bindingNavigator8.Name = "bindingNavigator8";
+            this.bindingNavigator8.PositionItem = this.toolStripTextBox7;
+            this.bindingNavigator8.Size = new System.Drawing.Size(1048, 25);
+            this.bindingNavigator8.TabIndex = 4;
+            this.bindingNavigator8.Text = "bindingNavigator8";
+            // 
+            // toolStripButton45
+            // 
+            this.toolStripButton45.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton45.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton45.Image")));
+            this.toolStripButton45.Name = "toolStripButton45";
+            this.toolStripButton45.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton45.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton45.Text = "Добавить";
+            // 
+            // toolStripLabel7
+            // 
+            this.toolStripLabel7.Name = "toolStripLabel7";
+            this.toolStripLabel7.Size = new System.Drawing.Size(43, 22);
+            this.toolStripLabel7.Text = "для {0}";
+            this.toolStripLabel7.ToolTipText = "Общее число элементов";
+            // 
+            // toolStripButton46
+            // 
+            this.toolStripButton46.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton46.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton46.Image")));
+            this.toolStripButton46.Name = "toolStripButton46";
+            this.toolStripButton46.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton46.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton46.Text = "Удалить";
+            // 
+            // toolStripButton47
+            // 
+            this.toolStripButton47.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton47.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton47.Image")));
+            this.toolStripButton47.Name = "toolStripButton47";
+            this.toolStripButton47.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton47.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton47.Text = "Переместить в начало";
+            // 
+            // toolStripButton48
+            // 
+            this.toolStripButton48.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton48.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton48.Image")));
+            this.toolStripButton48.Name = "toolStripButton48";
+            this.toolStripButton48.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton48.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton48.Text = "Переместить назад";
+            // 
+            // toolStripSeparator19
+            // 
+            this.toolStripSeparator19.Name = "toolStripSeparator19";
+            this.toolStripSeparator19.Size = new System.Drawing.Size(6, 25);
+            // 
+            // toolStripTextBox7
+            // 
+            this.toolStripTextBox7.AccessibleName = "Положение";
+            this.toolStripTextBox7.AutoSize = false;
+            this.toolStripTextBox7.Name = "toolStripTextBox7";
+            this.toolStripTextBox7.Size = new System.Drawing.Size(50, 23);
+            this.toolStripTextBox7.Text = "0";
+            this.toolStripTextBox7.ToolTipText = "Текущее положение";
+            // 
+            // toolStripSeparator20
+            // 
+            this.toolStripSeparator20.Name = "toolStripSeparator20";
+            this.toolStripSeparator20.Size = new System.Drawing.Size(6, 25);
+            // 
+            // toolStripButton49
+            // 
+            this.toolStripButton49.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton49.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton49.Image")));
+            this.toolStripButton49.Name = "toolStripButton49";
+            this.toolStripButton49.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton49.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton49.Text = "Переместить вперед";
+            // 
+            // toolStripButton50
+            // 
+            this.toolStripButton50.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton50.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton50.Image")));
+            this.toolStripButton50.Name = "toolStripButton50";
+            this.toolStripButton50.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton50.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton50.Text = "Переместить в конец";
+            // 
+            // toolStripSeparator21
+            // 
+            this.toolStripSeparator21.Name = "toolStripSeparator21";
+            this.toolStripSeparator21.Size = new System.Drawing.Size(6, 25);
+            // 
+            // toolStripButton51
+            // 
+            this.toolStripButton51.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton51.Image")));
+            this.toolStripButton51.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton51.Name = "toolStripButton51";
+            this.toolStripButton51.Size = new System.Drawing.Size(75, 22);
+            this.toolStripButton51.Text = "Оновити";
+            this.toolStripButton51.Click += new System.EventHandler(this.toolStripButton51_Click);
+            // 
+            // poslugaBindingSource
+            // 
+            this.poslugaBindingSource.DataMember = "Posluga";
+            this.poslugaBindingSource.DataSource = this.servisniy_CentrDataSet;
+            // 
+            // poslugaTableAdapter
+            // 
+            this.poslugaTableAdapter.ClearBeforeFill = true;
+            // 
+            // poslugaDataGridView
+            // 
+            this.poslugaDataGridView.AutoGenerateColumns = false;
+            this.poslugaDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.poslugaDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn32,
+            this.dataGridViewTextBoxColumn33,
+            this.dataGridViewTextBoxColumn34});
+            this.poslugaDataGridView.DataSource = this.poslugaBindingSource;
+            this.poslugaDataGridView.Location = new System.Drawing.Point(0, 31);
+            this.poslugaDataGridView.Name = "poslugaDataGridView";
+            this.poslugaDataGridView.Size = new System.Drawing.Size(496, 220);
+            this.poslugaDataGridView.TabIndex = 4;
+            // 
+            // dataGridViewTextBoxColumn32
+            // 
+            this.dataGridViewTextBoxColumn32.DataPropertyName = "ID_Posluga";
+            this.dataGridViewTextBoxColumn32.HeaderText = "ID_Posluga";
+            this.dataGridViewTextBoxColumn32.Name = "dataGridViewTextBoxColumn32";
+            this.dataGridViewTextBoxColumn32.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn33
+            // 
+            this.dataGridViewTextBoxColumn33.DataPropertyName = "Nazvanie";
+            this.dataGridViewTextBoxColumn33.HeaderText = "Nazvanie";
+            this.dataGridViewTextBoxColumn33.Name = "dataGridViewTextBoxColumn33";
+            this.dataGridViewTextBoxColumn33.Width = 250;
+            // 
+            // dataGridViewTextBoxColumn34
+            // 
+            this.dataGridViewTextBoxColumn34.DataPropertyName = "Price";
+            this.dataGridViewTextBoxColumn34.HeaderText = "Price";
+            this.dataGridViewTextBoxColumn34.Name = "dataGridViewTextBoxColumn34";
+            // 
+            // dataGridViewTextBoxColumn31
+            // 
+            this.dataGridViewTextBoxColumn31.DataPropertyName = "Zapchastunu";
+            this.dataGridViewTextBoxColumn31.DataSource = this.typeZapBindingSource;
+            this.dataGridViewTextBoxColumn31.DisplayMember = "Nazvanie";
+            this.dataGridViewTextBoxColumn31.DisplayStyle = System.Windows.Forms.DataGridViewComboBoxDisplayStyle.ComboBox;
+            this.dataGridViewTextBoxColumn31.HeaderText = "Zapchastunu";
+            this.dataGridViewTextBoxColumn31.Name = "dataGridViewTextBoxColumn31";
+            this.dataGridViewTextBoxColumn31.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewTextBoxColumn31.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.dataGridViewTextBoxColumn31.ValueMember = "ID_Type_Zap";
+            this.dataGridViewTextBoxColumn31.Width = 170;
+            // 
+            // dataGridViewTextBoxColumn30
+            // 
+            this.dataGridViewTextBoxColumn30.DataPropertyName = "Pracivnuku";
+            this.dataGridViewTextBoxColumn30.HeaderText = "Pracivnuku";
+            this.dataGridViewTextBoxColumn30.Name = "dataGridViewTextBoxColumn30";
+            this.dataGridViewTextBoxColumn30.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
+            // dataGridViewTextBoxColumn29
+            // 
+            this.dataGridViewTextBoxColumn29.DataPropertyName = "Posluga";
+            this.dataGridViewTextBoxColumn29.DataSource = this.poslugaBindingSource;
+            this.dataGridViewTextBoxColumn29.DisplayMember = "Nazvanie";
+            this.dataGridViewTextBoxColumn29.DisplayStyle = System.Windows.Forms.DataGridViewComboBoxDisplayStyle.ComboBox;
+            this.dataGridViewTextBoxColumn29.HeaderText = "Posluga";
+            this.dataGridViewTextBoxColumn29.Name = "dataGridViewTextBoxColumn29";
+            this.dataGridViewTextBoxColumn29.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewTextBoxColumn29.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.dataGridViewTextBoxColumn29.ValueMember = "ID_Posluga";
+            this.dataGridViewTextBoxColumn29.Width = 210;
+            // 
+            // dataGridViewTextBoxColumn28
+            // 
+            this.dataGridViewTextBoxColumn28.DataPropertyName = "Tehnika";
+            this.dataGridViewTextBoxColumn28.HeaderText = "Tehnika";
+            this.dataGridViewTextBoxColumn28.Name = "dataGridViewTextBoxColumn28";
+            // 
+            // dataGridViewTextBoxColumn27
+            // 
+            this.dataGridViewTextBoxColumn27.DataPropertyName = "Data";
+            this.dataGridViewTextBoxColumn27.HeaderText = "Data";
+            this.dataGridViewTextBoxColumn27.Name = "dataGridViewTextBoxColumn27";
+            // 
+            // dataGridViewTextBoxColumn26
+            // 
+            this.dataGridViewTextBoxColumn26.DataPropertyName = "ID_ZdiysnPosl";
+            this.dataGridViewTextBoxColumn26.HeaderText = "ID_ZdiysnPosl";
+            this.dataGridViewTextBoxColumn26.Name = "dataGridViewTextBoxColumn26";
+            this.dataGridViewTextBoxColumn26.ReadOnly = true;
+            // 
+            // tabControl5
+            // 
+            this.tabControl5.Controls.Add(this.tabPage9);
+            this.tabControl5.Controls.Add(this.tabPage10);
+            this.tabControl5.Controls.Add(this.tabPage11);
+            this.tabControl5.Location = new System.Drawing.Point(2, 27);
+            this.tabControl5.Name = "tabControl5";
+            this.tabControl5.SelectedIndex = 0;
+            this.tabControl5.Size = new System.Drawing.Size(1062, 447);
+            this.tabControl5.TabIndex = 5;
+            // 
+            // tabPage9
+            // 
+            this.tabPage9.Controls.Add(this.tehnikaDataGridView);
+            this.tabPage9.Location = new System.Drawing.Point(4, 22);
+            this.tabPage9.Name = "tabPage9";
+            this.tabPage9.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage9.Size = new System.Drawing.Size(1054, 421);
+            this.tabPage9.TabIndex = 0;
+            this.tabPage9.Text = "Техніка";
+            this.tabPage9.UseVisualStyleBackColor = true;
+            // 
+            // tabPage10
+            // 
+            this.tabPage10.Controls.Add(this.tipDataGridView);
+            this.tabPage10.Location = new System.Drawing.Point(4, 22);
+            this.tabPage10.Name = "tabPage10";
+            this.tabPage10.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage10.Size = new System.Drawing.Size(1054, 421);
+            this.tabPage10.TabIndex = 1;
+            this.tabPage10.Text = "Тип";
+            this.tabPage10.UseVisualStyleBackColor = true;
+            // 
+            // tabPage11
+            // 
+            this.tabPage11.Controls.Add(this.stanDataGridView);
+            this.tabPage11.Location = new System.Drawing.Point(4, 22);
+            this.tabPage11.Name = "tabPage11";
+            this.tabPage11.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage11.Size = new System.Drawing.Size(1054, 421);
+            this.tabPage11.TabIndex = 2;
+            this.tabPage11.Text = "Стан";
+            this.tabPage11.UseVisualStyleBackColor = true;
+            // 
+            // tehnikaBindingSource
+            // 
+            this.tehnikaBindingSource.DataMember = "Tehnika";
+            this.tehnikaBindingSource.DataSource = this.servisniy_CentrDataSet;
+            // 
+            // tehnikaTableAdapter
+            // 
+            this.tehnikaTableAdapter.ClearBeforeFill = true;
+            // 
+            // tehnikaDataGridView
+            // 
+            this.tehnikaDataGridView.AutoGenerateColumns = false;
+            this.tehnikaDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.tehnikaDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn35,
+            this.dataGridViewTextBoxColumn36,
+            this.dataGridViewTextBoxColumn37,
+            this.dataGridViewTextBoxColumn38,
+            this.dataGridViewTextBoxColumn39,
+            this.dataGridViewTextBoxColumn40,
+            this.dataGridViewTextBoxColumn41});
+            this.tehnikaDataGridView.DataSource = this.tehnikaBindingSource;
+            this.tehnikaDataGridView.Location = new System.Drawing.Point(3, 45);
+            this.tehnikaDataGridView.Name = "tehnikaDataGridView";
+            this.tehnikaDataGridView.Size = new System.Drawing.Size(747, 220);
+            this.tehnikaDataGridView.TabIndex = 0;
+            // 
+            // dataGridViewTextBoxColumn35
+            // 
+            this.dataGridViewTextBoxColumn35.DataPropertyName = "ID_Tehnika";
+            this.dataGridViewTextBoxColumn35.HeaderText = "ID_Tehnika";
+            this.dataGridViewTextBoxColumn35.Name = "dataGridViewTextBoxColumn35";
+            this.dataGridViewTextBoxColumn35.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn36
+            // 
+            this.dataGridViewTextBoxColumn36.DataPropertyName = "Model";
+            this.dataGridViewTextBoxColumn36.HeaderText = "Model";
+            this.dataGridViewTextBoxColumn36.Name = "dataGridViewTextBoxColumn36";
+            // 
+            // dataGridViewTextBoxColumn37
+            // 
+            this.dataGridViewTextBoxColumn37.DataPropertyName = "Data_Nachala";
+            this.dataGridViewTextBoxColumn37.HeaderText = "Data_Nachala";
+            this.dataGridViewTextBoxColumn37.Name = "dataGridViewTextBoxColumn37";
+            // 
+            // dataGridViewTextBoxColumn38
+            // 
+            this.dataGridViewTextBoxColumn38.DataPropertyName = "Data_Kontsa";
+            this.dataGridViewTextBoxColumn38.HeaderText = "Data_Kontsa";
+            this.dataGridViewTextBoxColumn38.Name = "dataGridViewTextBoxColumn38";
+            // 
+            // dataGridViewTextBoxColumn39
+            // 
+            this.dataGridViewTextBoxColumn39.DataPropertyName = "Status";
+            this.dataGridViewTextBoxColumn39.HeaderText = "Status";
+            this.dataGridViewTextBoxColumn39.Name = "dataGridViewTextBoxColumn39";
+            // 
+            // dataGridViewTextBoxColumn40
+            // 
+            this.dataGridViewTextBoxColumn40.DataPropertyName = "Tip";
+            this.dataGridViewTextBoxColumn40.HeaderText = "Tip";
+            this.dataGridViewTextBoxColumn40.Name = "dataGridViewTextBoxColumn40";
+            // 
+            // dataGridViewTextBoxColumn41
+            // 
+            this.dataGridViewTextBoxColumn41.DataPropertyName = "Stan";
+            this.dataGridViewTextBoxColumn41.HeaderText = "Stan";
+            this.dataGridViewTextBoxColumn41.Name = "dataGridViewTextBoxColumn41";
+            // 
+            // tipBindingSource
+            // 
+            this.tipBindingSource.DataMember = "Tip";
+            this.tipBindingSource.DataSource = this.servisniy_CentrDataSet;
+            // 
+            // tipTableAdapter
+            // 
+            this.tipTableAdapter.ClearBeforeFill = true;
+            // 
+            // tipDataGridView
+            // 
+            this.tipDataGridView.AutoGenerateColumns = false;
+            this.tipDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.tipDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn42,
+            this.dataGridViewTextBoxColumn43});
+            this.tipDataGridView.DataSource = this.tipBindingSource;
+            this.tipDataGridView.Location = new System.Drawing.Point(1, 31);
+            this.tipDataGridView.Name = "tipDataGridView";
+            this.tipDataGridView.Size = new System.Drawing.Size(312, 220);
+            this.tipDataGridView.TabIndex = 0;
+            // 
+            // dataGridViewTextBoxColumn42
+            // 
+            this.dataGridViewTextBoxColumn42.DataPropertyName = "ID_Type";
+            this.dataGridViewTextBoxColumn42.HeaderText = "ID_Type";
+            this.dataGridViewTextBoxColumn42.Name = "dataGridViewTextBoxColumn42";
+            this.dataGridViewTextBoxColumn42.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn43
+            // 
+            this.dataGridViewTextBoxColumn43.DataPropertyName = "Nazvanie";
+            this.dataGridViewTextBoxColumn43.HeaderText = "Nazvanie";
+            this.dataGridViewTextBoxColumn43.Name = "dataGridViewTextBoxColumn43";
+            // 
+            // stanBindingSource
+            // 
+            this.stanBindingSource.DataMember = "Stan";
+            this.stanBindingSource.DataSource = this.servisniy_CentrDataSet;
+            // 
+            // stanTableAdapter
+            // 
+            this.stanTableAdapter.ClearBeforeFill = true;
+            // 
+            // stanDataGridView
+            // 
+            this.stanDataGridView.AutoGenerateColumns = false;
+            this.stanDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.stanDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn44,
+            this.dataGridViewTextBoxColumn45});
+            this.stanDataGridView.DataSource = this.stanBindingSource;
+            this.stanDataGridView.Location = new System.Drawing.Point(3, 31);
+            this.stanDataGridView.Name = "stanDataGridView";
+            this.stanDataGridView.Size = new System.Drawing.Size(300, 220);
+            this.stanDataGridView.TabIndex = 0;
+            // 
+            // dataGridViewTextBoxColumn44
+            // 
+            this.dataGridViewTextBoxColumn44.DataPropertyName = "ID_Stan";
+            this.dataGridViewTextBoxColumn44.HeaderText = "ID_Stan";
+            this.dataGridViewTextBoxColumn44.Name = "dataGridViewTextBoxColumn44";
+            this.dataGridViewTextBoxColumn44.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn45
+            // 
+            this.dataGridViewTextBoxColumn45.DataPropertyName = "Nazvanie";
+            this.dataGridViewTextBoxColumn45.HeaderText = "Nazvanie";
+            this.dataGridViewTextBoxColumn45.Name = "dataGridViewTextBoxColumn45";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1264, 762);
+            this.Controls.Add(this.tabControl5);
             this.Controls.Add(this.menuStrip1);
-            this.Controls.Add(this.tabControl3);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.tabControl2);
+            this.Controls.Add(this.tabControl4);
+            this.Controls.Add(this.tabControl3);
             this.MainMenuStrip = this.menuStrip1;
             this.MaximumSize = new System.Drawing.Size(1680, 1050);
             this.MinimumSize = new System.Drawing.Size(1280, 800);
@@ -1703,47 +2384,72 @@
             this.bindingNavigator1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.postachBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.servisniy_CentrDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.postachDataGridView)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.postavkiDataGridView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.typeZapBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.postavkiBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator2)).EndInit();
             this.bindingNavigator2.ResumeLayout(false);
             this.bindingNavigator2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.postavkiBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.postachBindingSource1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.typeZapBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.zapchastunuBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.servisniy_CentrDataSet1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.akt_peredachi_v_remontBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.postachDataGridView)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.postavkiDataGridView)).EndInit();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.zapchastunuDataGridView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator3)).EndInit();
             this.bindingNavigator3.ResumeLayout(false);
             this.bindingNavigator3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.zapchastunuDataGridView)).EndInit();
             this.tabControl2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.type_ZapDataGridView)).EndInit();
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator4)).EndInit();
             this.bindingNavigator4.ResumeLayout(false);
             this.bindingNavigator4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.type_ZapDataGridView)).EndInit();
             this.tabControl3.ResumeLayout(false);
             this.tabPage5.ResumeLayout(false);
             this.tabPage5.PerformLayout();
-            this.tabPage6.ResumeLayout(false);
-            this.tabPage6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.prodaj_ZapBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.prodaj_ZapDataGridView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator5)).EndInit();
             this.bindingNavigator5.ResumeLayout(false);
             this.bindingNavigator5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.prodaj_TehnBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.prodaj_TehnDataGridView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.prodaj_ZapBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.prodaj_ZapDataGridView)).EndInit();
+            this.tabPage6.ResumeLayout(false);
+            this.tabPage6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator6)).EndInit();
             this.bindingNavigator6.ResumeLayout(false);
             this.bindingNavigator6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.prodaj_TehnBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.prodaj_TehnDataGridView)).EndInit();
+            this.tabControl4.ResumeLayout(false);
+            this.tabPage7.ResumeLayout(false);
+            this.tabPage7.PerformLayout();
+            this.tabPage8.ResumeLayout(false);
+            this.tabPage8.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.zdiysn_PoslugiBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.zdiysn_PoslugiDataGridView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator7)).EndInit();
+            this.bindingNavigator7.ResumeLayout(false);
+            this.bindingNavigator7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator8)).EndInit();
+            this.bindingNavigator8.ResumeLayout(false);
+            this.bindingNavigator8.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.poslugaBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.poslugaDataGridView)).EndInit();
+            this.tabControl5.ResumeLayout(false);
+            this.tabPage9.ResumeLayout(false);
+            this.tabPage10.ResumeLayout(false);
+            this.tabPage11.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.tehnikaBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tehnikaDataGridView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tipBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tipDataGridView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stanBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stanDataGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1914,6 +2620,74 @@
         private System.Windows.Forms.ToolStripButton toolStripButton36;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator15;
         private System.Windows.Forms.ToolStripButton toolStripButton37;
+        private System.Windows.Forms.TabControl tabControl4;
+        private System.Windows.Forms.TabPage tabPage7;
+        private System.Windows.Forms.TabPage tabPage8;
+        private System.Windows.Forms.BindingSource zdiysn_PoslugiBindingSource;
+        private Servisniy_CentrDataSetTableAdapters.Zdiysn_PoslugiTableAdapter zdiysn_PoslugiTableAdapter;
+        private System.Windows.Forms.BindingNavigator bindingNavigator7;
+        private System.Windows.Forms.ToolStripButton toolStripButton38;
+        private System.Windows.Forms.ToolStripLabel toolStripLabel6;
+        private System.Windows.Forms.ToolStripButton toolStripButton39;
+        private System.Windows.Forms.ToolStripButton toolStripButton40;
+        private System.Windows.Forms.ToolStripButton toolStripButton41;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator16;
+        private System.Windows.Forms.ToolStripTextBox toolStripTextBox6;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator17;
+        private System.Windows.Forms.ToolStripButton toolStripButton42;
+        private System.Windows.Forms.ToolStripButton toolStripButton43;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator18;
+        private System.Windows.Forms.ToolStripButton toolStripButton44;
+        private System.Windows.Forms.DataGridView zdiysn_PoslugiDataGridView;
+        private System.Windows.Forms.BindingNavigator bindingNavigator8;
+        private System.Windows.Forms.ToolStripButton toolStripButton45;
+        private System.Windows.Forms.ToolStripLabel toolStripLabel7;
+        private System.Windows.Forms.ToolStripButton toolStripButton46;
+        private System.Windows.Forms.ToolStripButton toolStripButton47;
+        private System.Windows.Forms.ToolStripButton toolStripButton48;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator19;
+        private System.Windows.Forms.ToolStripTextBox toolStripTextBox7;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator20;
+        private System.Windows.Forms.ToolStripButton toolStripButton49;
+        private System.Windows.Forms.ToolStripButton toolStripButton50;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator21;
+        private System.Windows.Forms.ToolStripButton toolStripButton51;
+        private System.Windows.Forms.BindingSource poslugaBindingSource;
+        private Servisniy_CentrDataSetTableAdapters.PoslugaTableAdapter poslugaTableAdapter;
+        private System.Windows.Forms.DataGridView poslugaDataGridView;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn26;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn27;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn28;
+        private System.Windows.Forms.DataGridViewComboBoxColumn dataGridViewTextBoxColumn29;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn30;
+        private System.Windows.Forms.DataGridViewComboBoxColumn dataGridViewTextBoxColumn31;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn32;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn33;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn34;
+        private System.Windows.Forms.TabControl tabControl5;
+        private System.Windows.Forms.TabPage tabPage9;
+        private System.Windows.Forms.TabPage tabPage10;
+        private System.Windows.Forms.TabPage tabPage11;
+        private System.Windows.Forms.BindingSource tehnikaBindingSource;
+        private Servisniy_CentrDataSetTableAdapters.TehnikaTableAdapter tehnikaTableAdapter;
+        private System.Windows.Forms.DataGridView tehnikaDataGridView;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn35;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn36;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn37;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn38;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn39;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn40;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn41;
+        private System.Windows.Forms.BindingSource tipBindingSource;
+        private Servisniy_CentrDataSetTableAdapters.TipTableAdapter tipTableAdapter;
+        private System.Windows.Forms.DataGridView tipDataGridView;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn42;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn43;
+        private System.Windows.Forms.BindingSource stanBindingSource;
+        private Servisniy_CentrDataSetTableAdapters.StanTableAdapter stanTableAdapter;
+        private System.Windows.Forms.DataGridView stanDataGridView;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn44;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn45;
     }
 }
 
