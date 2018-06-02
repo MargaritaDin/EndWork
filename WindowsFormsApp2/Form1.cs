@@ -32,6 +32,8 @@ namespace WindowsFormsApp2
            tabControl3.Visible = false;
             tabControl4.Visible = false;
             tabControl5.Visible = false;
+            tabControl6.Visible = false;
+            tabControl7.Visible = false;
 
         }
 
@@ -46,6 +48,8 @@ namespace WindowsFormsApp2
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "servisniy_CentrDataSet.Pracivnuku". При необходимости она может быть перемещена или удалена.
+            this.pracivnukuTableAdapter.Fill(this.servisniy_CentrDataSet.Pracivnuku);
             // TODO: данная строка кода позволяет загрузить данные в таблицу "servisniy_CentrDataSet.Stan". При необходимости она может быть перемещена или удалена.
             this.stanTableAdapter.Fill(this.servisniy_CentrDataSet.Stan);
             // TODO: данная строка кода позволяет загрузить данные в таблицу "servisniy_CentrDataSet.Tip". При необходимости она может быть перемещена или удалена.
@@ -105,13 +109,12 @@ namespace WindowsFormsApp2
             tabControl3.Visible = false;
             tabControl4.Visible = false;
             tabControl5.Visible = false;
+            tabControl6.Visible = false;
+            tabControl7.Visible = false;
 
         }
 
-        private void tabPage2_Click(object sender, EventArgs e)
-        {
-
-        }
+        
 
         private void выходToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -140,6 +143,8 @@ namespace WindowsFormsApp2
             tabControl2.Visible = false;
             tabControl5.Visible = false;
             tabControl4.Visible = false;
+            tabControl6.Visible = false;
+            tabControl7.Visible = false;
         }
 
         private void toolStripButton44_Click(object sender, EventArgs e)
@@ -159,6 +164,8 @@ namespace WindowsFormsApp2
             tabControl2.Visible = false;
             tabControl3.Visible = false;
             tabControl5.Visible = false;
+            tabControl6.Visible = false;
+            tabControl7.Visible = false;
         }
 
         private void технікаToolStripMenuItem_Click(object sender, EventArgs e)
@@ -168,6 +175,55 @@ namespace WindowsFormsApp2
             tabControl2.Visible = false;
             tabControl4.Visible = false;
             tabControl3.Visible = false;
+            tabControl6.Visible = false;
+            tabControl7.Visible = false;
+        }
+
+        private void оформленняПослугиToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            tabControl6.Visible = true;
+            tabControl5.Visible = false;
+            tabControl1.Visible = false;
+            tabControl2.Visible = false;
+            tabControl4.Visible = false;
+            tabControl3.Visible = false;
+            tabControl7.Visible = false;
+        }
+
+        private void списокПрацівниківToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            tabControl7.Visible = true;
+            tabControl6.Visible = false;
+            tabControl5.Visible = false;
+            tabControl1.Visible = false;
+            tabControl2.Visible = false;
+            tabControl4.Visible = false;
+            tabControl3.Visible = false;
+        }
+
+        private void toolStripButton79_Click(object sender, EventArgs e)
+        {
+            this.akt_peredachi_v_remontTableAdapter.Update(this.servisniy_CentrDataSet);
+        }
+
+        private void toolStripButton58_Click(object sender, EventArgs e)
+        {
+            this.tehnikaTableAdapter.Update(this.servisniy_CentrDataSet);
+        }
+
+        private void toolStripButton72_Click(object sender, EventArgs e)
+        {
+            this.stanTableAdapter.Update(this.servisniy_CentrDataSet);
+        }
+
+        private void toolStripButton65_Click(object sender, EventArgs e)
+        {
+            this.tipTableAdapter.Update(this.servisniy_CentrDataSet);
+        }
+
+        private void toolStripButton86_Click(object sender, EventArgs e)
+        {
+            this.pracivnukuTableAdapter.Update(this.servisniy_CentrDataSet);
         }
     }
 }
