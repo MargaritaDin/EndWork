@@ -30,6 +30,8 @@ namespace WindowsFormsApp2
            tabControl1.Visible = true;
            tabControl2.Visible = false;
            tabControl3.Visible = false;
+            tabControl4.Visible = false;
+            tabControl5.Visible = false;
 
         }
 
@@ -101,7 +103,9 @@ namespace WindowsFormsApp2
             tabControl2.Visible = true; 
             tabControl1.Visible = false;
             tabControl3.Visible = false;
-           
+            tabControl4.Visible = false;
+            tabControl5.Visible = false;
+
         }
 
         private void tabPage2_Click(object sender, EventArgs e)
@@ -134,6 +138,8 @@ namespace WindowsFormsApp2
             tabControl3.Visible = true;
             tabControl1.Visible = false;
             tabControl2.Visible = false;
+            tabControl5.Visible = false;
+            tabControl4.Visible = false;
         }
 
         private void toolStripButton44_Click(object sender, EventArgs e)
@@ -152,6 +158,7 @@ namespace WindowsFormsApp2
             tabControl1.Visible = false;
             tabControl2.Visible = false;
             tabControl3.Visible = false;
+            tabControl5.Visible = false;
         }
 
         private void технікаToolStripMenuItem_Click(object sender, EventArgs e)
@@ -160,7 +167,7 @@ namespace WindowsFormsApp2
             tabControl1.Visible = false;
             tabControl2.Visible = false;
             tabControl4.Visible = false;
-            tabControl4.Visible = false;
+            tabControl3.Visible = false;
         }
     }
 }
