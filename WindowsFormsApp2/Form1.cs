@@ -13,7 +13,7 @@ namespace WindowsFormsApp2
     
     public partial class Form1 : Form
     {
-        
+        private Servisniy_CentrDataSet.Akt_peredachi_v_remontDataTable akt_peredachi_v_remontDataTable;
 
         public Form1()
         {
@@ -48,6 +48,8 @@ namespace WindowsFormsApp2
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "servisniy_CentrDataSet.Akt_peredachi_v_remont". При необходимости она может быть перемещена или удалена.
+            this.akt_peredachi_v_remontTableAdapter.Fill(this.servisniy_CentrDataSet.Akt_peredachi_v_remont);
             // TODO: данная строка кода позволяет загрузить данные в таблицу "servisniy_CentrDataSet.Pracivnuku". При необходимости она может быть перемещена или удалена.
             this.pracivnukuTableAdapter.Fill(this.servisniy_CentrDataSet.Pracivnuku);
             // TODO: данная строка кода позволяет загрузить данные в таблицу "servisniy_CentrDataSet.Stan". При необходимости она может быть перемещена или удалена.
@@ -181,6 +183,7 @@ namespace WindowsFormsApp2
 
         private void оформленняПослугиToolStripMenuItem_Click(object sender, EventArgs e)
         {
+          
             tabControl6.Visible = true;
             tabControl5.Visible = false;
             tabControl1.Visible = false;
