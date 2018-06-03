@@ -120,7 +120,7 @@ namespace WindowsFormsApp2
 
         private void выходToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Close(); 
+            Application.Exit();
         }
 
         private void toolStripButton30_Click(object sender, EventArgs e)

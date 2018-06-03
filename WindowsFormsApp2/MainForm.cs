@@ -16,11 +16,22 @@ namespace WindowsFormsApp2
         {
             InitializeComponent();
             loginUserControl1.LoginEvent += OnLogin;
+            
         }
 
         public void OnLogin(object sender, EventArgs e)
         {
             loginUserControl1.Visible = false;
+            if (loginUserControl1.Visible == false)
+                button2.Visible = true;
+                label1.Visible = true;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {   
+            Form1 form = new Form1();
+            form.Show();
+            this.Hide();
         }
     }
 }
