@@ -228,5 +228,10 @@ namespace WindowsFormsApp2
         {
             this.pracivnukuTableAdapter.Update(this.servisniy_CentrDataSet);
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            DbCommunication.CreateUser(null, null);
+        }
     }
 }

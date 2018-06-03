@@ -20,3 +20,5 @@ C:\Users\Администратор\Desktop\диплом\2\WindowsFormsApp2\obj\
 C:\Users\Администратор\Desktop\диплом\2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CoreCompileInputs.cache
 C:\Users\Администратор\Desktop\диплом\2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
 C:\Users\Администратор\Desktop\диплом\2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
+C:\Users\Администратор\Desktop\диплом\2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.LoginUserControl.resources
+C:\Users\Администратор\Desktop\диплом\2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.MainForm.resources

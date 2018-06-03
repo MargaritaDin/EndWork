@@ -47,6 +47,8 @@
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.bindingNavigator1 = new System.Windows.Forms.BindingNavigator(this.components);
             this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
+            this.postachBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.servisniy_CentrDataSet = new WindowsFormsApp2.Servisniy_CentrDataSet();
             this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
             this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
@@ -59,8 +61,21 @@
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.postachDataGridView = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.postavkiDataGridView = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.dataGridViewTextBoxColumn11 = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.typeZapBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.postavkiBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.bindingNavigator2 = new System.Windows.Forms.BindingNavigator(this.components);
             this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
             this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
@@ -76,6 +91,13 @@
             this.toolStripButton8 = new System.Windows.Forms.ToolStripButton();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.zapchastunuDataGridView = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewCheckBoxColumn1 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.dataGridViewTextBoxColumn15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn16 = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.zapchastunuBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.bindingNavigator3 = new System.Windows.Forms.BindingNavigator(this.components);
             this.bindingNavigatorAddNewItem1 = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorCountItem1 = new System.Windows.Forms.ToolStripLabel();
@@ -105,6 +127,8 @@
             this.toolStripSeparator9 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton23 = new System.Windows.Forms.ToolStripButton();
             this.type_ZapDataGridView = new System.Windows.Forms.DataGridView();
+            this.iDTypeZapDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nazvanieDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn18 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn17 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.toolStripButton12 = new System.Windows.Forms.ToolStripButton();
@@ -123,6 +147,7 @@
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.bindingNavigator5 = new System.Windows.Forms.BindingNavigator(this.components);
             this.toolStripButton24 = new System.Windows.Forms.ToolStripButton();
+            this.prodaj_ZapBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.toolStripLabel4 = new System.Windows.Forms.ToolStripLabel();
             this.toolStripButton25 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton26 = new System.Windows.Forms.ToolStripButton();
@@ -135,9 +160,14 @@
             this.toolStripSeparator12 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton30 = new System.Windows.Forms.ToolStripButton();
             this.prodaj_ZapDataGridView = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn19 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn20 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn21 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn22 = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.bindingNavigator6 = new System.Windows.Forms.BindingNavigator(this.components);
             this.toolStripButton31 = new System.Windows.Forms.ToolStripButton();
+            this.prodaj_TehnBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.toolStripLabel5 = new System.Windows.Forms.ToolStripLabel();
             this.toolStripButton32 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton33 = new System.Windows.Forms.ToolStripButton();
@@ -150,12 +180,17 @@
             this.toolStripSeparator15 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton37 = new System.Windows.Forms.ToolStripButton();
             this.prodaj_TehnDataGridView = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn23 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Date_Z = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn25 = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.tehnikaBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.dataGridViewTextBoxColumn24 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.comments = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabControl4 = new System.Windows.Forms.TabControl();
             this.tabPage7 = new System.Windows.Forms.TabPage();
             this.bindingNavigator7 = new System.Windows.Forms.BindingNavigator(this.components);
             this.toolStripButton38 = new System.Windows.Forms.ToolStripButton();
+            this.zdiysn_PoslugiBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.toolStripLabel6 = new System.Windows.Forms.ToolStripLabel();
             this.toolStripButton39 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton40 = new System.Windows.Forms.ToolStripButton();
@@ -168,8 +203,19 @@
             this.toolStripSeparator18 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton44 = new System.Windows.Forms.ToolStripButton();
             this.zdiysn_PoslugiDataGridView = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn26 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn27 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn28 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn29 = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.poslugaBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.dataGridViewTextBoxColumn30 = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.pracivnukuBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.dataGridViewTextBoxColumn31 = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.tabPage8 = new System.Windows.Forms.TabPage();
             this.poslugaDataGridView = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn32 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn33 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn34 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.bindingNavigator8 = new System.Windows.Forms.BindingNavigator(this.components);
             this.toolStripButton45 = new System.Windows.Forms.ToolStripButton();
             this.toolStripLabel7 = new System.Windows.Forms.ToolStripLabel();
@@ -199,6 +245,15 @@
             this.toolStripSeparator24 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton58 = new System.Windows.Forms.ToolStripButton();
             this.tehnikaDataGridView = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn35 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn36 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn37 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn38 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn39 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn40 = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.tipBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.dataGridViewTextBoxColumn41 = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.stanBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.tabPage11 = new System.Windows.Forms.TabPage();
             this.bindingNavigator11 = new System.Windows.Forms.BindingNavigator(this.components);
             this.toolStripButton66 = new System.Windows.Forms.ToolStripButton();
@@ -214,6 +269,8 @@
             this.toolStripSeparator30 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton72 = new System.Windows.Forms.ToolStripButton();
             this.stanDataGridView = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn44 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn45 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabPage10 = new System.Windows.Forms.TabPage();
             this.bindingNavigator10 = new System.Windows.Forms.BindingNavigator(this.components);
             this.toolStripButton59 = new System.Windows.Forms.ToolStripButton();
@@ -229,7 +286,20 @@
             this.toolStripSeparator27 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton65 = new System.Windows.Forms.ToolStripButton();
             this.tipDataGridView = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn42 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn43 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabPage12 = new System.Windows.Forms.TabPage();
+            this.akt_peredachi_v_remontDataGridView = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn46 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn47 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn48 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn49 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn50 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn51 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn52 = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.dataGridViewTextBoxColumn53 = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.dataGridViewTextBoxColumn54 = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.akt_peredachi_v_remontBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.bindingNavigator12 = new System.Windows.Forms.BindingNavigator(this.components);
             this.toolStripButton73 = new System.Windows.Forms.ToolStripButton();
             this.toolStripLabel11 = new System.Windows.Forms.ToolStripLabel();
@@ -260,65 +330,6 @@
             this.toolStripSeparator36 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton86 = new System.Windows.Forms.ToolStripButton();
             this.pracivnukuDataGridView = new System.Windows.Forms.DataGridView();
-            this.servisniy_CentrDataSet = new WindowsFormsApp2.Servisniy_CentrDataSet();
-            this.tehnikaBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.poslugaBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.pracivnukuBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.dataGridViewTextBoxColumn35 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn36 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn37 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn38 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn39 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn40 = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.tipBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.dataGridViewTextBoxColumn41 = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.stanBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.dataGridViewTextBoxColumn44 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn45 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn42 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn43 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.postachBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.dataGridViewTextBoxColumn11 = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.typeZapBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.postavkiBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.iDTypeZapDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nazvanieDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewCheckBoxColumn1 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.dataGridViewTextBoxColumn15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn16 = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.zapchastunuBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.zdiysn_PoslugiBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.dataGridViewTextBoxColumn26 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn27 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn28 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn29 = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.dataGridViewTextBoxColumn30 = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.dataGridViewTextBoxColumn31 = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.dataGridViewTextBoxColumn32 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn33 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn34 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.prodaj_ZapBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.dataGridViewTextBoxColumn19 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn20 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn21 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn22 = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.prodaj_TehnBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.dataGridViewTextBoxColumn23 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn25 = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.dataGridViewTextBoxColumn24 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn55 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn56 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn57 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -339,30 +350,25 @@
             this.tipTableAdapter = new WindowsFormsApp2.Servisniy_CentrDataSetTableAdapters.TipTableAdapter();
             this.stanTableAdapter = new WindowsFormsApp2.Servisniy_CentrDataSetTableAdapters.StanTableAdapter();
             this.pracivnukuTableAdapter = new WindowsFormsApp2.Servisniy_CentrDataSetTableAdapters.PracivnukuTableAdapter();
-            this.akt_peredachi_v_remontBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.akt_peredachi_v_remontTableAdapter = new WindowsFormsApp2.Servisniy_CentrDataSetTableAdapters.Akt_peredachi_v_remontTableAdapter();
-            this.akt_peredachi_v_remontDataGridView = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn46 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn47 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn48 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn49 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn50 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn51 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn52 = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.dataGridViewTextBoxColumn53 = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.dataGridViewTextBoxColumn54 = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.button1 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator1)).BeginInit();
             this.bindingNavigator1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.postachBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.servisniy_CentrDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.postachDataGridView)).BeginInit();
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.postavkiDataGridView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.typeZapBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.postavkiBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator2)).BeginInit();
             this.bindingNavigator2.SuspendLayout();
             this.tabPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.zapchastunuDataGridView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.zapchastunuBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator3)).BeginInit();
             this.bindingNavigator3.SuspendLayout();
             this.tabControl2.SuspendLayout();
@@ -374,16 +380,22 @@
             this.tabPage5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator5)).BeginInit();
             this.bindingNavigator5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.prodaj_ZapBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.prodaj_ZapDataGridView)).BeginInit();
             this.tabPage6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator6)).BeginInit();
             this.bindingNavigator6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.prodaj_TehnBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.prodaj_TehnDataGridView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tehnikaBindingSource)).BeginInit();
             this.tabControl4.SuspendLayout();
             this.tabPage7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator7)).BeginInit();
             this.bindingNavigator7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.zdiysn_PoslugiBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.zdiysn_PoslugiDataGridView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.poslugaBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pracivnukuBindingSource)).BeginInit();
             this.tabPage8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.poslugaDataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator8)).BeginInit();
@@ -393,6 +405,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator9)).BeginInit();
             this.bindingNavigator9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tehnikaDataGridView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tipBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stanBindingSource)).BeginInit();
             this.tabPage11.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator11)).BeginInit();
             this.bindingNavigator11.SuspendLayout();
@@ -402,6 +416,8 @@
             this.bindingNavigator10.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tipDataGridView)).BeginInit();
             this.tabPage12.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.akt_peredachi_v_remontDataGridView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.akt_peredachi_v_remontBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator12)).BeginInit();
             this.bindingNavigator12.SuspendLayout();
             this.tabControl6.SuspendLayout();
@@ -410,23 +426,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator13)).BeginInit();
             this.bindingNavigator13.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pracivnukuDataGridView)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.servisniy_CentrDataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tehnikaBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.poslugaBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pracivnukuBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tipBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.stanBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.postachBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.typeZapBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.postavkiBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.zapchastunuBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.zdiysn_PoslugiBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.prodaj_ZapBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.prodaj_TehnBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.postachBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.servisniy_CentrDataSet1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.akt_peredachi_v_remontBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.akt_peredachi_v_remontDataGridView)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -475,7 +476,7 @@
             this.оформленняПослугиToolStripMenuItem,
             this.списокПрацівниківToolStripMenuItem});
             this.категоріїToolStripMenuItem.Name = "категоріїToolStripMenuItem";
-            this.категоріїToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
+            this.категоріїToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.категоріїToolStripMenuItem.Text = "Категорії";
             // 
             // постачальникиПоставкиToolStripMenuItem
@@ -598,6 +599,16 @@
             this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(23, 22);
             this.bindingNavigatorAddNewItem.Text = "Добавить";
             // 
+            // postachBindingSource
+            // 
+            this.postachBindingSource.DataMember = "Postach";
+            this.postachBindingSource.DataSource = this.servisniy_CentrDataSet;
+            // 
+            // servisniy_CentrDataSet
+            // 
+            this.servisniy_CentrDataSet.DataSetName = "Servisniy_CentrDataSet";
+            this.servisniy_CentrDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
             // bindingNavigatorCountItem
             // 
             this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
@@ -700,6 +711,46 @@
             this.postachDataGridView.Size = new System.Drawing.Size(896, 394);
             this.postachDataGridView.TabIndex = 2;
             // 
+            // dataGridViewTextBoxColumn1
+            // 
+            this.dataGridViewTextBoxColumn1.DataPropertyName = "ID_Postach";
+            this.dataGridViewTextBoxColumn1.HeaderText = "ID_Postach";
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.dataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn2
+            // 
+            this.dataGridViewTextBoxColumn2.DataPropertyName = "Nazvanie_Firmu";
+            this.dataGridViewTextBoxColumn2.HeaderText = "Nazvanie_Firmu";
+            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            this.dataGridViewTextBoxColumn2.Width = 200;
+            // 
+            // dataGridViewTextBoxColumn3
+            // 
+            this.dataGridViewTextBoxColumn3.DataPropertyName = "FIO";
+            this.dataGridViewTextBoxColumn3.HeaderText = "FIO";
+            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            this.dataGridViewTextBoxColumn3.Width = 200;
+            // 
+            // dataGridViewTextBoxColumn4
+            // 
+            this.dataGridViewTextBoxColumn4.DataPropertyName = "Mobilniy";
+            this.dataGridViewTextBoxColumn4.HeaderText = "Mobilniy";
+            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
+            this.dataGridViewTextBoxColumn4.Width = 150;
+            // 
+            // dataGridViewTextBoxColumn5
+            // 
+            this.dataGridViewTextBoxColumn5.DataPropertyName = "E_mail";
+            this.dataGridViewTextBoxColumn5.HeaderText = "E_mail";
+            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            // 
+            // dataGridViewTextBoxColumn6
+            // 
+            this.dataGridViewTextBoxColumn6.DataPropertyName = "Adress";
+            this.dataGridViewTextBoxColumn6.HeaderText = "Adress";
+            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
+            // 
             // tabPage2
             // 
             this.tabPage2.AutoScroll = true;
@@ -729,6 +780,60 @@
             this.postavkiDataGridView.Name = "postavkiDataGridView";
             this.postavkiDataGridView.Size = new System.Drawing.Size(826, 355);
             this.postavkiDataGridView.TabIndex = 3;
+            // 
+            // dataGridViewTextBoxColumn7
+            // 
+            this.dataGridViewTextBoxColumn7.DataPropertyName = "ID_Postavki";
+            this.dataGridViewTextBoxColumn7.HeaderText = "ID_Postavki";
+            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
+            this.dataGridViewTextBoxColumn7.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn8
+            // 
+            this.dataGridViewTextBoxColumn8.DataPropertyName = "Data";
+            this.dataGridViewTextBoxColumn8.HeaderText = "Data";
+            this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
+            // 
+            // dataGridViewTextBoxColumn9
+            // 
+            this.dataGridViewTextBoxColumn9.DataPropertyName = "Price";
+            this.dataGridViewTextBoxColumn9.HeaderText = "Price";
+            this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
+            // 
+            // dataGridViewTextBoxColumn10
+            // 
+            this.dataGridViewTextBoxColumn10.DataPropertyName = "Postach";
+            this.dataGridViewTextBoxColumn10.DataSource = this.postachBindingSource;
+            this.dataGridViewTextBoxColumn10.DisplayMember = "FIO";
+            this.dataGridViewTextBoxColumn10.DisplayStyle = System.Windows.Forms.DataGridViewComboBoxDisplayStyle.ComboBox;
+            this.dataGridViewTextBoxColumn10.HeaderText = "Postach";
+            this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
+            this.dataGridViewTextBoxColumn10.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewTextBoxColumn10.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.dataGridViewTextBoxColumn10.ValueMember = "ID_Postach";
+            this.dataGridViewTextBoxColumn10.Width = 200;
+            // 
+            // dataGridViewTextBoxColumn11
+            // 
+            this.dataGridViewTextBoxColumn11.DataPropertyName = "Zapchastunu";
+            this.dataGridViewTextBoxColumn11.DataSource = this.typeZapBindingSource;
+            this.dataGridViewTextBoxColumn11.DisplayMember = "Nazvanie";
+            this.dataGridViewTextBoxColumn11.DisplayStyle = System.Windows.Forms.DataGridViewComboBoxDisplayStyle.ComboBox;
+            this.dataGridViewTextBoxColumn11.HeaderText = "Zapchastunu";
+            this.dataGridViewTextBoxColumn11.Name = "dataGridViewTextBoxColumn11";
+            this.dataGridViewTextBoxColumn11.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.dataGridViewTextBoxColumn11.ValueMember = "ID_Type_Zap";
+            this.dataGridViewTextBoxColumn11.Width = 170;
+            // 
+            // typeZapBindingSource
+            // 
+            this.typeZapBindingSource.DataMember = "Type_Zap";
+            this.typeZapBindingSource.DataSource = this.servisniy_CentrDataSet;
+            // 
+            // postavkiBindingSource
+            // 
+            this.postavkiBindingSource.DataMember = "Postavki";
+            this.postavkiBindingSource.DataSource = this.servisniy_CentrDataSet;
             // 
             // bindingNavigator2
             // 
@@ -883,6 +988,55 @@
             this.zapchastunuDataGridView.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
             this.zapchastunuDataGridView.Size = new System.Drawing.Size(747, 220);
             this.zapchastunuDataGridView.TabIndex = 0;
+            // 
+            // dataGridViewTextBoxColumn12
+            // 
+            this.dataGridViewTextBoxColumn12.DataPropertyName = "ID_Zapchast";
+            this.dataGridViewTextBoxColumn12.HeaderText = "ID_Zapchast";
+            this.dataGridViewTextBoxColumn12.Name = "dataGridViewTextBoxColumn12";
+            this.dataGridViewTextBoxColumn12.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn13
+            // 
+            this.dataGridViewTextBoxColumn13.DataPropertyName = "Model";
+            this.dataGridViewTextBoxColumn13.HeaderText = "Model";
+            this.dataGridViewTextBoxColumn13.Name = "dataGridViewTextBoxColumn13";
+            this.dataGridViewTextBoxColumn13.Width = 150;
+            // 
+            // dataGridViewTextBoxColumn14
+            // 
+            this.dataGridViewTextBoxColumn14.DataPropertyName = "Price";
+            this.dataGridViewTextBoxColumn14.HeaderText = "Price";
+            this.dataGridViewTextBoxColumn14.Name = "dataGridViewTextBoxColumn14";
+            // 
+            // dataGridViewCheckBoxColumn1
+            // 
+            this.dataGridViewCheckBoxColumn1.DataPropertyName = "Na_Prodaj";
+            this.dataGridViewCheckBoxColumn1.HeaderText = "Na_Prodaj";
+            this.dataGridViewCheckBoxColumn1.Name = "dataGridViewCheckBoxColumn1";
+            // 
+            // dataGridViewTextBoxColumn15
+            // 
+            this.dataGridViewTextBoxColumn15.DataPropertyName = "Kilkist";
+            this.dataGridViewTextBoxColumn15.HeaderText = "Kilkist";
+            this.dataGridViewTextBoxColumn15.Name = "dataGridViewTextBoxColumn15";
+            // 
+            // dataGridViewTextBoxColumn16
+            // 
+            this.dataGridViewTextBoxColumn16.DataPropertyName = "Type_Zap";
+            this.dataGridViewTextBoxColumn16.DataSource = this.typeZapBindingSource;
+            this.dataGridViewTextBoxColumn16.DisplayMember = "Nazvanie";
+            this.dataGridViewTextBoxColumn16.HeaderText = "Type_Zap";
+            this.dataGridViewTextBoxColumn16.Name = "dataGridViewTextBoxColumn16";
+            this.dataGridViewTextBoxColumn16.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewTextBoxColumn16.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.dataGridViewTextBoxColumn16.ValueMember = "ID_Type_Zap";
+            this.dataGridViewTextBoxColumn16.Width = 150;
+            // 
+            // zapchastunuBindingSource
+            // 
+            this.zapchastunuBindingSource.DataMember = "Zapchastunu";
+            this.zapchastunuBindingSource.DataSource = this.servisniy_CentrDataSet;
             // 
             // bindingNavigator3
             // 
@@ -1170,6 +1324,20 @@
             this.type_ZapDataGridView.Size = new System.Drawing.Size(961, 346);
             this.type_ZapDataGridView.TabIndex = 0;
             // 
+            // iDTypeZapDataGridViewTextBoxColumn
+            // 
+            this.iDTypeZapDataGridViewTextBoxColumn.DataPropertyName = "ID_Type_Zap";
+            this.iDTypeZapDataGridViewTextBoxColumn.HeaderText = "ID_Type_Zap";
+            this.iDTypeZapDataGridViewTextBoxColumn.Name = "iDTypeZapDataGridViewTextBoxColumn";
+            this.iDTypeZapDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // nazvanieDataGridViewTextBoxColumn
+            // 
+            this.nazvanieDataGridViewTextBoxColumn.DataPropertyName = "Nazvanie";
+            this.nazvanieDataGridViewTextBoxColumn.HeaderText = "Nazvanie";
+            this.nazvanieDataGridViewTextBoxColumn.Name = "nazvanieDataGridViewTextBoxColumn";
+            this.nazvanieDataGridViewTextBoxColumn.Width = 150;
+            // 
             // dataGridViewTextBoxColumn18
             // 
             this.dataGridViewTextBoxColumn18.DataPropertyName = "Nazvanie";
@@ -1338,6 +1506,11 @@
             this.toolStripButton24.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton24.Text = "Добавить";
             // 
+            // prodaj_ZapBindingSource
+            // 
+            this.prodaj_ZapBindingSource.DataMember = "Prodaj_Zap";
+            this.prodaj_ZapBindingSource.DataSource = this.servisniy_CentrDataSet;
+            // 
             // toolStripLabel4
             // 
             this.toolStripLabel4.Name = "toolStripLabel4";
@@ -1438,6 +1611,39 @@
             this.prodaj_ZapDataGridView.Size = new System.Drawing.Size(550, 183);
             this.prodaj_ZapDataGridView.TabIndex = 0;
             // 
+            // dataGridViewTextBoxColumn19
+            // 
+            this.dataGridViewTextBoxColumn19.DataPropertyName = "ID_ProdajZap";
+            this.dataGridViewTextBoxColumn19.HeaderText = "ID_ProdajZap";
+            this.dataGridViewTextBoxColumn19.Name = "dataGridViewTextBoxColumn19";
+            this.dataGridViewTextBoxColumn19.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn20
+            // 
+            this.dataGridViewTextBoxColumn20.DataPropertyName = "Data";
+            this.dataGridViewTextBoxColumn20.HeaderText = "Дата продажу";
+            this.dataGridViewTextBoxColumn20.Name = "dataGridViewTextBoxColumn20";
+            this.dataGridViewTextBoxColumn20.Width = 105;
+            // 
+            // dataGridViewTextBoxColumn21
+            // 
+            this.dataGridViewTextBoxColumn21.DataPropertyName = "Price";
+            this.dataGridViewTextBoxColumn21.HeaderText = "Ціна";
+            this.dataGridViewTextBoxColumn21.Name = "dataGridViewTextBoxColumn21";
+            // 
+            // dataGridViewTextBoxColumn22
+            // 
+            this.dataGridViewTextBoxColumn22.DataPropertyName = "Zapchastunu";
+            this.dataGridViewTextBoxColumn22.DataSource = this.typeZapBindingSource;
+            this.dataGridViewTextBoxColumn22.DisplayMember = "Nazvanie";
+            this.dataGridViewTextBoxColumn22.DisplayStyle = System.Windows.Forms.DataGridViewComboBoxDisplayStyle.ComboBox;
+            this.dataGridViewTextBoxColumn22.HeaderText = "Запчастини";
+            this.dataGridViewTextBoxColumn22.Name = "dataGridViewTextBoxColumn22";
+            this.dataGridViewTextBoxColumn22.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewTextBoxColumn22.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.dataGridViewTextBoxColumn22.ValueMember = "ID_Type_Zap";
+            this.dataGridViewTextBoxColumn22.Width = 200;
+            // 
             // tabPage6
             // 
             this.tabPage6.Controls.Add(this.bindingNavigator6);
@@ -1488,6 +1694,11 @@
             this.toolStripButton31.RightToLeftAutoMirrorImage = true;
             this.toolStripButton31.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton31.Text = "Добавить";
+            // 
+            // prodaj_TehnBindingSource
+            // 
+            this.prodaj_TehnBindingSource.DataMember = "Prodaj_Tehn";
+            this.prodaj_TehnBindingSource.DataSource = this.servisniy_CentrDataSet;
             // 
             // toolStripLabel5
             // 
@@ -1590,12 +1801,44 @@
             this.prodaj_TehnDataGridView.Size = new System.Drawing.Size(875, 543);
             this.prodaj_TehnDataGridView.TabIndex = 0;
             // 
+            // dataGridViewTextBoxColumn23
+            // 
+            this.dataGridViewTextBoxColumn23.DataPropertyName = "ID_ProdajTeh";
+            this.dataGridViewTextBoxColumn23.Frozen = true;
+            this.dataGridViewTextBoxColumn23.HeaderText = "ID_ProdajTeh";
+            this.dataGridViewTextBoxColumn23.Name = "dataGridViewTextBoxColumn23";
+            this.dataGridViewTextBoxColumn23.ReadOnly = true;
+            // 
             // Date_Z
             // 
             this.Date_Z.HeaderText = "Дата продажу";
             this.Date_Z.MaxInputLength = 10;
             this.Date_Z.Name = "Date_Z";
             this.Date_Z.Width = 105;
+            // 
+            // dataGridViewTextBoxColumn25
+            // 
+            this.dataGridViewTextBoxColumn25.DataPropertyName = "Tehnika";
+            this.dataGridViewTextBoxColumn25.DataSource = this.tehnikaBindingSource;
+            this.dataGridViewTextBoxColumn25.DisplayMember = "Model";
+            this.dataGridViewTextBoxColumn25.DisplayStyle = System.Windows.Forms.DataGridViewComboBoxDisplayStyle.ComboBox;
+            this.dataGridViewTextBoxColumn25.HeaderText = "Техніка";
+            this.dataGridViewTextBoxColumn25.Name = "dataGridViewTextBoxColumn25";
+            this.dataGridViewTextBoxColumn25.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewTextBoxColumn25.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.dataGridViewTextBoxColumn25.ValueMember = "ID_Tehnika";
+            this.dataGridViewTextBoxColumn25.Width = 150;
+            // 
+            // tehnikaBindingSource
+            // 
+            this.tehnikaBindingSource.DataMember = "Tehnika";
+            this.tehnikaBindingSource.DataSource = this.servisniy_CentrDataSet;
+            // 
+            // dataGridViewTextBoxColumn24
+            // 
+            this.dataGridViewTextBoxColumn24.DataPropertyName = "Price";
+            this.dataGridViewTextBoxColumn24.HeaderText = "Ціна";
+            this.dataGridViewTextBoxColumn24.Name = "dataGridViewTextBoxColumn24";
             // 
             // comments
             // 
@@ -1664,6 +1907,11 @@
             this.toolStripButton38.RightToLeftAutoMirrorImage = true;
             this.toolStripButton38.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton38.Text = "Добавить";
+            // 
+            // zdiysn_PoslugiBindingSource
+            // 
+            this.zdiysn_PoslugiBindingSource.DataMember = "Zdiysn_Poslugi";
+            this.zdiysn_PoslugiBindingSource.DataSource = this.servisniy_CentrDataSet;
             // 
             // toolStripLabel6
             // 
@@ -1767,6 +2015,73 @@
             this.zdiysn_PoslugiDataGridView.Size = new System.Drawing.Size(932, 220);
             this.zdiysn_PoslugiDataGridView.TabIndex = 0;
             // 
+            // dataGridViewTextBoxColumn26
+            // 
+            this.dataGridViewTextBoxColumn26.DataPropertyName = "ID_ZdiysnPosl";
+            this.dataGridViewTextBoxColumn26.HeaderText = "ID_ZdiysnPosl";
+            this.dataGridViewTextBoxColumn26.Name = "dataGridViewTextBoxColumn26";
+            this.dataGridViewTextBoxColumn26.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn27
+            // 
+            this.dataGridViewTextBoxColumn27.DataPropertyName = "Data";
+            this.dataGridViewTextBoxColumn27.HeaderText = "Data";
+            this.dataGridViewTextBoxColumn27.Name = "dataGridViewTextBoxColumn27";
+            // 
+            // dataGridViewTextBoxColumn28
+            // 
+            this.dataGridViewTextBoxColumn28.DataPropertyName = "Tehnika";
+            this.dataGridViewTextBoxColumn28.HeaderText = "Tehnika";
+            this.dataGridViewTextBoxColumn28.Name = "dataGridViewTextBoxColumn28";
+            // 
+            // dataGridViewTextBoxColumn29
+            // 
+            this.dataGridViewTextBoxColumn29.DataPropertyName = "Posluga";
+            this.dataGridViewTextBoxColumn29.DataSource = this.poslugaBindingSource;
+            this.dataGridViewTextBoxColumn29.DisplayMember = "Nazvanie";
+            this.dataGridViewTextBoxColumn29.DisplayStyle = System.Windows.Forms.DataGridViewComboBoxDisplayStyle.ComboBox;
+            this.dataGridViewTextBoxColumn29.HeaderText = "Posluga";
+            this.dataGridViewTextBoxColumn29.Name = "dataGridViewTextBoxColumn29";
+            this.dataGridViewTextBoxColumn29.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewTextBoxColumn29.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.dataGridViewTextBoxColumn29.ValueMember = "ID_Posluga";
+            this.dataGridViewTextBoxColumn29.Width = 210;
+            // 
+            // poslugaBindingSource
+            // 
+            this.poslugaBindingSource.DataMember = "Posluga";
+            this.poslugaBindingSource.DataSource = this.servisniy_CentrDataSet;
+            // 
+            // dataGridViewTextBoxColumn30
+            // 
+            this.dataGridViewTextBoxColumn30.DataPropertyName = "Pracivnuku";
+            this.dataGridViewTextBoxColumn30.DataSource = this.pracivnukuBindingSource;
+            this.dataGridViewTextBoxColumn30.DisplayMember = "Last_Name";
+            this.dataGridViewTextBoxColumn30.DisplayStyle = System.Windows.Forms.DataGridViewComboBoxDisplayStyle.ComboBox;
+            this.dataGridViewTextBoxColumn30.HeaderText = "Pracivnuku";
+            this.dataGridViewTextBoxColumn30.Name = "dataGridViewTextBoxColumn30";
+            this.dataGridViewTextBoxColumn30.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewTextBoxColumn30.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.dataGridViewTextBoxColumn30.ValueMember = "ID_Pracik";
+            // 
+            // pracivnukuBindingSource
+            // 
+            this.pracivnukuBindingSource.DataMember = "Pracivnuku";
+            this.pracivnukuBindingSource.DataSource = this.servisniy_CentrDataSet;
+            // 
+            // dataGridViewTextBoxColumn31
+            // 
+            this.dataGridViewTextBoxColumn31.DataPropertyName = "Zapchastunu";
+            this.dataGridViewTextBoxColumn31.DataSource = this.typeZapBindingSource;
+            this.dataGridViewTextBoxColumn31.DisplayMember = "Nazvanie";
+            this.dataGridViewTextBoxColumn31.DisplayStyle = System.Windows.Forms.DataGridViewComboBoxDisplayStyle.ComboBox;
+            this.dataGridViewTextBoxColumn31.HeaderText = "Zapchastunu";
+            this.dataGridViewTextBoxColumn31.Name = "dataGridViewTextBoxColumn31";
+            this.dataGridViewTextBoxColumn31.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewTextBoxColumn31.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.dataGridViewTextBoxColumn31.ValueMember = "ID_Type_Zap";
+            this.dataGridViewTextBoxColumn31.Width = 170;
+            // 
             // tabPage8
             // 
             this.tabPage8.Controls.Add(this.poslugaDataGridView);
@@ -1792,6 +2107,26 @@
             this.poslugaDataGridView.Name = "poslugaDataGridView";
             this.poslugaDataGridView.Size = new System.Drawing.Size(496, 220);
             this.poslugaDataGridView.TabIndex = 4;
+            // 
+            // dataGridViewTextBoxColumn32
+            // 
+            this.dataGridViewTextBoxColumn32.DataPropertyName = "ID_Posluga";
+            this.dataGridViewTextBoxColumn32.HeaderText = "ID_Posluga";
+            this.dataGridViewTextBoxColumn32.Name = "dataGridViewTextBoxColumn32";
+            this.dataGridViewTextBoxColumn32.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn33
+            // 
+            this.dataGridViewTextBoxColumn33.DataPropertyName = "Nazvanie";
+            this.dataGridViewTextBoxColumn33.HeaderText = "Nazvanie";
+            this.dataGridViewTextBoxColumn33.Name = "dataGridViewTextBoxColumn33";
+            this.dataGridViewTextBoxColumn33.Width = 250;
+            // 
+            // dataGridViewTextBoxColumn34
+            // 
+            this.dataGridViewTextBoxColumn34.DataPropertyName = "Price";
+            this.dataGridViewTextBoxColumn34.HeaderText = "Price";
+            this.dataGridViewTextBoxColumn34.Name = "dataGridViewTextBoxColumn34";
             // 
             // bindingNavigator8
             // 
@@ -2083,6 +2418,71 @@
             this.tehnikaDataGridView.Size = new System.Drawing.Size(747, 220);
             this.tehnikaDataGridView.TabIndex = 0;
             // 
+            // dataGridViewTextBoxColumn35
+            // 
+            this.dataGridViewTextBoxColumn35.DataPropertyName = "ID_Tehnika";
+            this.dataGridViewTextBoxColumn35.HeaderText = "ID_Tehnika";
+            this.dataGridViewTextBoxColumn35.Name = "dataGridViewTextBoxColumn35";
+            this.dataGridViewTextBoxColumn35.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn36
+            // 
+            this.dataGridViewTextBoxColumn36.DataPropertyName = "Model";
+            this.dataGridViewTextBoxColumn36.HeaderText = "Model";
+            this.dataGridViewTextBoxColumn36.Name = "dataGridViewTextBoxColumn36";
+            // 
+            // dataGridViewTextBoxColumn37
+            // 
+            this.dataGridViewTextBoxColumn37.DataPropertyName = "Data_Nachala";
+            this.dataGridViewTextBoxColumn37.HeaderText = "Data_Nachala";
+            this.dataGridViewTextBoxColumn37.Name = "dataGridViewTextBoxColumn37";
+            // 
+            // dataGridViewTextBoxColumn38
+            // 
+            this.dataGridViewTextBoxColumn38.DataPropertyName = "Data_Kontsa";
+            this.dataGridViewTextBoxColumn38.HeaderText = "Data_Kontsa";
+            this.dataGridViewTextBoxColumn38.Name = "dataGridViewTextBoxColumn38";
+            // 
+            // dataGridViewTextBoxColumn39
+            // 
+            this.dataGridViewTextBoxColumn39.DataPropertyName = "Status";
+            this.dataGridViewTextBoxColumn39.HeaderText = "Status";
+            this.dataGridViewTextBoxColumn39.Name = "dataGridViewTextBoxColumn39";
+            // 
+            // dataGridViewTextBoxColumn40
+            // 
+            this.dataGridViewTextBoxColumn40.DataPropertyName = "Tip";
+            this.dataGridViewTextBoxColumn40.DataSource = this.tipBindingSource;
+            this.dataGridViewTextBoxColumn40.DisplayMember = "Nazvanie";
+            this.dataGridViewTextBoxColumn40.DisplayStyle = System.Windows.Forms.DataGridViewComboBoxDisplayStyle.ComboBox;
+            this.dataGridViewTextBoxColumn40.HeaderText = "Tip";
+            this.dataGridViewTextBoxColumn40.Name = "dataGridViewTextBoxColumn40";
+            this.dataGridViewTextBoxColumn40.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewTextBoxColumn40.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.dataGridViewTextBoxColumn40.ValueMember = "ID_Type";
+            // 
+            // tipBindingSource
+            // 
+            this.tipBindingSource.DataMember = "Tip";
+            this.tipBindingSource.DataSource = this.servisniy_CentrDataSet;
+            // 
+            // dataGridViewTextBoxColumn41
+            // 
+            this.dataGridViewTextBoxColumn41.DataPropertyName = "Stan";
+            this.dataGridViewTextBoxColumn41.DataSource = this.stanBindingSource;
+            this.dataGridViewTextBoxColumn41.DisplayMember = "Nazvanie";
+            this.dataGridViewTextBoxColumn41.DisplayStyle = System.Windows.Forms.DataGridViewComboBoxDisplayStyle.ComboBox;
+            this.dataGridViewTextBoxColumn41.HeaderText = "Stan";
+            this.dataGridViewTextBoxColumn41.Name = "dataGridViewTextBoxColumn41";
+            this.dataGridViewTextBoxColumn41.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewTextBoxColumn41.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.dataGridViewTextBoxColumn41.ValueMember = "ID_Stan";
+            // 
+            // stanBindingSource
+            // 
+            this.stanBindingSource.DataMember = "Stan";
+            this.stanBindingSource.DataSource = this.servisniy_CentrDataSet;
+            // 
             // tabPage11
             // 
             this.tabPage11.Controls.Add(this.bindingNavigator11);
@@ -2231,6 +2631,19 @@
             this.stanDataGridView.Name = "stanDataGridView";
             this.stanDataGridView.Size = new System.Drawing.Size(300, 220);
             this.stanDataGridView.TabIndex = 0;
+            // 
+            // dataGridViewTextBoxColumn44
+            // 
+            this.dataGridViewTextBoxColumn44.DataPropertyName = "ID_Stan";
+            this.dataGridViewTextBoxColumn44.HeaderText = "ID_Stan";
+            this.dataGridViewTextBoxColumn44.Name = "dataGridViewTextBoxColumn44";
+            this.dataGridViewTextBoxColumn44.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn45
+            // 
+            this.dataGridViewTextBoxColumn45.DataPropertyName = "Nazvanie";
+            this.dataGridViewTextBoxColumn45.HeaderText = "Nazvanie";
+            this.dataGridViewTextBoxColumn45.Name = "dataGridViewTextBoxColumn45";
             // 
             // tabPage10
             // 
@@ -2381,6 +2794,19 @@
             this.tipDataGridView.Size = new System.Drawing.Size(312, 220);
             this.tipDataGridView.TabIndex = 0;
             // 
+            // dataGridViewTextBoxColumn42
+            // 
+            this.dataGridViewTextBoxColumn42.DataPropertyName = "ID_Type";
+            this.dataGridViewTextBoxColumn42.HeaderText = "ID_Type";
+            this.dataGridViewTextBoxColumn42.Name = "dataGridViewTextBoxColumn42";
+            this.dataGridViewTextBoxColumn42.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn43
+            // 
+            this.dataGridViewTextBoxColumn43.DataPropertyName = "Nazvanie";
+            this.dataGridViewTextBoxColumn43.HeaderText = "Nazvanie";
+            this.dataGridViewTextBoxColumn43.Name = "dataGridViewTextBoxColumn43";
+            // 
             // tabPage12
             // 
             this.tabPage12.Controls.Add(this.akt_peredachi_v_remontDataGridView);
@@ -2392,6 +2818,106 @@
             this.tabPage12.TabIndex = 0;
             this.tabPage12.Text = "Акт передачі в ремонт";
             this.tabPage12.UseVisualStyleBackColor = true;
+            // 
+            // akt_peredachi_v_remontDataGridView
+            // 
+            this.akt_peredachi_v_remontDataGridView.AutoGenerateColumns = false;
+            this.akt_peredachi_v_remontDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.akt_peredachi_v_remontDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn46,
+            this.dataGridViewTextBoxColumn47,
+            this.dataGridViewTextBoxColumn48,
+            this.dataGridViewTextBoxColumn49,
+            this.dataGridViewTextBoxColumn50,
+            this.dataGridViewTextBoxColumn51,
+            this.dataGridViewTextBoxColumn52,
+            this.dataGridViewTextBoxColumn53,
+            this.dataGridViewTextBoxColumn54});
+            this.akt_peredachi_v_remontDataGridView.DataSource = this.akt_peredachi_v_remontBindingSource;
+            this.akt_peredachi_v_remontDataGridView.Location = new System.Drawing.Point(6, 31);
+            this.akt_peredachi_v_remontDataGridView.Name = "akt_peredachi_v_remontDataGridView";
+            this.akt_peredachi_v_remontDataGridView.Size = new System.Drawing.Size(1206, 494);
+            this.akt_peredachi_v_remontDataGridView.TabIndex = 4;
+            // 
+            // dataGridViewTextBoxColumn46
+            // 
+            this.dataGridViewTextBoxColumn46.DataPropertyName = "ID_Akt";
+            this.dataGridViewTextBoxColumn46.HeaderText = "ID_Akt";
+            this.dataGridViewTextBoxColumn46.Name = "dataGridViewTextBoxColumn46";
+            this.dataGridViewTextBoxColumn46.ReadOnly = true;
+            this.dataGridViewTextBoxColumn46.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
+            // dataGridViewTextBoxColumn47
+            // 
+            this.dataGridViewTextBoxColumn47.DataPropertyName = "Data";
+            this.dataGridViewTextBoxColumn47.HeaderText = "Data";
+            this.dataGridViewTextBoxColumn47.Name = "dataGridViewTextBoxColumn47";
+            // 
+            // dataGridViewTextBoxColumn48
+            // 
+            this.dataGridViewTextBoxColumn48.DataPropertyName = "Last_Name";
+            this.dataGridViewTextBoxColumn48.HeaderText = "Last_Name";
+            this.dataGridViewTextBoxColumn48.Name = "dataGridViewTextBoxColumn48";
+            // 
+            // dataGridViewTextBoxColumn49
+            // 
+            this.dataGridViewTextBoxColumn49.DataPropertyName = "Name";
+            this.dataGridViewTextBoxColumn49.HeaderText = "Name";
+            this.dataGridViewTextBoxColumn49.Name = "dataGridViewTextBoxColumn49";
+            // 
+            // dataGridViewTextBoxColumn50
+            // 
+            this.dataGridViewTextBoxColumn50.DataPropertyName = "Otchestvo";
+            this.dataGridViewTextBoxColumn50.HeaderText = "Otchestvo";
+            this.dataGridViewTextBoxColumn50.Name = "dataGridViewTextBoxColumn50";
+            // 
+            // dataGridViewTextBoxColumn51
+            // 
+            this.dataGridViewTextBoxColumn51.DataPropertyName = "Mobilniy";
+            this.dataGridViewTextBoxColumn51.HeaderText = "Mobilniy";
+            this.dataGridViewTextBoxColumn51.Name = "dataGridViewTextBoxColumn51";
+            // 
+            // dataGridViewTextBoxColumn52
+            // 
+            this.dataGridViewTextBoxColumn52.DataPropertyName = "Tehnika";
+            this.dataGridViewTextBoxColumn52.DataSource = this.tehnikaBindingSource;
+            this.dataGridViewTextBoxColumn52.DisplayMember = "Model";
+            this.dataGridViewTextBoxColumn52.DisplayStyle = System.Windows.Forms.DataGridViewComboBoxDisplayStyle.ComboBox;
+            this.dataGridViewTextBoxColumn52.HeaderText = "Tehnika";
+            this.dataGridViewTextBoxColumn52.Name = "dataGridViewTextBoxColumn52";
+            this.dataGridViewTextBoxColumn52.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewTextBoxColumn52.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.dataGridViewTextBoxColumn52.ValueMember = "ID_Tehnika";
+            // 
+            // dataGridViewTextBoxColumn53
+            // 
+            this.dataGridViewTextBoxColumn53.DataPropertyName = "Posluga";
+            this.dataGridViewTextBoxColumn53.DataSource = this.poslugaBindingSource;
+            this.dataGridViewTextBoxColumn53.DisplayMember = "Nazvanie";
+            this.dataGridViewTextBoxColumn53.DisplayStyle = System.Windows.Forms.DataGridViewComboBoxDisplayStyle.ComboBox;
+            this.dataGridViewTextBoxColumn53.HeaderText = "Posluga";
+            this.dataGridViewTextBoxColumn53.Name = "dataGridViewTextBoxColumn53";
+            this.dataGridViewTextBoxColumn53.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewTextBoxColumn53.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.dataGridViewTextBoxColumn53.ValueMember = "ID_Posluga";
+            // 
+            // dataGridViewTextBoxColumn54
+            // 
+            this.dataGridViewTextBoxColumn54.DataPropertyName = "Pracivnuku";
+            this.dataGridViewTextBoxColumn54.DataSource = this.pracivnukuBindingSource;
+            this.dataGridViewTextBoxColumn54.DisplayMember = "Last_Name";
+            this.dataGridViewTextBoxColumn54.DisplayStyle = System.Windows.Forms.DataGridViewComboBoxDisplayStyle.ComboBox;
+            this.dataGridViewTextBoxColumn54.HeaderText = "Pracivnuku";
+            this.dataGridViewTextBoxColumn54.Name = "dataGridViewTextBoxColumn54";
+            this.dataGridViewTextBoxColumn54.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewTextBoxColumn54.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.dataGridViewTextBoxColumn54.ValueMember = "ID_Pracik";
+            this.dataGridViewTextBoxColumn54.Width = 250;
+            // 
+            // akt_peredachi_v_remontBindingSource
+            // 
+            this.akt_peredachi_v_remontBindingSource.DataMember = "Akt_peredachi_v_remont";
+            this.akt_peredachi_v_remontBindingSource.DataSource = this.servisniy_CentrDataSet;
             // 
             // bindingNavigator12
             // 
@@ -2689,431 +3215,6 @@
             this.pracivnukuDataGridView.Size = new System.Drawing.Size(715, 220);
             this.pracivnukuDataGridView.TabIndex = 0;
             // 
-            // servisniy_CentrDataSet
-            // 
-            this.servisniy_CentrDataSet.DataSetName = "Servisniy_CentrDataSet";
-            this.servisniy_CentrDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // tehnikaBindingSource
-            // 
-            this.tehnikaBindingSource.DataMember = "Tehnika";
-            this.tehnikaBindingSource.DataSource = this.servisniy_CentrDataSet;
-            // 
-            // poslugaBindingSource
-            // 
-            this.poslugaBindingSource.DataMember = "Posluga";
-            this.poslugaBindingSource.DataSource = this.servisniy_CentrDataSet;
-            // 
-            // pracivnukuBindingSource
-            // 
-            this.pracivnukuBindingSource.DataMember = "Pracivnuku";
-            this.pracivnukuBindingSource.DataSource = this.servisniy_CentrDataSet;
-            // 
-            // dataGridViewTextBoxColumn35
-            // 
-            this.dataGridViewTextBoxColumn35.DataPropertyName = "ID_Tehnika";
-            this.dataGridViewTextBoxColumn35.HeaderText = "ID_Tehnika";
-            this.dataGridViewTextBoxColumn35.Name = "dataGridViewTextBoxColumn35";
-            this.dataGridViewTextBoxColumn35.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn36
-            // 
-            this.dataGridViewTextBoxColumn36.DataPropertyName = "Model";
-            this.dataGridViewTextBoxColumn36.HeaderText = "Model";
-            this.dataGridViewTextBoxColumn36.Name = "dataGridViewTextBoxColumn36";
-            // 
-            // dataGridViewTextBoxColumn37
-            // 
-            this.dataGridViewTextBoxColumn37.DataPropertyName = "Data_Nachala";
-            this.dataGridViewTextBoxColumn37.HeaderText = "Data_Nachala";
-            this.dataGridViewTextBoxColumn37.Name = "dataGridViewTextBoxColumn37";
-            // 
-            // dataGridViewTextBoxColumn38
-            // 
-            this.dataGridViewTextBoxColumn38.DataPropertyName = "Data_Kontsa";
-            this.dataGridViewTextBoxColumn38.HeaderText = "Data_Kontsa";
-            this.dataGridViewTextBoxColumn38.Name = "dataGridViewTextBoxColumn38";
-            // 
-            // dataGridViewTextBoxColumn39
-            // 
-            this.dataGridViewTextBoxColumn39.DataPropertyName = "Status";
-            this.dataGridViewTextBoxColumn39.HeaderText = "Status";
-            this.dataGridViewTextBoxColumn39.Name = "dataGridViewTextBoxColumn39";
-            // 
-            // dataGridViewTextBoxColumn40
-            // 
-            this.dataGridViewTextBoxColumn40.DataPropertyName = "Tip";
-            this.dataGridViewTextBoxColumn40.DataSource = this.tipBindingSource;
-            this.dataGridViewTextBoxColumn40.DisplayMember = "Nazvanie";
-            this.dataGridViewTextBoxColumn40.DisplayStyle = System.Windows.Forms.DataGridViewComboBoxDisplayStyle.ComboBox;
-            this.dataGridViewTextBoxColumn40.HeaderText = "Tip";
-            this.dataGridViewTextBoxColumn40.Name = "dataGridViewTextBoxColumn40";
-            this.dataGridViewTextBoxColumn40.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewTextBoxColumn40.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.dataGridViewTextBoxColumn40.ValueMember = "ID_Type";
-            // 
-            // tipBindingSource
-            // 
-            this.tipBindingSource.DataMember = "Tip";
-            this.tipBindingSource.DataSource = this.servisniy_CentrDataSet;
-            // 
-            // dataGridViewTextBoxColumn41
-            // 
-            this.dataGridViewTextBoxColumn41.DataPropertyName = "Stan";
-            this.dataGridViewTextBoxColumn41.DataSource = this.stanBindingSource;
-            this.dataGridViewTextBoxColumn41.DisplayMember = "Nazvanie";
-            this.dataGridViewTextBoxColumn41.DisplayStyle = System.Windows.Forms.DataGridViewComboBoxDisplayStyle.ComboBox;
-            this.dataGridViewTextBoxColumn41.HeaderText = "Stan";
-            this.dataGridViewTextBoxColumn41.Name = "dataGridViewTextBoxColumn41";
-            this.dataGridViewTextBoxColumn41.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewTextBoxColumn41.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.dataGridViewTextBoxColumn41.ValueMember = "ID_Stan";
-            // 
-            // stanBindingSource
-            // 
-            this.stanBindingSource.DataMember = "Stan";
-            this.stanBindingSource.DataSource = this.servisniy_CentrDataSet;
-            // 
-            // dataGridViewTextBoxColumn44
-            // 
-            this.dataGridViewTextBoxColumn44.DataPropertyName = "ID_Stan";
-            this.dataGridViewTextBoxColumn44.HeaderText = "ID_Stan";
-            this.dataGridViewTextBoxColumn44.Name = "dataGridViewTextBoxColumn44";
-            this.dataGridViewTextBoxColumn44.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn45
-            // 
-            this.dataGridViewTextBoxColumn45.DataPropertyName = "Nazvanie";
-            this.dataGridViewTextBoxColumn45.HeaderText = "Nazvanie";
-            this.dataGridViewTextBoxColumn45.Name = "dataGridViewTextBoxColumn45";
-            // 
-            // dataGridViewTextBoxColumn42
-            // 
-            this.dataGridViewTextBoxColumn42.DataPropertyName = "ID_Type";
-            this.dataGridViewTextBoxColumn42.HeaderText = "ID_Type";
-            this.dataGridViewTextBoxColumn42.Name = "dataGridViewTextBoxColumn42";
-            this.dataGridViewTextBoxColumn42.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn43
-            // 
-            this.dataGridViewTextBoxColumn43.DataPropertyName = "Nazvanie";
-            this.dataGridViewTextBoxColumn43.HeaderText = "Nazvanie";
-            this.dataGridViewTextBoxColumn43.Name = "dataGridViewTextBoxColumn43";
-            // 
-            // postachBindingSource
-            // 
-            this.postachBindingSource.DataMember = "Postach";
-            this.postachBindingSource.DataSource = this.servisniy_CentrDataSet;
-            // 
-            // dataGridViewTextBoxColumn1
-            // 
-            this.dataGridViewTextBoxColumn1.DataPropertyName = "ID_Postach";
-            this.dataGridViewTextBoxColumn1.HeaderText = "ID_Postach";
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            this.dataGridViewTextBoxColumn1.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn2
-            // 
-            this.dataGridViewTextBoxColumn2.DataPropertyName = "Nazvanie_Firmu";
-            this.dataGridViewTextBoxColumn2.HeaderText = "Nazvanie_Firmu";
-            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
-            this.dataGridViewTextBoxColumn2.Width = 200;
-            // 
-            // dataGridViewTextBoxColumn3
-            // 
-            this.dataGridViewTextBoxColumn3.DataPropertyName = "FIO";
-            this.dataGridViewTextBoxColumn3.HeaderText = "FIO";
-            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
-            this.dataGridViewTextBoxColumn3.Width = 200;
-            // 
-            // dataGridViewTextBoxColumn4
-            // 
-            this.dataGridViewTextBoxColumn4.DataPropertyName = "Mobilniy";
-            this.dataGridViewTextBoxColumn4.HeaderText = "Mobilniy";
-            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
-            this.dataGridViewTextBoxColumn4.Width = 150;
-            // 
-            // dataGridViewTextBoxColumn5
-            // 
-            this.dataGridViewTextBoxColumn5.DataPropertyName = "E_mail";
-            this.dataGridViewTextBoxColumn5.HeaderText = "E_mail";
-            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
-            // 
-            // dataGridViewTextBoxColumn6
-            // 
-            this.dataGridViewTextBoxColumn6.DataPropertyName = "Adress";
-            this.dataGridViewTextBoxColumn6.HeaderText = "Adress";
-            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
-            // 
-            // dataGridViewTextBoxColumn7
-            // 
-            this.dataGridViewTextBoxColumn7.DataPropertyName = "ID_Postavki";
-            this.dataGridViewTextBoxColumn7.HeaderText = "ID_Postavki";
-            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
-            this.dataGridViewTextBoxColumn7.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn8
-            // 
-            this.dataGridViewTextBoxColumn8.DataPropertyName = "Data";
-            this.dataGridViewTextBoxColumn8.HeaderText = "Data";
-            this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
-            // 
-            // dataGridViewTextBoxColumn9
-            // 
-            this.dataGridViewTextBoxColumn9.DataPropertyName = "Price";
-            this.dataGridViewTextBoxColumn9.HeaderText = "Price";
-            this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
-            // 
-            // dataGridViewTextBoxColumn10
-            // 
-            this.dataGridViewTextBoxColumn10.DataPropertyName = "Postach";
-            this.dataGridViewTextBoxColumn10.DataSource = this.postachBindingSource;
-            this.dataGridViewTextBoxColumn10.DisplayMember = "FIO";
-            this.dataGridViewTextBoxColumn10.DisplayStyle = System.Windows.Forms.DataGridViewComboBoxDisplayStyle.ComboBox;
-            this.dataGridViewTextBoxColumn10.HeaderText = "Postach";
-            this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
-            this.dataGridViewTextBoxColumn10.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewTextBoxColumn10.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.dataGridViewTextBoxColumn10.ValueMember = "ID_Postach";
-            this.dataGridViewTextBoxColumn10.Width = 200;
-            // 
-            // dataGridViewTextBoxColumn11
-            // 
-            this.dataGridViewTextBoxColumn11.DataPropertyName = "Zapchastunu";
-            this.dataGridViewTextBoxColumn11.DataSource = this.typeZapBindingSource;
-            this.dataGridViewTextBoxColumn11.DisplayMember = "Nazvanie";
-            this.dataGridViewTextBoxColumn11.DisplayStyle = System.Windows.Forms.DataGridViewComboBoxDisplayStyle.ComboBox;
-            this.dataGridViewTextBoxColumn11.HeaderText = "Zapchastunu";
-            this.dataGridViewTextBoxColumn11.Name = "dataGridViewTextBoxColumn11";
-            this.dataGridViewTextBoxColumn11.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.dataGridViewTextBoxColumn11.ValueMember = "ID_Type_Zap";
-            this.dataGridViewTextBoxColumn11.Width = 170;
-            // 
-            // typeZapBindingSource
-            // 
-            this.typeZapBindingSource.DataMember = "Type_Zap";
-            this.typeZapBindingSource.DataSource = this.servisniy_CentrDataSet;
-            // 
-            // postavkiBindingSource
-            // 
-            this.postavkiBindingSource.DataMember = "Postavki";
-            this.postavkiBindingSource.DataSource = this.servisniy_CentrDataSet;
-            // 
-            // iDTypeZapDataGridViewTextBoxColumn
-            // 
-            this.iDTypeZapDataGridViewTextBoxColumn.DataPropertyName = "ID_Type_Zap";
-            this.iDTypeZapDataGridViewTextBoxColumn.HeaderText = "ID_Type_Zap";
-            this.iDTypeZapDataGridViewTextBoxColumn.Name = "iDTypeZapDataGridViewTextBoxColumn";
-            this.iDTypeZapDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // nazvanieDataGridViewTextBoxColumn
-            // 
-            this.nazvanieDataGridViewTextBoxColumn.DataPropertyName = "Nazvanie";
-            this.nazvanieDataGridViewTextBoxColumn.HeaderText = "Nazvanie";
-            this.nazvanieDataGridViewTextBoxColumn.Name = "nazvanieDataGridViewTextBoxColumn";
-            this.nazvanieDataGridViewTextBoxColumn.Width = 150;
-            // 
-            // dataGridViewTextBoxColumn12
-            // 
-            this.dataGridViewTextBoxColumn12.DataPropertyName = "ID_Zapchast";
-            this.dataGridViewTextBoxColumn12.HeaderText = "ID_Zapchast";
-            this.dataGridViewTextBoxColumn12.Name = "dataGridViewTextBoxColumn12";
-            this.dataGridViewTextBoxColumn12.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn13
-            // 
-            this.dataGridViewTextBoxColumn13.DataPropertyName = "Model";
-            this.dataGridViewTextBoxColumn13.HeaderText = "Model";
-            this.dataGridViewTextBoxColumn13.Name = "dataGridViewTextBoxColumn13";
-            this.dataGridViewTextBoxColumn13.Width = 150;
-            // 
-            // dataGridViewTextBoxColumn14
-            // 
-            this.dataGridViewTextBoxColumn14.DataPropertyName = "Price";
-            this.dataGridViewTextBoxColumn14.HeaderText = "Price";
-            this.dataGridViewTextBoxColumn14.Name = "dataGridViewTextBoxColumn14";
-            // 
-            // dataGridViewCheckBoxColumn1
-            // 
-            this.dataGridViewCheckBoxColumn1.DataPropertyName = "Na_Prodaj";
-            this.dataGridViewCheckBoxColumn1.HeaderText = "Na_Prodaj";
-            this.dataGridViewCheckBoxColumn1.Name = "dataGridViewCheckBoxColumn1";
-            // 
-            // dataGridViewTextBoxColumn15
-            // 
-            this.dataGridViewTextBoxColumn15.DataPropertyName = "Kilkist";
-            this.dataGridViewTextBoxColumn15.HeaderText = "Kilkist";
-            this.dataGridViewTextBoxColumn15.Name = "dataGridViewTextBoxColumn15";
-            // 
-            // dataGridViewTextBoxColumn16
-            // 
-            this.dataGridViewTextBoxColumn16.DataPropertyName = "Type_Zap";
-            this.dataGridViewTextBoxColumn16.DataSource = this.typeZapBindingSource;
-            this.dataGridViewTextBoxColumn16.DisplayMember = "Nazvanie";
-            this.dataGridViewTextBoxColumn16.HeaderText = "Type_Zap";
-            this.dataGridViewTextBoxColumn16.Name = "dataGridViewTextBoxColumn16";
-            this.dataGridViewTextBoxColumn16.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewTextBoxColumn16.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.dataGridViewTextBoxColumn16.ValueMember = "ID_Type_Zap";
-            this.dataGridViewTextBoxColumn16.Width = 150;
-            // 
-            // zapchastunuBindingSource
-            // 
-            this.zapchastunuBindingSource.DataMember = "Zapchastunu";
-            this.zapchastunuBindingSource.DataSource = this.servisniy_CentrDataSet;
-            // 
-            // zdiysn_PoslugiBindingSource
-            // 
-            this.zdiysn_PoslugiBindingSource.DataMember = "Zdiysn_Poslugi";
-            this.zdiysn_PoslugiBindingSource.DataSource = this.servisniy_CentrDataSet;
-            // 
-            // dataGridViewTextBoxColumn26
-            // 
-            this.dataGridViewTextBoxColumn26.DataPropertyName = "ID_ZdiysnPosl";
-            this.dataGridViewTextBoxColumn26.HeaderText = "ID_ZdiysnPosl";
-            this.dataGridViewTextBoxColumn26.Name = "dataGridViewTextBoxColumn26";
-            this.dataGridViewTextBoxColumn26.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn27
-            // 
-            this.dataGridViewTextBoxColumn27.DataPropertyName = "Data";
-            this.dataGridViewTextBoxColumn27.HeaderText = "Data";
-            this.dataGridViewTextBoxColumn27.Name = "dataGridViewTextBoxColumn27";
-            // 
-            // dataGridViewTextBoxColumn28
-            // 
-            this.dataGridViewTextBoxColumn28.DataPropertyName = "Tehnika";
-            this.dataGridViewTextBoxColumn28.HeaderText = "Tehnika";
-            this.dataGridViewTextBoxColumn28.Name = "dataGridViewTextBoxColumn28";
-            // 
-            // dataGridViewTextBoxColumn29
-            // 
-            this.dataGridViewTextBoxColumn29.DataPropertyName = "Posluga";
-            this.dataGridViewTextBoxColumn29.DataSource = this.poslugaBindingSource;
-            this.dataGridViewTextBoxColumn29.DisplayMember = "Nazvanie";
-            this.dataGridViewTextBoxColumn29.DisplayStyle = System.Windows.Forms.DataGridViewComboBoxDisplayStyle.ComboBox;
-            this.dataGridViewTextBoxColumn29.HeaderText = "Posluga";
-            this.dataGridViewTextBoxColumn29.Name = "dataGridViewTextBoxColumn29";
-            this.dataGridViewTextBoxColumn29.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewTextBoxColumn29.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.dataGridViewTextBoxColumn29.ValueMember = "ID_Posluga";
-            this.dataGridViewTextBoxColumn29.Width = 210;
-            // 
-            // dataGridViewTextBoxColumn30
-            // 
-            this.dataGridViewTextBoxColumn30.DataPropertyName = "Pracivnuku";
-            this.dataGridViewTextBoxColumn30.DataSource = this.pracivnukuBindingSource;
-            this.dataGridViewTextBoxColumn30.DisplayMember = "Last_Name";
-            this.dataGridViewTextBoxColumn30.DisplayStyle = System.Windows.Forms.DataGridViewComboBoxDisplayStyle.ComboBox;
-            this.dataGridViewTextBoxColumn30.HeaderText = "Pracivnuku";
-            this.dataGridViewTextBoxColumn30.Name = "dataGridViewTextBoxColumn30";
-            this.dataGridViewTextBoxColumn30.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewTextBoxColumn30.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.dataGridViewTextBoxColumn30.ValueMember = "ID_Pracik";
-            // 
-            // dataGridViewTextBoxColumn31
-            // 
-            this.dataGridViewTextBoxColumn31.DataPropertyName = "Zapchastunu";
-            this.dataGridViewTextBoxColumn31.DataSource = this.typeZapBindingSource;
-            this.dataGridViewTextBoxColumn31.DisplayMember = "Nazvanie";
-            this.dataGridViewTextBoxColumn31.DisplayStyle = System.Windows.Forms.DataGridViewComboBoxDisplayStyle.ComboBox;
-            this.dataGridViewTextBoxColumn31.HeaderText = "Zapchastunu";
-            this.dataGridViewTextBoxColumn31.Name = "dataGridViewTextBoxColumn31";
-            this.dataGridViewTextBoxColumn31.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewTextBoxColumn31.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.dataGridViewTextBoxColumn31.ValueMember = "ID_Type_Zap";
-            this.dataGridViewTextBoxColumn31.Width = 170;
-            // 
-            // dataGridViewTextBoxColumn32
-            // 
-            this.dataGridViewTextBoxColumn32.DataPropertyName = "ID_Posluga";
-            this.dataGridViewTextBoxColumn32.HeaderText = "ID_Posluga";
-            this.dataGridViewTextBoxColumn32.Name = "dataGridViewTextBoxColumn32";
-            this.dataGridViewTextBoxColumn32.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn33
-            // 
-            this.dataGridViewTextBoxColumn33.DataPropertyName = "Nazvanie";
-            this.dataGridViewTextBoxColumn33.HeaderText = "Nazvanie";
-            this.dataGridViewTextBoxColumn33.Name = "dataGridViewTextBoxColumn33";
-            this.dataGridViewTextBoxColumn33.Width = 250;
-            // 
-            // dataGridViewTextBoxColumn34
-            // 
-            this.dataGridViewTextBoxColumn34.DataPropertyName = "Price";
-            this.dataGridViewTextBoxColumn34.HeaderText = "Price";
-            this.dataGridViewTextBoxColumn34.Name = "dataGridViewTextBoxColumn34";
-            // 
-            // prodaj_ZapBindingSource
-            // 
-            this.prodaj_ZapBindingSource.DataMember = "Prodaj_Zap";
-            this.prodaj_ZapBindingSource.DataSource = this.servisniy_CentrDataSet;
-            // 
-            // dataGridViewTextBoxColumn19
-            // 
-            this.dataGridViewTextBoxColumn19.DataPropertyName = "ID_ProdajZap";
-            this.dataGridViewTextBoxColumn19.HeaderText = "ID_ProdajZap";
-            this.dataGridViewTextBoxColumn19.Name = "dataGridViewTextBoxColumn19";
-            this.dataGridViewTextBoxColumn19.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn20
-            // 
-            this.dataGridViewTextBoxColumn20.DataPropertyName = "Data";
-            this.dataGridViewTextBoxColumn20.HeaderText = "Дата продажу";
-            this.dataGridViewTextBoxColumn20.Name = "dataGridViewTextBoxColumn20";
-            this.dataGridViewTextBoxColumn20.Width = 105;
-            // 
-            // dataGridViewTextBoxColumn21
-            // 
-            this.dataGridViewTextBoxColumn21.DataPropertyName = "Price";
-            this.dataGridViewTextBoxColumn21.HeaderText = "Ціна";
-            this.dataGridViewTextBoxColumn21.Name = "dataGridViewTextBoxColumn21";
-            // 
-            // dataGridViewTextBoxColumn22
-            // 
-            this.dataGridViewTextBoxColumn22.DataPropertyName = "Zapchastunu";
-            this.dataGridViewTextBoxColumn22.DataSource = this.typeZapBindingSource;
-            this.dataGridViewTextBoxColumn22.DisplayMember = "Nazvanie";
-            this.dataGridViewTextBoxColumn22.DisplayStyle = System.Windows.Forms.DataGridViewComboBoxDisplayStyle.ComboBox;
-            this.dataGridViewTextBoxColumn22.HeaderText = "Запчастини";
-            this.dataGridViewTextBoxColumn22.Name = "dataGridViewTextBoxColumn22";
-            this.dataGridViewTextBoxColumn22.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewTextBoxColumn22.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.dataGridViewTextBoxColumn22.ValueMember = "ID_Type_Zap";
-            this.dataGridViewTextBoxColumn22.Width = 200;
-            // 
-            // prodaj_TehnBindingSource
-            // 
-            this.prodaj_TehnBindingSource.DataMember = "Prodaj_Tehn";
-            this.prodaj_TehnBindingSource.DataSource = this.servisniy_CentrDataSet;
-            // 
-            // dataGridViewTextBoxColumn23
-            // 
-            this.dataGridViewTextBoxColumn23.DataPropertyName = "ID_ProdajTeh";
-            this.dataGridViewTextBoxColumn23.Frozen = true;
-            this.dataGridViewTextBoxColumn23.HeaderText = "ID_ProdajTeh";
-            this.dataGridViewTextBoxColumn23.Name = "dataGridViewTextBoxColumn23";
-            this.dataGridViewTextBoxColumn23.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn25
-            // 
-            this.dataGridViewTextBoxColumn25.DataPropertyName = "Tehnika";
-            this.dataGridViewTextBoxColumn25.DataSource = this.tehnikaBindingSource;
-            this.dataGridViewTextBoxColumn25.DisplayMember = "Model";
-            this.dataGridViewTextBoxColumn25.DisplayStyle = System.Windows.Forms.DataGridViewComboBoxDisplayStyle.ComboBox;
-            this.dataGridViewTextBoxColumn25.HeaderText = "Техніка";
-            this.dataGridViewTextBoxColumn25.Name = "dataGridViewTextBoxColumn25";
-            this.dataGridViewTextBoxColumn25.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewTextBoxColumn25.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.dataGridViewTextBoxColumn25.ValueMember = "ID_Tehnika";
-            this.dataGridViewTextBoxColumn25.Width = 150;
-            // 
-            // dataGridViewTextBoxColumn24
-            // 
-            this.dataGridViewTextBoxColumn24.DataPropertyName = "Price";
-            this.dataGridViewTextBoxColumn24.HeaderText = "Ціна";
-            this.dataGridViewTextBoxColumn24.Name = "dataGridViewTextBoxColumn24";
-            // 
             // dataGridViewTextBoxColumn55
             // 
             this.dataGridViewTextBoxColumn55.DataPropertyName = "ID_Pracik";
@@ -3225,114 +3326,26 @@
             // 
             this.pracivnukuTableAdapter.ClearBeforeFill = true;
             // 
-            // akt_peredachi_v_remontBindingSource
-            // 
-            this.akt_peredachi_v_remontBindingSource.DataMember = "Akt_peredachi_v_remont";
-            this.akt_peredachi_v_remontBindingSource.DataSource = this.servisniy_CentrDataSet;
-            // 
             // akt_peredachi_v_remontTableAdapter
             // 
             this.akt_peredachi_v_remontTableAdapter.ClearBeforeFill = true;
             // 
-            // akt_peredachi_v_remontDataGridView
+            // button1
             // 
-            this.akt_peredachi_v_remontDataGridView.AutoGenerateColumns = false;
-            this.akt_peredachi_v_remontDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.akt_peredachi_v_remontDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn46,
-            this.dataGridViewTextBoxColumn47,
-            this.dataGridViewTextBoxColumn48,
-            this.dataGridViewTextBoxColumn49,
-            this.dataGridViewTextBoxColumn50,
-            this.dataGridViewTextBoxColumn51,
-            this.dataGridViewTextBoxColumn52,
-            this.dataGridViewTextBoxColumn53,
-            this.dataGridViewTextBoxColumn54});
-            this.akt_peredachi_v_remontDataGridView.DataSource = this.akt_peredachi_v_remontBindingSource;
-            this.akt_peredachi_v_remontDataGridView.Location = new System.Drawing.Point(6, 31);
-            this.akt_peredachi_v_remontDataGridView.Name = "akt_peredachi_v_remontDataGridView";
-            this.akt_peredachi_v_remontDataGridView.Size = new System.Drawing.Size(1206, 494);
-            this.akt_peredachi_v_remontDataGridView.TabIndex = 4;
-            // 
-            // dataGridViewTextBoxColumn46
-            // 
-            this.dataGridViewTextBoxColumn46.DataPropertyName = "ID_Akt";
-            this.dataGridViewTextBoxColumn46.HeaderText = "ID_Akt";
-            this.dataGridViewTextBoxColumn46.Name = "dataGridViewTextBoxColumn46";
-            this.dataGridViewTextBoxColumn46.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn47
-            // 
-            this.dataGridViewTextBoxColumn47.DataPropertyName = "Data";
-            this.dataGridViewTextBoxColumn47.HeaderText = "Data";
-            this.dataGridViewTextBoxColumn47.Name = "dataGridViewTextBoxColumn47";
-            // 
-            // dataGridViewTextBoxColumn48
-            // 
-            this.dataGridViewTextBoxColumn48.DataPropertyName = "Last_Name";
-            this.dataGridViewTextBoxColumn48.HeaderText = "Last_Name";
-            this.dataGridViewTextBoxColumn48.Name = "dataGridViewTextBoxColumn48";
-            // 
-            // dataGridViewTextBoxColumn49
-            // 
-            this.dataGridViewTextBoxColumn49.DataPropertyName = "Name";
-            this.dataGridViewTextBoxColumn49.HeaderText = "Name";
-            this.dataGridViewTextBoxColumn49.Name = "dataGridViewTextBoxColumn49";
-            // 
-            // dataGridViewTextBoxColumn50
-            // 
-            this.dataGridViewTextBoxColumn50.DataPropertyName = "Otchestvo";
-            this.dataGridViewTextBoxColumn50.HeaderText = "Otchestvo";
-            this.dataGridViewTextBoxColumn50.Name = "dataGridViewTextBoxColumn50";
-            // 
-            // dataGridViewTextBoxColumn51
-            // 
-            this.dataGridViewTextBoxColumn51.DataPropertyName = "Mobilniy";
-            this.dataGridViewTextBoxColumn51.HeaderText = "Mobilniy";
-            this.dataGridViewTextBoxColumn51.Name = "dataGridViewTextBoxColumn51";
-            // 
-            // dataGridViewTextBoxColumn52
-            // 
-            this.dataGridViewTextBoxColumn52.DataPropertyName = "Tehnika";
-            this.dataGridViewTextBoxColumn52.DataSource = this.tehnikaBindingSource;
-            this.dataGridViewTextBoxColumn52.DisplayMember = "Model";
-            this.dataGridViewTextBoxColumn52.DisplayStyle = System.Windows.Forms.DataGridViewComboBoxDisplayStyle.ComboBox;
-            this.dataGridViewTextBoxColumn52.HeaderText = "Tehnika";
-            this.dataGridViewTextBoxColumn52.Name = "dataGridViewTextBoxColumn52";
-            this.dataGridViewTextBoxColumn52.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewTextBoxColumn52.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.dataGridViewTextBoxColumn52.ValueMember = "ID_Tehnika";
-            // 
-            // dataGridViewTextBoxColumn53
-            // 
-            this.dataGridViewTextBoxColumn53.DataPropertyName = "Posluga";
-            this.dataGridViewTextBoxColumn53.DataSource = this.poslugaBindingSource;
-            this.dataGridViewTextBoxColumn53.DisplayMember = "Nazvanie";
-            this.dataGridViewTextBoxColumn53.DisplayStyle = System.Windows.Forms.DataGridViewComboBoxDisplayStyle.ComboBox;
-            this.dataGridViewTextBoxColumn53.HeaderText = "Posluga";
-            this.dataGridViewTextBoxColumn53.Name = "dataGridViewTextBoxColumn53";
-            this.dataGridViewTextBoxColumn53.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewTextBoxColumn53.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.dataGridViewTextBoxColumn53.ValueMember = "ID_Posluga";
-            // 
-            // dataGridViewTextBoxColumn54
-            // 
-            this.dataGridViewTextBoxColumn54.DataPropertyName = "Pracivnuku";
-            this.dataGridViewTextBoxColumn54.DataSource = this.pracivnukuBindingSource;
-            this.dataGridViewTextBoxColumn54.DisplayMember = "Last_Name";
-            this.dataGridViewTextBoxColumn54.DisplayStyle = System.Windows.Forms.DataGridViewComboBoxDisplayStyle.ComboBox;
-            this.dataGridViewTextBoxColumn54.HeaderText = "Pracivnuku";
-            this.dataGridViewTextBoxColumn54.Name = "dataGridViewTextBoxColumn54";
-            this.dataGridViewTextBoxColumn54.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewTextBoxColumn54.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.dataGridViewTextBoxColumn54.ValueMember = "ID_Pracik";
-            this.dataGridViewTextBoxColumn54.Width = 250;
+            this.button1.Location = new System.Drawing.Point(452, 671);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1264, 762);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.tabControl6);
             this.Controls.Add(this.tabControl5);
@@ -3355,16 +3368,21 @@
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator1)).EndInit();
             this.bindingNavigator1.ResumeLayout(false);
             this.bindingNavigator1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.postachBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.servisniy_CentrDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.postachDataGridView)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.postavkiDataGridView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.typeZapBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.postavkiBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator2)).EndInit();
             this.bindingNavigator2.ResumeLayout(false);
             this.bindingNavigator2.PerformLayout();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.zapchastunuDataGridView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.zapchastunuBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator3)).EndInit();
             this.bindingNavigator3.ResumeLayout(false);
             this.bindingNavigator3.PerformLayout();
@@ -3381,20 +3399,26 @@
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator5)).EndInit();
             this.bindingNavigator5.ResumeLayout(false);
             this.bindingNavigator5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.prodaj_ZapBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.prodaj_ZapDataGridView)).EndInit();
             this.tabPage6.ResumeLayout(false);
             this.tabPage6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator6)).EndInit();
             this.bindingNavigator6.ResumeLayout(false);
             this.bindingNavigator6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.prodaj_TehnBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.prodaj_TehnDataGridView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tehnikaBindingSource)).EndInit();
             this.tabControl4.ResumeLayout(false);
             this.tabPage7.ResumeLayout(false);
             this.tabPage7.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator7)).EndInit();
             this.bindingNavigator7.ResumeLayout(false);
             this.bindingNavigator7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.zdiysn_PoslugiBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.zdiysn_PoslugiDataGridView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.poslugaBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pracivnukuBindingSource)).EndInit();
             this.tabPage8.ResumeLayout(false);
             this.tabPage8.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.poslugaDataGridView)).EndInit();
@@ -3408,6 +3432,8 @@
             this.bindingNavigator9.ResumeLayout(false);
             this.bindingNavigator9.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tehnikaDataGridView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tipBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stanBindingSource)).EndInit();
             this.tabPage11.ResumeLayout(false);
             this.tabPage11.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator11)).EndInit();
@@ -3422,6 +3448,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.tipDataGridView)).EndInit();
             this.tabPage12.ResumeLayout(false);
             this.tabPage12.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.akt_peredachi_v_remontDataGridView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.akt_peredachi_v_remontBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator12)).EndInit();
             this.bindingNavigator12.ResumeLayout(false);
             this.bindingNavigator12.PerformLayout();
@@ -3433,23 +3461,8 @@
             this.bindingNavigator13.ResumeLayout(false);
             this.bindingNavigator13.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pracivnukuDataGridView)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.servisniy_CentrDataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tehnikaBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.poslugaBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pracivnukuBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tipBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.stanBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.postachBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.typeZapBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.postavkiBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.zapchastunuBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.zdiysn_PoslugiBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.prodaj_ZapBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.prodaj_TehnBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.postachBindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.servisniy_CentrDataSet1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.akt_peredachi_v_remontBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.akt_peredachi_v_remontDataGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -3778,6 +3791,7 @@
         private System.Windows.Forms.DataGridViewComboBoxColumn dataGridViewTextBoxColumn52;
         private System.Windows.Forms.DataGridViewComboBoxColumn dataGridViewTextBoxColumn53;
         private System.Windows.Forms.DataGridViewComboBoxColumn dataGridViewTextBoxColumn54;
+        private System.Windows.Forms.Button button1;
     }
 }
 
