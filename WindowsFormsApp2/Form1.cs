@@ -13,7 +13,7 @@ namespace WindowsFormsApp2
     
     public partial class Form1 : Form
     {
-        private Servisniy_CentrDataSet.Akt_peredachi_v_remontDataTable akt_peredachi_v_remontDataTable;
+        
 
         public Form1()
         {
@@ -34,6 +34,7 @@ namespace WindowsFormsApp2
             tabControl5.Visible = false;
             tabControl6.Visible = false;
             tabControl7.Visible = false;
+            tabControl8.Visible = false;
 
         }
 
@@ -48,6 +49,10 @@ namespace WindowsFormsApp2
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "servisniy_CentrDataSet.Klient". При необходимости она может быть перемещена или удалена.
+            this.klientTableAdapter.Fill(this.servisniy_CentrDataSet.Klient);
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "servisniy_CentrDataSet.Stat". При необходимости она может быть перемещена или удалена.
+            this.statTableAdapter.Fill(this.servisniy_CentrDataSet.Stat);
             // TODO: данная строка кода позволяет загрузить данные в таблицу "servisniy_CentrDataSet.Akt_peredachi_v_remont". При необходимости она может быть перемещена или удалена.
             this.akt_peredachi_v_remontTableAdapter.Fill(this.servisniy_CentrDataSet.Akt_peredachi_v_remont);
             // TODO: данная строка кода позволяет загрузить данные в таблицу "servisniy_CentrDataSet.Pracivnuku". При необходимости она может быть перемещена или удалена.
@@ -113,6 +118,7 @@ namespace WindowsFormsApp2
             tabControl5.Visible = false;
             tabControl6.Visible = false;
             tabControl7.Visible = false;
+            tabControl8.Visible = false;
 
         }
 
@@ -147,6 +153,7 @@ namespace WindowsFormsApp2
             tabControl4.Visible = false;
             tabControl6.Visible = false;
             tabControl7.Visible = false;
+            tabControl8.Visible = false;
         }
 
         private void toolStripButton44_Click(object sender, EventArgs e)
@@ -168,6 +175,7 @@ namespace WindowsFormsApp2
             tabControl5.Visible = false;
             tabControl6.Visible = false;
             tabControl7.Visible = false;
+            tabControl8.Visible = false;
         }
 
         private void технікаToolStripMenuItem_Click(object sender, EventArgs e)
@@ -179,6 +187,7 @@ namespace WindowsFormsApp2
             tabControl3.Visible = false;
             tabControl6.Visible = false;
             tabControl7.Visible = false;
+            tabControl8.Visible = false;
         }
 
         private void оформленняПослугиToolStripMenuItem_Click(object sender, EventArgs e)
@@ -191,6 +200,7 @@ namespace WindowsFormsApp2
             tabControl4.Visible = false;
             tabControl3.Visible = false;
             tabControl7.Visible = false;
+            tabControl8.Visible = false;
         }
 
         private void списокПрацівниківToolStripMenuItem_Click(object sender, EventArgs e)
@@ -202,6 +212,7 @@ namespace WindowsFormsApp2
             tabControl2.Visible = false;
             tabControl4.Visible = false;
             tabControl3.Visible = false;
+            tabControl8.Visible = false;
         }
 
         private void toolStripButton79_Click(object sender, EventArgs e)
@@ -233,5 +244,32 @@ namespace WindowsFormsApp2
         {
             DbCommunication.CreateUser(null, null);
         }
+
+        private void проданаТехнікаToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            tabControl8.Visible = true;
+            tabControl6.Visible = false;
+            tabControl5.Visible = false;
+            tabControl1.Visible = false;
+            tabControl2.Visible = false;
+            tabControl4.Visible = false;
+            tabControl3.Visible = false;
+            tabControl7.Visible = false;
+        }
+
+        private void списокКлієнтівToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            tabControl9.Visible = true;
+            tabControl8.Visible = false;
+            tabControl6.Visible = false;
+            tabControl5.Visible = false;
+            tabControl1.Visible = false;
+            tabControl2.Visible = false;
+            tabControl4.Visible = false;
+            tabControl3.Visible = false;
+            tabControl7.Visible = false;
+        }
+
+       
     }
 }

@@ -43,6 +43,8 @@
             this.оформленняПослугиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.списокПрацівниківToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.звітиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.проданаТехнікаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.списокКлієнтівToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.bindingNavigator1 = new System.Windows.Forms.BindingNavigator(this.components);
@@ -335,6 +337,19 @@
             this.dataGridViewTextBoxColumn57 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn58 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn59 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.button1 = new System.Windows.Forms.Button();
+            this.tabControl8 = new System.Windows.Forms.TabControl();
+            this.tabPage14 = new System.Windows.Forms.TabPage();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.statusDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nazvanieDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tehnikaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.tipDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.statBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.tabControl9 = new System.Windows.Forms.TabControl();
+            this.tabPage15 = new System.Windows.Forms.TabPage();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.klientBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.postachBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.tableAdapterManager = new WindowsFormsApp2.Servisniy_CentrDataSetTableAdapters.TableAdapterManager();
             this.zapchastunuTableAdapter = new WindowsFormsApp2.Servisniy_CentrDataSetTableAdapters.ZapchastunuTableAdapter();
@@ -351,7 +366,13 @@
             this.stanTableAdapter = new WindowsFormsApp2.Servisniy_CentrDataSetTableAdapters.StanTableAdapter();
             this.pracivnukuTableAdapter = new WindowsFormsApp2.Servisniy_CentrDataSetTableAdapters.PracivnukuTableAdapter();
             this.akt_peredachi_v_remontTableAdapter = new WindowsFormsApp2.Servisniy_CentrDataSetTableAdapters.Akt_peredachi_v_remontTableAdapter();
-            this.button1 = new System.Windows.Forms.Button();
+            this.servisniyCentrDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.statTableAdapter = new WindowsFormsApp2.Servisniy_CentrDataSetTableAdapters.StatTableAdapter();
+            this.klientTableAdapter = new WindowsFormsApp2.Servisniy_CentrDataSetTableAdapters.KlientTableAdapter();
+            this.прізвищеDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.імяDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.побатьковіDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.мобільнійтелефонDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.menuStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -426,8 +447,17 @@
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator13)).BeginInit();
             this.bindingNavigator13.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pracivnukuDataGridView)).BeginInit();
+            this.tabControl8.SuspendLayout();
+            this.tabPage14.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.statBindingSource)).BeginInit();
+            this.tabControl9.SuspendLayout();
+            this.tabPage15.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.klientBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.postachBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.servisniy_CentrDataSet1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.servisniyCentrDataSetBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -476,7 +506,7 @@
             this.оформленняПослугиToolStripMenuItem,
             this.списокПрацівниківToolStripMenuItem});
             this.категоріїToolStripMenuItem.Name = "категоріїToolStripMenuItem";
-            this.категоріїToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.категоріїToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
             this.категоріїToolStripMenuItem.Text = "Категорії";
             // 
             // постачальникиПоставкиToolStripMenuItem
@@ -530,9 +560,26 @@
             // 
             // звітиToolStripMenuItem
             // 
+            this.звітиToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.проданаТехнікаToolStripMenuItem,
+            this.списокКлієнтівToolStripMenuItem});
             this.звітиToolStripMenuItem.Name = "звітиToolStripMenuItem";
             this.звітиToolStripMenuItem.Size = new System.Drawing.Size(47, 20);
             this.звітиToolStripMenuItem.Text = "Звіти";
+            // 
+            // проданаТехнікаToolStripMenuItem
+            // 
+            this.проданаТехнікаToolStripMenuItem.Name = "проданаТехнікаToolStripMenuItem";
+            this.проданаТехнікаToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
+            this.проданаТехнікаToolStripMenuItem.Text = "Продана техніка";
+            this.проданаТехнікаToolStripMenuItem.Click += new System.EventHandler(this.проданаТехнікаToolStripMenuItem_Click);
+            // 
+            // списокКлієнтівToolStripMenuItem
+            // 
+            this.списокКлієнтівToolStripMenuItem.Name = "списокКлієнтівToolStripMenuItem";
+            this.списокКлієнтівToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
+            this.списокКлієнтівToolStripMenuItem.Text = "Список клієнтів";
+            this.списокКлієнтівToolStripMenuItem.Click += new System.EventHandler(this.списокКлієнтівToolStripMenuItem_Click);
             // 
             // tabControl1
             // 
@@ -2260,7 +2307,7 @@
             this.tabControl5.Location = new System.Drawing.Point(2, 27);
             this.tabControl5.Name = "tabControl5";
             this.tabControl5.SelectedIndex = 0;
-            this.tabControl5.Size = new System.Drawing.Size(1062, 600);
+            this.tabControl5.Size = new System.Drawing.Size(1223, 600);
             this.tabControl5.TabIndex = 5;
             this.tabControl5.Visible = false;
             // 
@@ -2271,7 +2318,7 @@
             this.tabPage9.Location = new System.Drawing.Point(4, 22);
             this.tabPage9.Name = "tabPage9";
             this.tabPage9.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage9.Size = new System.Drawing.Size(1054, 574);
+            this.tabPage9.Size = new System.Drawing.Size(1215, 574);
             this.tabPage9.TabIndex = 0;
             this.tabPage9.Text = "Техніка";
             this.tabPage9.UseVisualStyleBackColor = true;
@@ -2302,7 +2349,7 @@
             this.bindingNavigator9.MovePreviousItem = this.toolStripButton55;
             this.bindingNavigator9.Name = "bindingNavigator9";
             this.bindingNavigator9.PositionItem = this.toolStripTextBox8;
-            this.bindingNavigator9.Size = new System.Drawing.Size(1048, 25);
+            this.bindingNavigator9.Size = new System.Drawing.Size(1209, 25);
             this.bindingNavigator9.TabIndex = 3;
             this.bindingNavigator9.Text = "bindingNavigator9";
             // 
@@ -2403,6 +2450,7 @@
             // tehnikaDataGridView
             // 
             this.tehnikaDataGridView.AutoGenerateColumns = false;
+            this.tehnikaDataGridView.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.tehnikaDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.tehnikaDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn35,
@@ -2415,7 +2463,7 @@
             this.tehnikaDataGridView.DataSource = this.tehnikaBindingSource;
             this.tehnikaDataGridView.Location = new System.Drawing.Point(3, 31);
             this.tehnikaDataGridView.Name = "tehnikaDataGridView";
-            this.tehnikaDataGridView.Size = new System.Drawing.Size(747, 220);
+            this.tehnikaDataGridView.Size = new System.Drawing.Size(1216, 547);
             this.tehnikaDataGridView.TabIndex = 0;
             // 
             // dataGridViewTextBoxColumn35
@@ -2490,7 +2538,7 @@
             this.tabPage11.Location = new System.Drawing.Point(4, 22);
             this.tabPage11.Name = "tabPage11";
             this.tabPage11.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage11.Size = new System.Drawing.Size(1054, 574);
+            this.tabPage11.Size = new System.Drawing.Size(1215, 574);
             this.tabPage11.TabIndex = 2;
             this.tabPage11.Text = "Стан";
             this.tabPage11.UseVisualStyleBackColor = true;
@@ -2521,7 +2569,7 @@
             this.bindingNavigator11.MovePreviousItem = this.toolStripButton69;
             this.bindingNavigator11.Name = "bindingNavigator11";
             this.bindingNavigator11.PositionItem = this.toolStripTextBox10;
-            this.bindingNavigator11.Size = new System.Drawing.Size(1048, 25);
+            this.bindingNavigator11.Size = new System.Drawing.Size(1209, 25);
             this.bindingNavigator11.TabIndex = 3;
             this.bindingNavigator11.Text = "bindingNavigator11";
             // 
@@ -2652,7 +2700,7 @@
             this.tabPage10.Location = new System.Drawing.Point(4, 22);
             this.tabPage10.Name = "tabPage10";
             this.tabPage10.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage10.Size = new System.Drawing.Size(1054, 574);
+            this.tabPage10.Size = new System.Drawing.Size(1215, 574);
             this.tabPage10.TabIndex = 1;
             this.tabPage10.Text = "Тип";
             this.tabPage10.UseVisualStyleBackColor = true;
@@ -2683,7 +2731,7 @@
             this.bindingNavigator10.MovePreviousItem = this.toolStripButton62;
             this.bindingNavigator10.Name = "bindingNavigator10";
             this.bindingNavigator10.PositionItem = this.toolStripTextBox9;
-            this.bindingNavigator10.Size = new System.Drawing.Size(1048, 25);
+            this.bindingNavigator10.Size = new System.Drawing.Size(1209, 25);
             this.bindingNavigator10.TabIndex = 3;
             this.bindingNavigator10.Text = "bindingNavigator10";
             // 
@@ -3250,6 +3298,139 @@
             this.dataGridViewTextBoxColumn59.Name = "dataGridViewTextBoxColumn59";
             this.dataGridViewTextBoxColumn59.Width = 150;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(452, 671);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // tabControl8
+            // 
+            this.tabControl8.Controls.Add(this.tabPage14);
+            this.tabControl8.Location = new System.Drawing.Point(0, 27);
+            this.tabControl8.Name = "tabControl8";
+            this.tabControl8.SelectedIndex = 0;
+            this.tabControl8.Size = new System.Drawing.Size(1225, 607);
+            this.tabControl8.TabIndex = 9;
+            this.tabControl8.Visible = false;
+            // 
+            // tabPage14
+            // 
+            this.tabPage14.Controls.Add(this.dataGridView1);
+            this.tabPage14.Location = new System.Drawing.Point(4, 22);
+            this.tabPage14.Name = "tabPage14";
+            this.tabPage14.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage14.Size = new System.Drawing.Size(1217, 581);
+            this.tabPage14.TabIndex = 0;
+            this.tabPage14.Text = "Продана техніка";
+            this.tabPage14.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AutoGenerateColumns = false;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.statusDataGridViewTextBoxColumn,
+            this.nazvanieDataGridViewTextBoxColumn1,
+            this.tehnikaDataGridViewTextBoxColumn,
+            this.tipDataGridViewTextBoxColumn});
+            this.dataGridView1.DataSource = this.statBindingSource;
+            this.dataGridView1.Location = new System.Drawing.Point(-4, 0);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(470, 281);
+            this.dataGridView1.TabIndex = 0;
+            // 
+            // statusDataGridViewTextBoxColumn
+            // 
+            this.statusDataGridViewTextBoxColumn.DataPropertyName = "Status";
+            this.statusDataGridViewTextBoxColumn.HeaderText = "Статус";
+            this.statusDataGridViewTextBoxColumn.Name = "statusDataGridViewTextBoxColumn";
+            // 
+            // nazvanieDataGridViewTextBoxColumn1
+            // 
+            this.nazvanieDataGridViewTextBoxColumn1.DataPropertyName = "Nazvanie";
+            this.nazvanieDataGridViewTextBoxColumn1.HeaderText = "Назва";
+            this.nazvanieDataGridViewTextBoxColumn1.Name = "nazvanieDataGridViewTextBoxColumn1";
+            // 
+            // tehnikaDataGridViewTextBoxColumn
+            // 
+            this.tehnikaDataGridViewTextBoxColumn.DataPropertyName = "Tehnika";
+            this.tehnikaDataGridViewTextBoxColumn.DataSource = this.tehnikaBindingSource;
+            this.tehnikaDataGridViewTextBoxColumn.DisplayMember = "Model";
+            this.tehnikaDataGridViewTextBoxColumn.DisplayStyle = System.Windows.Forms.DataGridViewComboBoxDisplayStyle.ComboBox;
+            this.tehnikaDataGridViewTextBoxColumn.HeaderText = "Модель";
+            this.tehnikaDataGridViewTextBoxColumn.Name = "tehnikaDataGridViewTextBoxColumn";
+            this.tehnikaDataGridViewTextBoxColumn.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.tehnikaDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.tehnikaDataGridViewTextBoxColumn.ValueMember = "ID_Tehnika";
+            // 
+            // tipDataGridViewTextBoxColumn
+            // 
+            this.tipDataGridViewTextBoxColumn.DataPropertyName = "Tip";
+            this.tipDataGridViewTextBoxColumn.DataSource = this.prodaj_TehnBindingSource;
+            this.tipDataGridViewTextBoxColumn.DisplayMember = "Price";
+            this.tipDataGridViewTextBoxColumn.DisplayStyle = System.Windows.Forms.DataGridViewComboBoxDisplayStyle.ComboBox;
+            this.tipDataGridViewTextBoxColumn.HeaderText = "Ціна";
+            this.tipDataGridViewTextBoxColumn.Name = "tipDataGridViewTextBoxColumn";
+            this.tipDataGridViewTextBoxColumn.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.tipDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.tipDataGridViewTextBoxColumn.ValueMember = "ID_ProdajTeh";
+            // 
+            // statBindingSource
+            // 
+            this.statBindingSource.DataMember = "Stat";
+            this.statBindingSource.DataSource = this.servisniy_CentrDataSet;
+            // 
+            // tabControl9
+            // 
+            this.tabControl9.Controls.Add(this.tabPage15);
+            this.tabControl9.Location = new System.Drawing.Point(0, 27);
+            this.tabControl9.Name = "tabControl9";
+            this.tabControl9.SelectedIndex = 0;
+            this.tabControl9.Size = new System.Drawing.Size(1225, 607);
+            this.tabControl9.TabIndex = 10;
+            this.tabControl9.Visible = false;
+            // 
+            // tabPage15
+            // 
+            this.tabPage15.Controls.Add(this.dataGridView2);
+            this.tabPage15.Location = new System.Drawing.Point(4, 22);
+            this.tabPage15.Name = "tabPage15";
+            this.tabPage15.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage15.Size = new System.Drawing.Size(1217, 581);
+            this.tabPage15.TabIndex = 0;
+            this.tabPage15.Text = "Список клієнтів";
+            this.tabPage15.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView2
+            // 
+            this.dataGridView2.AllowUserToAddRows = false;
+            this.dataGridView2.AllowUserToDeleteRows = false;
+            this.dataGridView2.AutoGenerateColumns = false;
+            this.dataGridView2.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.прізвищеDataGridViewTextBoxColumn,
+            this.імяDataGridViewTextBoxColumn,
+            this.побатьковіDataGridViewTextBoxColumn,
+            this.мобільнійтелефонDataGridViewTextBoxColumn});
+            this.dataGridView2.DataSource = this.klientBindingSource;
+            this.dataGridView2.GridColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.dataGridView2.Location = new System.Drawing.Point(5, 6);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.ReadOnly = true;
+            this.dataGridView2.Size = new System.Drawing.Size(747, 562);
+            this.dataGridView2.TabIndex = 0;
+            // 
+            // klientBindingSource
+            // 
+            this.klientBindingSource.DataMember = "Klient";
+            this.klientBindingSource.DataSource = this.servisniy_CentrDataSet;
+            // 
             // postachBindingSource1
             // 
             this.postachBindingSource1.DataMember = "Postach";
@@ -3265,11 +3446,13 @@
             this.tableAdapterManager.PracivnukuTableAdapter = null;
             this.tableAdapterManager.Prodaj_TehnTableAdapter = null;
             this.tableAdapterManager.Prodaj_ZapTableAdapter = null;
+            this.tableAdapterManager.RoleTableAdapter = null;
             this.tableAdapterManager.StanTableAdapter = null;
             this.tableAdapterManager.TehnikaTableAdapter = null;
             this.tableAdapterManager.TipTableAdapter = null;
             this.tableAdapterManager.Type_ZapTableAdapter = null;
             this.tableAdapterManager.UpdateOrder = WindowsFormsApp2.Servisniy_CentrDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
+            this.tableAdapterManager.UserTableAdapter = null;
             this.tableAdapterManager.ZapchastunuTableAdapter = this.zapchastunuTableAdapter;
             this.tableAdapterManager.Zdiysn_PoslugiTableAdapter = null;
             // 
@@ -3330,30 +3513,67 @@
             // 
             this.akt_peredachi_v_remontTableAdapter.ClearBeforeFill = true;
             // 
-            // button1
+            // servisniyCentrDataSetBindingSource
             // 
-            this.button1.Location = new System.Drawing.Point(452, 671);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.servisniyCentrDataSetBindingSource.DataSource = this.servisniy_CentrDataSet;
+            this.servisniyCentrDataSetBindingSource.Position = 0;
+            // 
+            // statTableAdapter
+            // 
+            this.statTableAdapter.ClearBeforeFill = true;
+            // 
+            // klientTableAdapter
+            // 
+            this.klientTableAdapter.ClearBeforeFill = true;
+            // 
+            // прізвищеDataGridViewTextBoxColumn
+            // 
+            this.прізвищеDataGridViewTextBoxColumn.DataPropertyName = "Прізвище";
+            this.прізвищеDataGridViewTextBoxColumn.HeaderText = "Прізвище";
+            this.прізвищеDataGridViewTextBoxColumn.Name = "прізвищеDataGridViewTextBoxColumn";
+            this.прізвищеDataGridViewTextBoxColumn.ReadOnly = true;
+            this.прізвищеDataGridViewTextBoxColumn.Width = 150;
+            // 
+            // імяDataGridViewTextBoxColumn
+            // 
+            this.імяDataGridViewTextBoxColumn.DataPropertyName = "Ім_я";
+            this.імяDataGridViewTextBoxColumn.HeaderText = "Ім_я";
+            this.імяDataGridViewTextBoxColumn.Name = "імяDataGridViewTextBoxColumn";
+            this.імяDataGridViewTextBoxColumn.ReadOnly = true;
+            this.імяDataGridViewTextBoxColumn.Width = 150;
+            // 
+            // побатьковіDataGridViewTextBoxColumn
+            // 
+            this.побатьковіDataGridViewTextBoxColumn.DataPropertyName = "По_батькові";
+            this.побатьковіDataGridViewTextBoxColumn.HeaderText = "По_батькові";
+            this.побатьковіDataGridViewTextBoxColumn.Name = "побатьковіDataGridViewTextBoxColumn";
+            this.побатьковіDataGridViewTextBoxColumn.ReadOnly = true;
+            this.побатьковіDataGridViewTextBoxColumn.Width = 200;
+            // 
+            // мобільнійтелефонDataGridViewTextBoxColumn
+            // 
+            this.мобільнійтелефонDataGridViewTextBoxColumn.DataPropertyName = "Мобільній_телефон";
+            this.мобільнійтелефонDataGridViewTextBoxColumn.HeaderText = "Мобільній_телефон";
+            this.мобільнійтелефонDataGridViewTextBoxColumn.Name = "мобільнійтелефонDataGridViewTextBoxColumn";
+            this.мобільнійтелефонDataGridViewTextBoxColumn.ReadOnly = true;
+            this.мобільнійтелефонDataGridViewTextBoxColumn.Width = 200;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1264, 762);
+            this.Controls.Add(this.tabControl9);
+            this.Controls.Add(this.tabControl8);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.menuStrip1);
-            this.Controls.Add(this.tabControl6);
             this.Controls.Add(this.tabControl5);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.tabControl2);
             this.Controls.Add(this.tabControl4);
             this.Controls.Add(this.tabControl3);
             this.Controls.Add(this.tabControl7);
+            this.Controls.Add(this.tabControl6);
             this.MainMenuStrip = this.menuStrip1;
             this.MaximumSize = new System.Drawing.Size(1680, 1050);
             this.MinimumSize = new System.Drawing.Size(1280, 800);
@@ -3461,8 +3681,17 @@
             this.bindingNavigator13.ResumeLayout(false);
             this.bindingNavigator13.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pracivnukuDataGridView)).EndInit();
+            this.tabControl8.ResumeLayout(false);
+            this.tabPage14.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.statBindingSource)).EndInit();
+            this.tabControl9.ResumeLayout(false);
+            this.tabPage15.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.klientBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.postachBindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.servisniy_CentrDataSet1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.servisniyCentrDataSetBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -3792,6 +4021,27 @@
         private System.Windows.Forms.DataGridViewComboBoxColumn dataGridViewTextBoxColumn53;
         private System.Windows.Forms.DataGridViewComboBoxColumn dataGridViewTextBoxColumn54;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.ToolStripMenuItem проданаТехнікаToolStripMenuItem;
+        private System.Windows.Forms.TabControl tabControl8;
+        private System.Windows.Forms.TabPage tabPage14;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.BindingSource servisniyCentrDataSetBindingSource;
+        private System.Windows.Forms.BindingSource statBindingSource;
+        private Servisniy_CentrDataSetTableAdapters.StatTableAdapter statTableAdapter;
+        private System.Windows.Forms.ToolStripMenuItem списокКлієнтівToolStripMenuItem;
+        private System.Windows.Forms.DataGridViewTextBoxColumn statusDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nazvanieDataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewComboBoxColumn tehnikaDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewComboBoxColumn tipDataGridViewTextBoxColumn;
+        private System.Windows.Forms.TabControl tabControl9;
+        private System.Windows.Forms.TabPage tabPage15;
+        private System.Windows.Forms.DataGridView dataGridView2;
+        private System.Windows.Forms.BindingSource klientBindingSource;
+        private Servisniy_CentrDataSetTableAdapters.KlientTableAdapter klientTableAdapter;
+        private System.Windows.Forms.DataGridViewTextBoxColumn прізвищеDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn імяDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn побатьковіDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn мобільнійтелефонDataGridViewTextBoxColumn;
     }
 }
 
