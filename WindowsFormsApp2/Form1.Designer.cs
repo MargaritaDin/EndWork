@@ -373,6 +373,16 @@
             this.імяDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.побатьковіDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.мобільнійтелефонDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tabControl10 = new System.Windows.Forms.TabControl();
+            this.tabPage16 = new System.Windows.Forms.TabPage();
+            this.pricelistBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.pricelistTableAdapter = new WindowsFormsApp2.Servisniy_CentrDataSetTableAdapters.pricelistTableAdapter();
+            this.pricelistDataGridView = new System.Windows.Forms.DataGridView();
+            this.прайсЛістToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dataGridViewTextBoxColumn61 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn63 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn60 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn62 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.menuStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -458,6 +468,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.postachBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.servisniy_CentrDataSet1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.servisniyCentrDataSetBindingSource)).BeginInit();
+            this.tabControl10.SuspendLayout();
+            this.tabPage16.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pricelistBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pricelistDataGridView)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -562,7 +576,8 @@
             // 
             this.звітиToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.проданаТехнікаToolStripMenuItem,
-            this.списокКлієнтівToolStripMenuItem});
+            this.списокКлієнтівToolStripMenuItem,
+            this.прайсЛістToolStripMenuItem});
             this.звітиToolStripMenuItem.Name = "звітиToolStripMenuItem";
             this.звітиToolStripMenuItem.Size = new System.Drawing.Size(47, 20);
             this.звітиToolStripMenuItem.Text = "Звіти";
@@ -3558,11 +3573,90 @@
             this.мобільнійтелефонDataGridViewTextBoxColumn.ReadOnly = true;
             this.мобільнійтелефонDataGridViewTextBoxColumn.Width = 200;
             // 
+            // tabControl10
+            // 
+            this.tabControl10.Controls.Add(this.tabPage16);
+            this.tabControl10.Location = new System.Drawing.Point(2, 27);
+            this.tabControl10.Name = "tabControl10";
+            this.tabControl10.SelectedIndex = 0;
+            this.tabControl10.Size = new System.Drawing.Size(1223, 607);
+            this.tabControl10.TabIndex = 11;
+            this.tabControl10.Visible = false;
+            // 
+            // tabPage16
+            // 
+            this.tabPage16.Controls.Add(this.pricelistDataGridView);
+            this.tabPage16.Location = new System.Drawing.Point(4, 22);
+            this.tabPage16.Name = "tabPage16";
+            this.tabPage16.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage16.Size = new System.Drawing.Size(1215, 581);
+            this.tabPage16.TabIndex = 0;
+            this.tabPage16.Text = "Прайс ліст";
+            this.tabPage16.UseVisualStyleBackColor = true;
+            // 
+            // pricelistBindingSource
+            // 
+            this.pricelistBindingSource.DataMember = "pricelist";
+            this.pricelistBindingSource.DataSource = this.servisniy_CentrDataSet;
+            // 
+            // pricelistTableAdapter
+            // 
+            this.pricelistTableAdapter.ClearBeforeFill = true;
+            // 
+            // pricelistDataGridView
+            // 
+            this.pricelistDataGridView.AutoGenerateColumns = false;
+            this.pricelistDataGridView.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
+            this.pricelistDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.pricelistDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn61,
+            this.dataGridViewTextBoxColumn63,
+            this.dataGridViewTextBoxColumn60,
+            this.dataGridViewTextBoxColumn62});
+            this.pricelistDataGridView.DataSource = this.pricelistBindingSource;
+            this.pricelistDataGridView.Location = new System.Drawing.Point(1, 3);
+            this.pricelistDataGridView.Name = "pricelistDataGridView";
+            this.pricelistDataGridView.Size = new System.Drawing.Size(717, 565);
+            this.pricelistDataGridView.TabIndex = 0;
+            // 
+            // прайсЛістToolStripMenuItem
+            // 
+            this.прайсЛістToolStripMenuItem.Name = "прайсЛістToolStripMenuItem";
+            this.прайсЛістToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.прайсЛістToolStripMenuItem.Text = "Прайс ліст";
+            this.прайсЛістToolStripMenuItem.Click += new System.EventHandler(this.прайсЛістToolStripMenuItem_Click);
+            // 
+            // dataGridViewTextBoxColumn61
+            // 
+            this.dataGridViewTextBoxColumn61.DataPropertyName = "Модель";
+            this.dataGridViewTextBoxColumn61.HeaderText = "Модель";
+            this.dataGridViewTextBoxColumn61.Name = "dataGridViewTextBoxColumn61";
+            // 
+            // dataGridViewTextBoxColumn63
+            // 
+            this.dataGridViewTextBoxColumn63.DataPropertyName = "Назва";
+            this.dataGridViewTextBoxColumn63.HeaderText = "Назва";
+            this.dataGridViewTextBoxColumn63.Name = "dataGridViewTextBoxColumn63";
+            this.dataGridViewTextBoxColumn63.Width = 200;
+            // 
+            // dataGridViewTextBoxColumn60
+            // 
+            this.dataGridViewTextBoxColumn60.DataPropertyName = "Кількість";
+            this.dataGridViewTextBoxColumn60.HeaderText = "Кількість";
+            this.dataGridViewTextBoxColumn60.Name = "dataGridViewTextBoxColumn60";
+            // 
+            // dataGridViewTextBoxColumn62
+            // 
+            this.dataGridViewTextBoxColumn62.DataPropertyName = "Вартість";
+            this.dataGridViewTextBoxColumn62.HeaderText = "Вартість";
+            this.dataGridViewTextBoxColumn62.Name = "dataGridViewTextBoxColumn62";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1264, 762);
+            this.Controls.Add(this.tabControl10);
             this.Controls.Add(this.tabControl9);
             this.Controls.Add(this.tabControl8);
             this.Controls.Add(this.button1);
@@ -3692,6 +3786,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.postachBindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.servisniy_CentrDataSet1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.servisniyCentrDataSetBindingSource)).EndInit();
+            this.tabControl10.ResumeLayout(false);
+            this.tabPage16.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pricelistBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pricelistDataGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -4042,6 +4140,16 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn імяDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn побатьковіDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn мобільнійтелефонDataGridViewTextBoxColumn;
+        private System.Windows.Forms.TabControl tabControl10;
+        private System.Windows.Forms.TabPage tabPage16;
+        private System.Windows.Forms.BindingSource pricelistBindingSource;
+        private Servisniy_CentrDataSetTableAdapters.pricelistTableAdapter pricelistTableAdapter;
+        private System.Windows.Forms.ToolStripMenuItem прайсЛістToolStripMenuItem;
+        private System.Windows.Forms.DataGridView pricelistDataGridView;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn61;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn63;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn60;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn62;
     }
 }
 
